@@ -21,7 +21,7 @@ def get_channel_videos(filename, output_folder):
             if vid["kind"] == "youtube#video":
                 url = vid["videoId"]
                 # download subtitles for each video, save to output folder
-                bashCommand = "youtube-dl --write-auto-sub --skip-download https://www.youtube.com/watch?v={0}".format(url)
+                bashCommand = "youtube-dl -o subtitles/%(uploader)s/%(title)s-%(id)s.%(ext)s --write-auto-sub --skip-download https://www.youtube.com/watch?v={0}".format(url)
                 process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
                 output, error = process.communicate()
                 if not error: 
