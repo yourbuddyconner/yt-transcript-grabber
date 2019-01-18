@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:04.839
+ The Voyager 1 spacecraft is the most distant artificial object of the earth, and the fastest. 
+
+00:00:04.839 --> 00:00:07.920
+ But at the moment it is moving towards us. 
+
+00:00:07.920 --> 00:00:09.530
+ Relatively speaking. 
+
+00:00:09.530 --> 00:00:12.719
+ This is the control room for NASA's Deep Space Network. 
+
+00:00:12.719 --> 00:00:16.810
+ And the scientists here still listen to the signals sent by Voyager. 
+
+00:00:16.810 --> 00:00:21.250
+ Deep Space Network is a collection of antennas all over the world 
+
+00:00:21.250 --> 00:00:23.580
+ that we use to track deep space missions. 
+
+00:00:23.580 --> 00:00:28.220
+ We provide commands for the spacecraft, "turn left at the next bend" 
+
+00:00:28.220 --> 00:00:29.220
+ Those things, for example, 
+
+00:00:29.220 --> 00:00:30.500
+ a little bit more complicated than that. 
+
+00:00:30.500 --> 00:00:33.000
+ Turn on the instruments, turn off the instruments, software updates. 
+
+00:00:33.000 --> 00:00:35.200
+ The most important reason for sending the thing into space 
+
+00:00:35.200 --> 00:00:39.530
+ is to get the scientific data back. And so the instruments take pictures, 
+
+00:00:39.530 --> 00:00:44.540
+ infrared photos and measure the Voyager different particles. 
+
+00:00:44.540 --> 00:00:47.890
+ We need that data and to distribute it to the scientists. 
+
+00:00:47.890 --> 00:00:50.940
+ The Deep Space Network's 3 stations cover the entire sky. 
+
+00:00:50.940 --> 00:00:53.840
+ Each mission more than 30,000 kilometers away from Earth 
+
+00:00:53.840 --> 00:00:56.690
+ is visible to at least one station, at all times. 
+
+00:00:56.690 --> 00:00:59.940
+ Geostationary orbit, where we hold the most communication satellites 
+
+00:00:59.940 --> 00:01:01.100
+ is further away than that. 
+
+00:01:01.100 --> 00:01:03.620
+ We only have three branches all over the world. 
+
+00:01:03.620 --> 00:01:10.050
+ Madrid in Spain, Goldstone here in California and the Canberra branch in Australia. 
+
+00:01:10.050 --> 00:01:13.130
+ Usually we do not follow things that go over the pool 
+
+00:01:13.130 --> 00:01:16.730
+ because the type of missions that we do in deep space 
+
+00:01:16.730 --> 00:01:17.950
+ are usually in the ecliptic. 
+
+00:01:17.950 --> 00:01:20.720
+ If you look at the solar system, where the sun is 
+
+00:01:20.720 --> 00:01:24.000
+ and where the planets are that move around the sun 
+
+00:01:24.000 --> 00:01:26.770
+ they all seem to be in a flat plane. 
+
+00:01:26.770 --> 00:01:30.050
+ That launch across the plane of the solar system, over the ecliptic 
+
+00:01:30.050 --> 00:01:32.740
+ is the reason that Voyager is currently coming closer to earth. 
+
+00:01:32.740 --> 00:01:36.770
+ Yes, Voyager always moves away from the sun, but sometimes the earth's orbit means 
+
+00:01:36.770 --> 00:01:41.070
+ that we are going in the same direction, only faster. 
+
+00:01:41.070 --> 00:01:42.120
+ So we come closer. 
+
+00:01:42.120 --> 00:01:44.180
+ Of course we are drawn back into our elliptical orbit again 
+
+00:01:44.180 --> 00:01:46.350
+ so that it will be smoothed if we go the other way. 
+
+00:01:46.350 --> 00:01:50.400
+ Regarding the control of spacecraft, I think for example with Voyager, 
+
+00:01:50.400 --> 00:01:53.479
+ probably downlink every day 
+
+00:01:53.479 --> 00:01:57.210
+ because again, there is a lot of good data, but if it comes with 160 bits per second, 
+
+00:01:57.210 --> 00:02:00.480
+ it takes a long time to retrieve that data from the spacecraft. 
+
+00:02:00.480 --> 00:02:05.260
+ The signal must in a sense be above the noise level for us to see it. 
+
+00:02:05.260 --> 00:02:08.530
+ In the first place we try to filter out the noise as much as possible 
+
+00:02:08.530 --> 00:02:10.890
+ from a frequency point of view. 
+
+00:02:10.890 --> 00:02:14.260
+ My signal takes this bit of spectrum in frequency. 
+
+00:02:14.260 --> 00:02:17.500
+ I do not want more noise than what is there. 
+
+00:02:17.510 --> 00:02:20.010
+ I want to correlate the signal that comes down 
+
+00:02:20.010 --> 00:02:22.100
+ with what I think the signal looks like. 
+
+00:02:22.100 --> 00:02:24.930
+ You have to take advantage of what you know about the signal 
+
+00:02:24.930 --> 00:02:29.850
+ and use these characteristics as well as possible to filter out the noise. 
+
+00:02:29.850 --> 00:02:34.610
+ Voyager 1 carries radioisotope thermogenerators, RTGs. 
+
+00:02:34.610 --> 00:02:36.920
+ They are driven by radioactive decay. 
+
+00:02:36.920 --> 00:02:40.680
+ And there is enough power to make it last until about 2025. 
+
+00:02:40.680 --> 00:02:45.819
+ Then the vessel will go dark, and carry a message forward in the interstellar space 
+
+00:02:45.820 --> 00:02:50.040
+ for ... well, we do not know where, or when, or even who. 
+
+00:02:50.040 --> 00:02:52.400
+ When enough light is reflected off, 
+
+00:02:52.410 --> 00:02:57.819
+ you would be able to see it with a telescope, but it is so far away, and so weak, 
+
+00:02:57.819 --> 00:03:00.830
+ without any radio signal coming from Voyager, 
+
+00:03:00.830 --> 00:03:04.600
+ there is no way that we, the DSN, could follow it. 
+
+00:03:04.600 --> 00:03:08.380
+ And so I think that's the end when it gets dark. 
+
+00:03:08.380 --> 00:03:11.620
+ Thank you to the whole team at NASA, the Jet Propulsion Laboratory, 
+
+00:03:11.620 --> 00:03:13.260
+ and here at the Deep Space Network. 
+
+00:03:13.260 --> 00:03:16.680
+ Look at the description for more about them, and about their missions. 
+

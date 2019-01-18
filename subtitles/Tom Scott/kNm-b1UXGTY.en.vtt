@@ -1,0 +1,448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.620
+ Let me tell you a Christmas story 
+
+00:00:01.620 --> 00:00:07.029
+ Or, a Christmas hoist, for this is from a time when computer files names 
+
+00:00:07.029 --> 00:00:09.110
+ was limited to eight characters 
+
+00:00:09.110 --> 00:00:11.050
+ It is December 1987 
+
+00:00:11.050 --> 00:00:15.120
+ Ronald Reagan was the US President, Margaret Thatcher was British Prime Minister 
+
+00:00:15.120 --> 00:00:18.310
+ And home computers had just become a reality 
+
+00:00:18.310 --> 00:00:21.619
+ The few who had them, however, were not really connected to others 
+
+00:00:21.619 --> 00:00:22.590
+ machines. 
+
+00:00:22.590 --> 00:00:26.390
+ We were still two years away from the internet head was invented 
+
+00:00:26.390 --> 00:00:29.470
+ And at a small university in Germany 
+
+00:00:29.470 --> 00:00:33.050
+ was a student by writing one of the first major computer worms 
+
+00:00:33.050 --> 00:00:35.239
+ It was called "Christma" 
+
+00:00:35.239 --> 00:00:40.140
+ Simple program, it only ran on one type of old text, omm 
+
+00:00:40.140 --> 00:00:41.780
+ now old, text-based computer 
+
+00:00:41.780 --> 00:00:43.129
+ Back then it was the latest 
+
+00:00:43.129 --> 00:00:46.160
+ It showed only a piece of text shaped like a Christmas tree 
+
+00:00:46.160 --> 00:00:48.090
+ But while the user looked at it, 
+
+00:00:48.090 --> 00:00:52.800
+ Went through 1987's version of the computer's contacts and emailed himself 
+
+00:00:52.800 --> 00:00:53.910
+ to all addresses in it 
+
+00:00:53.910 --> 00:00:58.199
+ "Let this exec exec" said it - "exec" is a executable file 
+
+00:00:58.199 --> 00:01:00.940
+ a program you start - "and enjoy it" 
+
+00:01:00.940 --> 00:01:04.640
+ By modern standards of Ransomeware and identity theft, 
+
+00:01:04.640 --> 00:01:06.130
+ was this a pretty innocent virus, 
+
+00:01:06.130 --> 00:01:10.360
+ although it copied itself so well and convinced so many people to open it, 
+
+00:01:10.360 --> 00:01:12.770
+ that it dropped one of IBM's networks for a few days 
+
+00:01:12.770 --> 00:01:16.299
+ - And that was when IBM was still a player of importance 
+
+00:01:16.299 --> 00:01:17.960
+ In fact, it did it twice 
+
+00:01:17.960 --> 00:01:20.650
+ It re-emerged three years later, presumably 
+
+00:01:20.650 --> 00:01:23.470
+ someone forgot what it was when they searched through their files and opened - 
+
+00:01:23.470 --> 00:01:27.200
+ "Oh yes, that's the fun little Christmas card again" 
+
+00:01:27.200 --> 00:01:29.420
+ Which leads us to a question 
+
+00:01:29.420 --> 00:01:33.750
+ That kind of attack is still possible now, on modern hardware 
+
+00:01:33.750 --> 00:01:37.150
+ Not the same program, but that's how much malware is still spread 
+
+00:01:37.150 --> 00:01:40.020
+ You convince the user to download a program and then run it 
+
+00:01:40.020 --> 00:01:43.130
+ and it gets access to everything on the user's PC 
+
+00:01:43.130 --> 00:01:46.810
+ Internet, webcam, personal documents, ALT. 
+
+00:01:46.810 --> 00:01:49.360
+ Email is not a good way to spread that kind of thing anymore, 
+
+00:01:49.360 --> 00:01:53.040
+ But web pages offering pirate downloads do the job as well 
+
+00:01:53.040 --> 00:01:54.420
+ And yes, there are other methods 
+
+00:01:54.420 --> 00:01:58.189
+ there are zero-day attacks on Flash actually, 
+
+00:01:58.189 --> 00:02:00.340
+ many zero-day attacks on Flash. Actually 
+
+00:02:00.340 --> 00:02:03.149
+ It is almost only zero-day attack on Flash right now 
+
+00:02:03.149 --> 00:02:05.710
+ Zero-day means that no warning is given 
+
+00:02:05.710 --> 00:02:08.739
+ zero days from the virus are released and infect people 
+
+00:02:08.739 --> 00:02:12.410
+ and Adobe trying to patch on Flash, again - 
+
+00:02:12.410 --> 00:02:14.069
+ There are other methods 
+
+00:02:14.069 --> 00:02:17.410
+ But eventually, if you say, Hey, to a user 
+
+00:02:17.410 --> 00:02:18.500
+ Free music, free pirate software, 
+
+00:02:18.500 --> 00:02:21.750
+ Free Christmas backgrounds for your PC, whatever you want 
+
+00:02:21.750 --> 00:02:26.230
+ you can get them to pick up something and run it - and then it's over. 
+
+00:02:26.230 --> 00:02:28.290
+ There are some measures today 
+
+00:02:28.290 --> 00:02:31.540
+ Windows has user account control and built-in antivirus 
+
+00:02:31.540 --> 00:02:35.500
+ and Mac and Linux have administrator accounts and permission management, 
+
+00:02:35.500 --> 00:02:39.860
+ but if Malwaren tries to do something about the important parts of the system, 
+
+00:02:39.860 --> 00:02:43.760
+ it will be stopped as long as the user does not just press the OK field 
+
+00:02:43.760 --> 00:02:45.910
+ or write their password, but let's be honest 
+
+00:02:45.910 --> 00:02:48.489
+ It happens much more often than it should 
+
+00:02:48.489 --> 00:02:51.620
+ But even without permission 
+
+00:02:51.620 --> 00:02:57.120
+ Even if the virus you downloaded can just use your account and yours 
+
+00:02:57.120 --> 00:02:58.400
+ files: 
+
+00:02:58.400 --> 00:02:59.510
+ It can still do a lot of damage 
+
+00:02:59.510 --> 00:03:02.810
+ It can encrypt all files in your personal drive 
+
+00:03:02.810 --> 00:03:05.430
+ all your photos and business contracts 
+
+00:03:05.430 --> 00:03:10.819
+ and lock them in until you send Bitcoins to an anonymous person far away 
+
+00:03:10.819 --> 00:03:13.159
+ For the computer that naively runs a program 
+
+00:03:13.159 --> 00:03:16.590
+ There is no difference between a virus that damages 
+
+00:03:16.590 --> 00:03:20.129
+ and the user who deliberately drives something to do the same things 
+
+00:03:20.129 --> 00:03:23.060
+ You can't make a filter against malicious behavior like that 
+
+00:03:23.060 --> 00:03:26.730
+ without having an almost perfect model of what the user thinks 
+
+00:03:26.730 --> 00:03:28.230
+ and what they would like to do 
+
+00:03:28.230 --> 00:03:30.030
+ There are sometimes, sincerely, 
+
+00:03:30.030 --> 00:03:33.140
+ you want to delete everything on a computer 
+
+00:03:33.140 --> 00:03:36.659
+ However, there is another resort 
+
+00:03:36.659 --> 00:03:38.230
+ And we use it all the time. 
+
+00:03:38.230 --> 00:03:43.409
+ For example, on an iPhone, each app has its own separate area to store data 
+
+00:03:43.409 --> 00:03:48.049
+ There is no central area that all apps can access at once 
+
+00:03:48.049 --> 00:03:51.200
+ Imagine that PC was made like this: 
+
+00:03:51.200 --> 00:03:55.299
+ all reports or homework made in Word 
+
+00:03:55.299 --> 00:03:58.319
+ are only available in Word 
+
+00:03:58.319 --> 00:04:00.200
+ And if you want to send a report to someone. 
+
+00:04:00.200 --> 00:04:01.510
+ or convert to another program 
+
+00:04:01.510 --> 00:04:05.689
+ Don't go - if you wanted to attach the file to an email program 
+
+00:04:05.689 --> 00:04:07.180
+ don't you go to the email program, 
+
+00:04:07.180 --> 00:04:11.760
+ Press "Attach" and direct through your centrally stored documents - you open Word 
+
+00:04:11.760 --> 00:04:15.599
+ and you are asked to push one file to the email program 
+
+00:04:15.599 --> 00:04:19.070
+ All your music would only be available in the program you downloaded it 
+
+00:04:19.070 --> 00:04:22.019
+ until you pushed it somewhere else. 
+
+00:04:22.019 --> 00:04:24.720
+ And right now, all the technical people who see this, all of you. 
+
+00:04:24.720 --> 00:04:26.210
+ I'm out there and say. 
+
+00:04:26.210 --> 00:04:28.270
+ "oh it would be terrible, it's a nasty thing, 
+
+00:04:28.270 --> 00:04:31.449
+ It would mean that we would not be free to use our computers as we wanted 
+
+00:04:31.449 --> 00:04:34.460
+ how should i link these three different programs together 
+
+00:04:34.460 --> 00:04:36.360
+ to do this strange thing I have to do "? 
+
+00:04:36.360 --> 00:04:37.600
+ And I understand it. 
+
+00:04:37.600 --> 00:04:38.919
+ I sincerely understand it. 
+
+00:04:38.919 --> 00:04:42.820
+ I support this kind of scam with enthusiasm 
+
+00:04:42.820 --> 00:04:46.669
+ and for anyone looking deep into their system that knows the way around 
+
+00:04:46.669 --> 00:04:50.600
+ this kind of advanced fashion is needed 
+
+00:04:50.600 --> 00:04:51.940
+ But why didn't we build that kind of system, 
+
+00:04:51.940 --> 00:04:56.100
+ those for the not so technological, disgusting? 
+
+00:04:56.100 --> 00:04:57.669
+ Because we never had the opportunity 
+
+00:04:57.669 --> 00:05:02.300
+ The PCs we have today are descendants of the old systems from 1987 
+
+00:05:02.300 --> 00:05:06.789
+ There was not enough space or power at that time to give each application 
+
+00:05:06.789 --> 00:05:10.250
+ its own small silo and control it separately - by the way 
+
+00:05:10.250 --> 00:05:13.780
+ In many cases, the programs were just writing ones and zeros 
+
+00:05:13.780 --> 00:05:16.699
+ Computers were for academic use, for professionals, 
+
+00:05:16.699 --> 00:05:21.449
+ so it was really expensive equipment to be treated with care 
+
+00:05:21.449 --> 00:05:26.289
+ But for the modern normal user, for people who are hit by Ransomeware 
+
+00:05:26.289 --> 00:05:31.940
+ and for those who lose all their family photos: I'm not sure that system works for you. 
+
+00:05:31.940 --> 00:05:37.630
+ Do normal computer users really need to see C drive or Macintosh HD? 
+
+00:05:37.630 --> 00:05:40.580
+ Should they worry about folders and backups? 
+
+00:05:40.580 --> 00:05:44.060
+ We have that system because it has to work with previous generations 
+
+00:05:44.060 --> 00:05:48.500
+ because we never had a clean break from PCs 
+
+00:05:48.500 --> 00:05:52.030
+ Even Apple has said that their users are moving with time 
+
+00:05:52.030 --> 00:05:55.259
+ They give some years of forgiveness for staying up-to-date - and, blessed 
+
+00:05:55.259 --> 00:05:59.880
+ Windows is still happy to run programs from twenty years ago 
+
+00:05:59.880 --> 00:06:02.740
+ There has never been an opportunity to start a fresh one 
+
+00:06:02.740 --> 00:06:06.750
+ If they ever stopped using that metaphor with folders of files in one central location 
+
+00:06:06.750 --> 00:06:09.330
+ - and it has been promised plenty of times - 
+
+00:06:09.330 --> 00:06:11.919
+ All the old programs will stop working 
+
+00:06:11.919 --> 00:06:15.160
+ But for all the brand new devices that we have only had in the last few years? 
+
+00:06:15.160 --> 00:06:17.789
+ For tablets, phones and Chromebooks, 
+
+00:06:17.789 --> 00:06:22.680
+ with their locked systems? In the scenes, they use guaranteed 
+
+00:06:22.680 --> 00:06:24.770
+ Still there there directories and files system 
+
+00:06:24.770 --> 00:06:27.389
+ but it is not visible to the user 
+
+00:06:27.389 --> 00:06:29.470
+ As such devices become more and more popular, 
+
+00:06:29.470 --> 00:06:34.160
+ and the PC's market share begins to decline, at least for home use: 
+
+00:06:34.160 --> 00:06:37.440
+ Maybe we could leave that old system 
+
+00:06:37.440 --> 00:06:41.569
+ and computer security will be just a little better 
+
+00:06:41.569 --> 00:06:42.919
+ Except. 
+
+00:06:42.919 --> 00:06:46.449
+ One of the reasons why Britain has such a strong technology industry now 
+
+00:06:46.449 --> 00:06:48.449
+ is the home computer boom from the 1980s 
+
+00:06:48.449 --> 00:06:53.660
+ when the BBC Micro and ZX Spectrum founded a generation that could program 
+
+00:06:53.660 --> 00:06:57.830
+ We see authorities working and working on children to find out computers 
+
+00:06:57.830 --> 00:07:03.669
+ so they know they can write the future as well as they can read it 
+
+00:07:03.669 --> 00:07:10.009
+ And as much as the confinement of computers and systems might make everything more secure: 
+
+00:07:10.009 --> 00:07:12.740
+ One cannot write iPhone apps on an iPhone 
+
+00:07:12.740 --> 00:07:16.370
+ and someone has to write iPhone apps 
+
+00:07:16.370 --> 00:07:19.870
+ so no matter if you hope for a new laptop with files and folders 
+
+00:07:19.870 --> 00:07:22.930
+ or a new phone with separate data silos 
+
+00:07:22.930 --> 00:07:26.050
+ or maybe a little less technologically under the Christmas tree: 
+
+00:07:26.050 --> 00:07:28.759
+ Merry Christmas to you. 
+
+00:07:28.759 --> 00:07:30.810
+ And whether it is digital or physical 
+
+00:07:30.810 --> 00:07:33.410
+ No matter whether you are writing programs or painting art 
+
+00:07:33.410 --> 00:07:35.550
+ or, just build a snowman: 
+
+00:07:35.550 --> 00:07:37.680
+ here is something for the next thing you do, 
+
+00:07:37.680 --> 00:07:40.669
+ and we will see in 2016 
+
+00:07:42.000 --> 00:07:44.000
+ Translated by: Ulrik Jellum Translation by: Ulrik Jellum 
+

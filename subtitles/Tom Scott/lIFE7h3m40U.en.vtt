@@ -1,0 +1,868 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.170 --> 00:00:03.220
+ Many techies are surprised when I say that I mainly use Windows. 
+
+00:00:03.220 --> 00:00:06.480
+ Why should someone who writes code and edit videos use Windows? 
+
+00:00:06.480 --> 00:00:08.800
+ Two reasons: one, it is cheaper 
+
+00:00:08.800 --> 00:00:10.780
+ And two: it allows me to bid. 
+
+00:00:10.780 --> 00:00:14.260
+ So sit down because yes, I'm going to tell you how I made the emoji keyboard. 
+
+00:00:14.260 --> 00:00:18.700
+ But I will first explain to you what the bidding is. 
+
+00:00:20.520 --> 00:00:25.400
+ Bodging is a great British word that means making temporary repairs 
+
+00:00:25.400 --> 00:00:29.580
+ A bodge is very clumsy. It is not elegant and will fall apart, but it will work. 
+
+00:00:29.580 --> 00:00:33.640
+ And it will also continue to work as long as there is someone around who can bid it again if it breaks down. 
+
+00:00:33.640 --> 00:00:38.060
+ Do you remember that part in Apollo 13 where they have to put the square in the round opening? 
+
+00:00:38.060 --> 00:00:42.980
+ That is a bodge. Actually, it is even the most amazing bodge that man has ever played. 
+
+00:00:42.980 --> 00:00:45.980
+ So great, that I'm curious if you can come up with a better one in the comments. 
+
+00:00:45.980 --> 00:00:49.920
+ Because there is probably a book with the Greatest Bodges in History 
+
+00:00:49.929 --> 00:00:52.489
+ that could be written and I would like to be the one who wrote that. 
+
+00:00:52.489 --> 00:00:56.489
+ In any case, Bodging has always been the way I make things. 
+
+00:00:56.489 --> 00:01:00.300
+ I have not studied computer technology and I do not write elegant solutions. 
+
+00:01:00.300 --> 00:01:02.400
+ I wrap things together. 
+
+00:01:02.400 --> 00:01:07.060
+ The most important parts - backups, password protection - I make sure that's all right ... 
+
+00:01:07.060 --> 00:01:10.500
+ but things I make for fun, I bid. 
+
+00:01:10.500 --> 00:01:14.460
+ I have been learning Bodgen correctly when I was filming a TV show a few years ago. 
+
+00:01:14.460 --> 00:01:17.300
+ Some parts of that show have also appeared on the web, I will put the links in the description of the video, 
+
+00:01:17.300 --> 00:01:21.759
+ but stay here for a while, because you need to know some context about it. 
+
+00:01:21.759 --> 00:01:27.549
+ I was filming with two others. Colin Furze, who you might know from YouTube, that ridiculously large, 
+
+00:01:27.549 --> 00:01:31.869
+ exploding physical things and he has the speed record for a mobility scooter on land. 
+
+00:01:31.869 --> 00:01:34.369
+ And then you have Charles Yarnold, who 
+
+00:01:34.369 --> 00:01:37.629
+ complex microelectronics with Arduinos and circuit boards. 
+
+00:01:37.629 --> 00:01:42.420
+ Last year, for example, Charles made the Christmas tree of Barack Obama. 
+
+00:01:42.420 --> 00:01:46.040
+ And people could online the colors and patterns 
+
+00:01:46.040 --> 00:01:49.440
+ of the lights that change up and down. It was beautiful. 
+
+00:01:49.440 --> 00:01:54.880
+ And my job in the TV show was to be the bridge between the two, between Colin and Charles, 
+
+00:01:54.880 --> 00:01:58.660
+ so that the creations they had physically fabricated 
+
+00:01:58.660 --> 00:02:01.600
+ were able to cooperate with the world and with each other. 
+
+00:02:01.600 --> 00:02:04.240
+ So when we made a remote control for a horse - 
+
+00:02:04.240 --> 00:02:06.360
+ I'm not joking, we have made a remote control to control a horse - 
+
+00:02:06.360 --> 00:02:09.140
+ Colin has created the framework for a robot jockey, 
+
+00:02:09.140 --> 00:02:13.300
+ and Charles all circuits and relays that pulled the reins when the signals were received, 
+
+00:02:13.300 --> 00:02:18.280
+ and I made a smartphone app that enabled you to send these signals so that you could operate a horse. 
+
+00:02:18.280 --> 00:02:19.900
+ And it worked! 
+
+00:02:19.900 --> 00:02:23.180
+ And I probably had the easiest task of our three, because when I made things, 
+
+00:02:23.180 --> 00:02:25.920
+ I had a undo button. 
+
+00:02:25.930 --> 00:02:30.910
+ But the most important thing was the following: we made prototypes. 
+
+00:02:30.910 --> 00:02:34.640
+ They had to work for 1 day of filming and we would be present for that. 
+
+00:02:34.640 --> 00:02:38.540
+ But they HAD to work that day or the .TV show would be terrible 
+
+00:02:38.540 --> 00:02:42.980
+ and then we would have wasted a lot of money. And we actually did not have time to make it there. 
+
+00:02:42.980 --> 00:02:47.460
+ We worked days of 16 hours, 7 days a week and at the end of the production, 
+
+00:02:47.460 --> 00:02:50.600
+ we did not have time anymore. We were bidding. 
+
+00:02:50.600 --> 00:02:55.020
+ And the little software that helped me during that show and also after that, more than anything else 
+
+00:02:55.020 --> 00:02:56.900
+ was called AutoHotKey. 
+
+00:02:58.549 --> 00:03:04.909
+ AutoHotKey is such a good bodge tool that it is sometimes detected as a virus. 
+
+00:03:04.909 --> 00:03:08.949
+ AutoHotKey was originally intended to be very, very simple: 
+
+00:03:08.949 --> 00:03:11.940
+ it waits for a user to press a certain key, 
+
+00:03:11.940 --> 00:03:14.660
+ and then start a program, type a somewhat longer text 
+
+00:03:14.660 --> 00:03:18.800
+ or it performs a somewhat more complicated series of key commands that would otherwise be very difficult. 
+
+00:03:18.800 --> 00:03:23.300
+ Suppose you want the F10 key to make your gaming person suddenly turn 180 degrees and fire his weapon. 
+
+00:03:23.300 --> 00:03:26.440
+ Fine. No problem. AutoHotKey can take care of that. 
+
+00:03:26.440 --> 00:03:29.820
+ The thing is, AutoHotKey has grown and grown and grown. 
+
+00:03:29.820 --> 00:03:33.500
+ And the scripting language, the thing you have to write to make it work, 
+
+00:03:33.500 --> 00:03:36.080
+ is terrible. I mean really bad. 
+
+00:03:36.080 --> 00:03:38.100
+ It was meant to do very simple things, 
+
+00:03:38.100 --> 00:03:40.600
+ and after a while it has been given the opportunity to do so much more. 
+
+00:03:40.600 --> 00:03:44.160
+ It can read files, look at the color of individual pixels on the screen, 
+
+00:03:44.160 --> 00:03:46.240
+ it can call arbitrary Windows DLLs, 
+
+00:03:46.240 --> 00:03:49.340
+ it can analyze regular expressions (for those who know what they are). 
+
+00:03:49.340 --> 00:03:54.640
+ But is all in a strange non-standard way that is inspired by Visual Basic. 
+
+00:03:54.640 --> 00:03:58.240
+ AutoHotKey is a bodge that helps you create other bodges. 
+
+00:03:58.240 --> 00:03:59.640
+ But it works! 
+
+00:03:59.640 --> 00:04:02.020
+ And that means that instead of spending hours 
+
+00:04:02.020 --> 00:04:05.320
+ with complicated issues at the level of the operating system, 
+
+00:04:05.320 --> 00:04:08.920
+ you can just write a few lines of script and AutoHotKey will do the rest. 
+
+00:04:08.920 --> 00:04:15.340
+ I used AutoHotKey in the TV show to control the activation of a skydiver's parachute. 
+
+00:04:15.349 --> 00:04:21.040
+ And it worked. It worked well! I mean we had a backup, of course, but it worked. 
+
+00:04:21.040 --> 00:04:25.720
+ The most amazing bodge I've played in that TV show - and I swear I do not lie - 
+
+00:04:25.720 --> 00:04:29.180
+ was a voice synthesizer and the Sibelius program on a Mac, 
+
+00:04:29.180 --> 00:04:32.400
+ remote controlled by AutoHotKey on a Windows PC, 
+
+00:04:32.400 --> 00:04:34.760
+ blindly dragging his mouse around, 
+
+00:04:34.760 --> 00:04:38.160
+ according to a pattern of pre-recorded movements sent via a remote desktop connection 
+
+00:04:38.160 --> 00:04:43.000
+ while another PC sent commands via Wi-Fi to a Google Chrome screen that was open on the Mac, 
+
+00:04:43.000 --> 00:04:47.180
+ because AppleScript and the similar tools on Mac that we needed to run in Sibelius 
+
+00:04:47.180 --> 00:04:51.420
+ just were not fit to do such a ridiculous thing. 
+
+00:04:51.420 --> 00:04:57.760
+ Besides, if someone proposes to use Linux ... No. 
+
+00:04:58.680 --> 00:05:01.460
+ The world loves emoji. 
+
+00:05:01.460 --> 00:05:04.100
+ I mean, seriously. Some people may not think so, logically. 
+
+00:05:04.100 --> 00:05:06.940
+ I do not really use them myself, despite the keyboard, 
+
+00:05:06.940 --> 00:05:11.040
+ but the world loves them. People click on titles about emoji. 
+
+00:05:11.040 --> 00:05:15.940
+ If you put the word in a headline alone, you will get a lot more visitors. 
+
+00:05:15.940 --> 00:05:20.720
+ Emoji is in fact the Donald Trump of computers. There you have a joke that will not last long. 
+
+00:05:20.720 --> 00:05:25.280
+ Only the name itself is already clickbait, you do not have to add anything else. 
+
+00:05:25.280 --> 00:05:27.960
+ My friend Matt - who is now behind the camera - say hello to Matt 
+
+00:05:27.960 --> 00:05:28.700
+ [MATT: HI!] 
+
+00:05:28.700 --> 00:05:33.540
+ Matt and I made a messenger last year that only used emoji. And almost no one used it. 
+
+00:05:33.540 --> 00:05:35.780
+ Huh. That is not true. 
+
+00:05:35.780 --> 00:05:38.420
+ A lot of people have used it ... for about five minutes. 
+
+00:05:38.420 --> 00:05:42.040
+ Then they found out that the total was not practical and they never opened it again. 
+
+00:05:42.040 --> 00:05:45.500
+ But you should see the media attention! All mails we received! 
+
+00:05:45.500 --> 00:05:49.020
+ There were even confused investors who thought it was a startup 
+
+00:05:49.020 --> 00:05:51.560
+ and they mailed to talk about shares. 
+
+00:05:53.140 --> 00:05:57.240
+ This year there were film studios that offered an idea based on emoji 
+
+00:05:57.240 --> 00:05:59.240
+ Unfortunately, not my idea, I wish I was the one who made it up ... 
+
+00:05:59.240 --> 00:06:02.000
+ Because they got almost a million dollars for it. 
+
+00:06:02.000 --> 00:06:04.420
+ The world is crazy about emoji 
+
+00:06:04.420 --> 00:06:07.200
+ And now it comes: the concept of emoji as we know it today, 
+
+00:06:07.200 --> 00:06:10.140
+ as it is on this keyboard, is a bodge. 
+
+00:06:10.140 --> 00:06:11.780
+ You might know the story. 
+
+00:06:11.780 --> 00:06:15.100
+ Every language around the world has its own way of making the translation 
+
+00:06:15.100 --> 00:06:19.120
+ between letters and binary code - ones and zeroes - for computers. 
+
+00:06:19.120 --> 00:06:22.020
+ However, Japan still has some room in its text encoding scheme. 
+
+00:06:22.020 --> 00:06:24.800
+ They already have many more letters than the Latin alphabet, 
+
+00:06:24.800 --> 00:06:27.640
+ so adding a few extra is not really a problem. 
+
+00:06:27.640 --> 00:06:29.560
+ And then there's some smart engineer who thinks, "Wait a minute, 
+
+00:06:29.560 --> 00:06:33.800
+ "We can also put small images in our text encoding so that we can send people images 
+
+00:06:33.800 --> 00:06:37.000
+ "without actually sending these pictures, 
+
+00:06:37.000 --> 00:06:38.960
+ "that normally consume a lot of bandwidth." 
+
+00:06:39.500 --> 00:06:41.700
+ There are a number of competing versions of this, 
+
+00:06:41.700 --> 00:06:46.200
+ but they have all remained within Japan until the Unicode Consortium was established. 
+
+00:06:46.200 --> 00:06:48.760
+ The Unicode Consortium is tasked in every country 
+
+00:06:48.760 --> 00:06:51.380
+ to find out how they encode text in binary 
+
+00:06:51.380 --> 00:06:56.600
+ and to combine all these hundreds of different approaches into one global standard. 
+
+00:06:56.600 --> 00:07:00.160
+ The most amazing aspect of this is that they are for the most part 
+
+00:07:00.160 --> 00:07:02.880
+ really managed to get this done. 
+
+00:07:02.880 --> 00:07:05.220
+ But Unicode was meant to be two-sided. 
+
+00:07:05.220 --> 00:07:08.420
+ You convert text into Unicode and then convert it back to 
+
+00:07:08.420 --> 00:07:11.960
+ the legecy system that your country used and nothing should have been lost. 
+
+00:07:11.960 --> 00:07:15.420
+ So the Unicode team goes to Japan and thinks, "Oh, you ... 
+
+00:07:15.420 --> 00:07:18.200
+ "You have images in your text, okay, er ... 
+
+00:07:18.200 --> 00:07:21.800
+ "We can do something with that, we just add them to the standard as small ones. 
+
+00:07:21.800 --> 00:07:25.100
+ "That's fine, there was already a smiley in. No one will notice." 
+
+00:07:25.110 --> 00:07:30.130
+ And there is actually no one who really sees it, for a while ... Until Apple, who wants to sell iPhones in Japan, 
+
+00:07:30.130 --> 00:07:33.350
+ emoji very quietly added as a ... pretty well hidden option. 
+
+00:07:33.350 --> 00:07:34.770
+ But as soon as someone finds out; 
+
+00:07:34.770 --> 00:07:37.810
+ "Hey, I can send small heaps of poo to my friends!" 
+
+00:07:37.810 --> 00:07:39.990
+ And all their friends say, "Oh, wow, how can you turn it on?" 
+
+00:07:39.990 --> 00:07:43.910
+ And then you suddenly have a sort of ready-made viral explosion of heaps of poo. 
+
+00:07:45.780 --> 00:07:48.240
+ Which is rather noroviral you could say. 
+
+00:07:50.140 --> 00:07:55.480
+ So suddenly the world has emoji and America has something like that; "What the hell is this?" 
+
+00:07:55.480 --> 00:07:59.060
+ Because they are so used to consumer electronics, text encoding, everything 
+
+00:07:59.060 --> 00:08:02.200
+ in America, for America. 
+
+00:08:02.200 --> 00:08:05.400
+ They have no idea what the cherry blossom stamp is, 
+
+00:08:05.400 --> 00:08:08.420
+ or why there is an emoji of a rice ball, but no burrito. 
+
+00:08:08.420 --> 00:08:11.520
+ And they have no idea what a love hotel is. Do not ask. 
+
+00:08:11.520 --> 00:08:15.460
+ Because remember; the originals were designed decades ago, 
+
+00:08:15.460 --> 00:08:21.620
+ in Japan, for Japan and there are about 100 to 150 pieces of origin. 
+
+00:08:21.620 --> 00:08:24.260
+ And Americans have something like that; "Why can not we have a burrito emoji?" 
+
+00:08:24.260 --> 00:08:27.520
+ They think it is mainly something from Apple, not some international standard. 
+
+00:08:27.520 --> 00:08:32.560
+ So the Unicode Consortium suddenly feels compelled to bid for new emoji. 
+
+00:08:32.560 --> 00:08:35.440
+ So they have to bid the fall of all countries, 
+
+00:08:35.440 --> 00:08:38.080
+ which is actually a very smart approach because you are actually 
+
+00:08:38.080 --> 00:08:41.120
+ letters for abbreviations of the countries sent, but that is a separate story. 
+
+00:08:41.120 --> 00:08:46.340
+ Then they realize that every phone manufacturer has made the standard emoji yellow or plain white 
+
+00:08:46.340 --> 00:08:50.020
+ and that they have to bid something that is now known as skin tone modifiers. 
+
+00:08:50.020 --> 00:08:56.080
+ And let's be honest: a family of one man, one woman, one boy and one girl is incredibly stereotyping, 
+
+00:08:56.080 --> 00:08:59.579
+ so they have ensured that you can use something that they have called a "zero-width joiner" so that 
+
+00:08:59.579 --> 00:09:04.750
+ all peroon characters that you like together come to a single family emoji. 
+
+00:09:04.750 --> 00:09:09.220
+ You can do that on this keyboard with shift, something I am very proud of. 
+
+00:09:09.220 --> 00:09:11.980
+ And yes, I know that there will be someone who will respond 
+
+00:09:11.980 --> 00:09:14.240
+ "Ooh, it's political correctness that has gone mad." 
+
+00:09:14.240 --> 00:09:16.360
+ No. No. Away with that. Away with that. 
+
+00:09:16.360 --> 00:09:18.360
+ They are meant to be international. 
+
+00:09:18.360 --> 00:09:22.320
+ They are meant to be cross-cultural, for everyone on earth. 
+
+00:09:22.320 --> 00:09:25.660
+ There must be goddamn but these options are 
+
+00:09:25.660 --> 00:09:29.020
+ and luckily there are more or less. 
+
+00:09:29.029 --> 00:09:33.169
+ But the emoji we have today never have been designed as a worldwide thing. 
+
+00:09:33.169 --> 00:09:35.660
+ They are a bid on a bodge on a bodge. 
+
+00:09:35.660 --> 00:09:37.300
+ Smart and standardized, that's for sure. 
+
+00:09:37.300 --> 00:09:39.560
+ But it is a patchwork of rules. 
+
+00:09:39.560 --> 00:09:41.440
+ There are even Wingdings now. 
+
+00:09:41.440 --> 00:09:43.460
+ That is why there is a floating man in a suit. 
+
+00:09:43.460 --> 00:09:46.440
+ Because it was an American decision. 
+
+00:09:46.440 --> 00:09:49.640
+ The last version of iOS has a modified version of it on board. 
+
+00:09:49.640 --> 00:09:53.900
+ You could even add a skin tone fashion animal, but I'm not sure. 
+
+00:09:53.900 --> 00:09:57.040
+ So I got the idea to make a physical emoji keyboard. 
+
+00:09:57.040 --> 00:09:59.360
+ I first thought of making a complete Unicode version, 
+
+00:09:59.370 --> 00:10:02.230
+ but then I realized that I would need hundreds and hundreds of keyboards. 
+
+00:10:02.230 --> 00:10:06.140
+ But you can do all 1200/1300 emoji 
+
+00:10:06.140 --> 00:10:09.960
+ that there are currently about 14 keypads fit. So here they are all. 
+
+00:10:09.960 --> 00:10:13.440
+ The correct printing of the stickers with my inkjet printer at home was actually quite difficult, 
+
+00:10:13.440 --> 00:10:16.740
+ but I succeeded. It was a matter of aligning everything correctly 
+
+00:10:16.749 --> 00:10:19.860
+ and then spend hours working on sticking those damn things. 
+
+00:10:19.860 --> 00:10:25.020
+ Fortunately, you can easily plug in 14 USB keyboards into a Windows PC by using USB hubs, 
+
+00:10:25.020 --> 00:10:30.040
+ and I'm kind of like, "Yeah, okay, I have 14 keyboards now, that's cool." 
+
+00:10:30.040 --> 00:10:35.500
+ But the problem is that all 14 keyboards, for most programs at least, 
+
+00:10:35.500 --> 00:10:38.440
+ seen as the same keyboard. 
+
+00:10:38.440 --> 00:10:40.820
+ You can not see which Z key is pressed, 
+
+00:10:40.820 --> 00:10:43.560
+ only that somewhere on a Z key is printed. 
+
+00:10:43.560 --> 00:10:48.500
+ Even AutoHotKey, my faithful size, could not help me with this. 
+
+00:10:48.500 --> 00:10:51.040
+ So I went looking for other solutions. 
+
+00:10:51.040 --> 00:10:53.780
+ There are low-level APIs (programming interfaces), 
+
+00:10:53.790 --> 00:10:57.769
+ in Windows you show the rough raw input as it is sent over the cable. 
+
+00:10:57.769 --> 00:11:01.019
+ Mac and Linux people will say in the comments; "Oh yeah... 
+
+00:11:01.019 --> 00:11:05.699
+ "All you have to do is connect the flipflap needs to GKX port and then write--" 
+
+00:11:05.699 --> 00:11:08.439
+ Nope. Nope. We will not do that. 
+
+00:11:08.440 --> 00:11:11.040
+ Because I had come to install Visual Studio and I was thinking about it 
+
+00:11:11.040 --> 00:11:12.740
+ actually learn how all these low-lever things work 
+
+00:11:12.740 --> 00:11:17.580
+ and then I thought; "No. I'm using Windows, there's probably someone who has done this before. 
+
+00:11:17.580 --> 00:11:20.520
+ And yes, I was right. 
+
+00:11:20.529 --> 00:11:23.589
+ And between everything is a program called LuaMacros, 
+
+00:11:23.589 --> 00:11:26.720
+ which is meant for the airplane simulation community. 
+
+00:11:26.720 --> 00:11:30.640
+ People who play airplane simulators are great. They build entire cockpits 
+
+00:11:30.640 --> 00:11:33.260
+ with a hundred different buttons so that everything is accurate with reality. 
+
+00:11:33.260 --> 00:11:37.260
+ And if they can not afford it, they want to be able to plug in different keyboards 
+
+00:11:37.260 --> 00:11:41.420
+ so that they at least have the feeling that they are sitting in a fake cockpit with a hundred buttons. 
+
+00:11:41.420 --> 00:11:44.360
+ And so LuaMacros exists and it is great. 
+
+00:11:44.360 --> 00:11:48.520
+ Because it is basically a modified version of Lua, 
+
+00:11:48.520 --> 00:11:51.240
+ which is a weird but not too strange programming language 
+
+00:11:51.240 --> 00:11:56.760
+ with a mountain of additional functions built in to be able to detect different keyboards and keystrokes. 
+
+00:11:56.760 --> 00:12:01.560
+ And because it is a complete programming language, you can write full programs with it! 
+
+00:12:01.569 --> 00:12:04.289
+ And that's fantastic! I mean, I was overjoyed. 
+
+00:12:04.289 --> 00:12:08.860
+ I was just literally dancing in my flat when I first downloaded and performed Lua Macros. 
+
+00:12:08.860 --> 00:12:10.880
+ That was partly because I was very happy 
+
+00:12:10.880 --> 00:12:14.820
+ and partly because it had raised Aqua's first album, but that does not matter. 
+
+00:12:14.820 --> 00:12:20.640
+ The program was able to detect individual keys from individual keyboards. Super! 
+
+00:12:20.640 --> 00:12:24.660
+ So this was the plan: write down the code for each test. 
+
+00:12:24.669 --> 00:12:28.560
+ That is the code that is sent to the operating system when a key is pressed. 
+
+00:12:28.560 --> 00:12:32.540
+ Then put all of them in a list, from top left to bottom right, over an entire keyboard. 
+
+00:12:32.540 --> 00:12:35.480
+ But ignore the complicated keys like Enter, Control and Alt. 
+
+00:12:35.480 --> 00:12:37.900
+ Then, if a key is pressed, you take that code, 
+
+00:12:37.900 --> 00:12:40.980
+ and look it up in the list and remember which position it is. 
+
+00:12:40.980 --> 00:12:45.160
+ Add that number to the total keys in the list 
+
+00:12:45.160 --> 00:12:48.720
+ multiplied by the number of the keyboard on which the key was pressed. 
+
+00:12:48.720 --> 00:12:53.769
+ So if I impressed the fifth key on the second keyboard, that would be on the list with number 4 
+
+00:12:53.769 --> 00:12:58.490
+ and keyboard number 1, because computers and programmers count from 0. 
+
+00:12:58.490 --> 00:13:02.590
+ So: fifth test; 0, 1, 2, 3, 4. 
+
+00:13:02.590 --> 00:13:05.050
+ Second keyboard: 0, 1. 
+
+00:13:05.050 --> 00:13:09.069
+ Stop all these numbers in the formula and you know where you are on the list. 
+
+00:13:09.069 --> 00:13:13.149
+ The reason why we count from 0 is because this makes calculation much easier. 
+
+00:13:13.149 --> 00:13:16.609
+ Keyboard 1, multiplied by 94 keys in the list, plus 4 
+
+00:13:16.609 --> 00:13:19.720
+ means that you want to have the 98th item on the list, counted from 0. 
+
+00:13:19.720 --> 00:13:22.080
+ The comparison is just so much easier ... 
+
+00:13:22.089 --> 00:13:25.009
+ and it did not work. It did not work. 
+
+00:13:25.009 --> 00:13:26.959
+ It took me half an hour to find out why it did not work. 
+
+00:13:26.959 --> 00:13:28.899
+ And the reason why it did not work is because Lua, 
+
+00:13:28.899 --> 00:13:32.659
+ unlike any other modern programming language, 
+
+00:13:32.660 --> 00:13:35.940
+ counts from 1 and not from 0! 
+
+00:13:35.940 --> 00:13:39.040
+ Half an hour. It took me half an hour. 
+
+00:13:39.050 --> 00:13:43.130
+ I improved the comparison and it worked. So I uploaded the complete list of emoji 
+
+00:13:43.130 --> 00:13:45.800
+ in the order in which I had pasted them on the keys 
+
+00:13:45.800 --> 00:13:47.980
+ and said to Lua Macros, "When you get a test, 
+
+00:13:47.980 --> 00:13:49.840
+ "then calculate the number as we have just done, 
+
+00:13:49.840 --> 00:13:52.879
+ "Find that number in the big list of emoji, drop that number of lines down 
+
+00:13:52.879 --> 00:13:55.219
+ "and type that emoji." 
+
+00:13:55.220 --> 00:13:58.220
+ And ... that did not work either, 
+
+00:13:59.420 --> 00:14:02.660
+ because there are no emoji keys on a normal keyboard. Of course not. 
+
+00:14:02.660 --> 00:14:06.620
+ Nobody has been crazy enough to make an emoji keyboard so far. 
+
+00:14:06.620 --> 00:14:11.860
+ So there is no key combination that ensures that you get an emoji. 
+
+00:14:11.860 --> 00:14:15.999
+ All right. There may have been scold at that moment. Just a little bit. 
+
+00:14:15.999 --> 00:14:22.279
+ So. All right. What now? Well, it turns out that Windows has a way to write special characters, 
+
+00:14:22.279 --> 00:14:26.139
+ and some of you will remember that. You hold the Alt key 
+
+00:14:26.139 --> 00:14:28.659
+ and then key in your numbers on the numeric keypad. 
+
+00:14:28.660 --> 00:14:33.160
+ That is not even from Windows. That dates back all the way to the original. 
+
+00:14:33.160 --> 00:14:39.360
+ IBM PCs and BIOS and DOS, okay, it's decades old. But it still works. 
+
+00:14:39.360 --> 00:14:42.320
+ Because Microsoft is obsessed with backwards compatibility 
+
+00:14:42.320 --> 00:14:45.780
+ You still type it as if it were the late eighties. 
+
+00:14:45.780 --> 00:14:48.640
+ But then they realized: "Oh, now we have all those Unicode characters." 
+
+00:14:48.640 --> 00:14:51.440
+ so they have used a bid. They have expanded it to Unicode. 
+
+00:14:51.440 --> 00:14:55.520
+ You do a quick adjustment of the registry, you can then Alt, plus sign 
+
+00:14:55.520 --> 00:15:00.540
+ and then type a Unicode code and then a Unicode character will be typed, including emoji! Halelujah! 
+
+00:15:00.540 --> 00:15:05.160
+ So I got that working and threw emoji in Microsoft Word. And I laughed. 
+
+00:15:05.160 --> 00:15:09.800
+ And then I tried the same in a browser, for example for Twitter and that did not work either. 
+
+00:15:09.800 --> 00:15:15.079
+ Because backwards compatibilty means that Unicode code points only work in text fields with rich formatting 
+
+00:15:15.079 --> 00:15:18.100
+ fields that support formatting, not just plain text. 
+
+00:15:19.420 --> 00:15:22.720
+ A few hours passed on this point. Almost there. 
+
+00:15:22.720 --> 00:15:25.240
+ I got frustrated. So I took a break. 
+
+00:15:25.240 --> 00:15:28.720
+ And I swear, somewhere during the cooking of dinner 
+
+00:15:28.720 --> 00:15:31.400
+ it was as if a light was going on over my head 
+
+00:15:31.400 --> 00:15:37.880
+ and the gods of bidding seemed to me and I shouted very loudly: "AutoHotKey!" 
+
+00:15:37.880 --> 00:15:43.200
+ Yeah, that was not just stupid rumble about the bidding when I talked about AutoHotKey. AutoHotKey. 
+
+00:15:43.200 --> 00:15:47.120
+ Because it can not see on which keyboard is printed, that does not matter. 
+
+00:15:47.120 --> 00:15:50.640
+ What it can do is typing emoji. It can look in the list of emoji. 
+
+00:15:50.640 --> 00:15:53.820
+ It can read a specific character of a rule and enter it somewhere. 
+
+00:15:53.820 --> 00:15:56.600
+ Because it uses no keystrokes, but low-level Windows hassle. 
+
+00:15:56.600 --> 00:15:59.280
+ So. I have one program, LuaMacros. 
+
+00:15:59.280 --> 00:16:03.100
+ This can read keyboards and determine which emoji the user wants. 
+
+00:16:03.100 --> 00:16:07.020
+ And I have the other program, which, when we already know which emoji the user wants, 
+
+00:16:07.020 --> 00:16:08.440
+ that can type. 
+
+00:16:09.920 --> 00:16:14.780
+ So it was time to bid. This is how the keyboard works: 
+
+00:16:14.780 --> 00:16:18.339
+ You press a key. LuaMacros intercepts that on the way in, 
+
+00:16:18.339 --> 00:16:22.219
+ stop Windows from actually typing the letter or what is underneath it. 
+
+00:16:22.220 --> 00:16:26.920
+ It determines which number emoji you want and stores this number in a file on the disk. 
+
+00:16:26.920 --> 00:16:31.100
+ Then it presses the F24 key. Yes, there is an F24 test. 
+
+00:16:31.100 --> 00:16:33.920
+ He is not on my keyboard and it is almost certainly not on your keyboard, 
+
+00:16:33.920 --> 00:16:38.560
+ but it is still a test that Windows can use thanks to backwards compatibilty. 
+
+00:16:38.560 --> 00:16:42.520
+ AutoHotKey is listening to that F24 key and when it hears it, 
+
+00:16:42.529 --> 00:16:46.850
+ he reads the file that LuaMacros has created to store the number, 
+
+00:16:46.850 --> 00:16:51.670
+ and look for that number in the emoji list and type this emoji! 
+
+00:16:51.670 --> 00:16:55.630
+ That's how the emoji keyboard works and that's why I use Windows. 
+
+00:16:55.630 --> 00:16:59.990
+ And that is the art of bidding! 
+
+00:17:01.360 --> 00:17:03.360
+ One take! 
+
+00:17:04.450 --> 00:17:06.839
+ Thank you Matt! 
+
+00:17:07.440 --> 00:17:09.440
+ Translated by Gilbert 
+

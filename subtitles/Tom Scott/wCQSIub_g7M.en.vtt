@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.100 --> 00:00:06.189
+ How do you read binary text? I mean a text in the form of ones and zeros. 
+
+00:00:06.189 --> 00:00:11.650
+ It seems impossible, but that is not so bad. It is not very useful, by the way. 
+
+00:00:11.650 --> 00:00:17.430
+ Because why would you want to read binary? Well, you often binary text against ... 
+
+00:00:17.430 --> 00:00:23.260
+ ... among other things in complicated puzzles in reality games. 
+
+00:00:23.260 --> 00:00:28.440
+ Now you can easily have such a binary text translated by an online decoder ... 
+
+00:00:28.440 --> 00:00:33.280
+ ... but it is useful, if you can do it yourself. 
+
+00:00:33.280 --> 00:00:39.309
+ Let's start. ASCII text is limited to the simple alphabet, so A to Z. 
+
+00:00:39.309 --> 00:00:43.319
+ That's because it was Americans who came up with the ASCII coding, the American Standard ... 
+
+00:00:43.319 --> 00:00:48.159
+ ... bla-bla 'code, which is now in Unicode. Even though they have limited themselves to their ... 
+
+00:00:48.159 --> 00:00:51.749
+ ... own language, they did it smartly. 
+
+00:00:51.749 --> 00:00:56.359
+ A text file looks something like this. Start by dividing into pieces of eight bits. 
+
+00:00:56.359 --> 00:01:00.949
+ After all, there are 8 bits in a Byte and every Byte represents a letter. So that's here ... 
+
+00:01:00.949 --> 00:01:07.369
+ ... and here and here. In a puzzle that partitioning is usually done ... 
+
+00:01:07.369 --> 00:01:10.140
+ ... so let's assume that. 
+
+00:01:10.140 --> 00:01:14.119
+ Then you have to count binary. That is not hard: 
+
+00:01:14.119 --> 00:01:19.920
+ Remember that you count in powers of 2. So this here is 1, then 2, the double of which is ... 
+
+00:01:19.920 --> 00:01:25.079
+ ... 4, then 8, then 16. Forget the first three digits, I'll get back to that later. 
+
+00:01:25.079 --> 00:01:30.630
+ So we have a 2 and a 1. Add them up and you have 3. 
+
+00:01:30.630 --> 00:01:35.140
+ Here you can see why the ASCII designers were so smart. Because if you are the first 3 ... 
+
+00:01:35.140 --> 00:01:42.140
+ ... omitting binary digits, then A stands for 1. B for 2. C for 3. And so on ... 
+
+00:01:43.499 --> 00:01:50.499
+ ... to the last letter of the alphabet. Capital letters start with 010, small letters with 011. 
+
+00:01:51.060 --> 00:01:56.289
+ We go on. Here we have a 1, so that's simple, that's an A. 
+
+00:01:56.289 --> 00:02:03.289
+ Here we have an 8, a 2 and a 1, that is 11 together and the eleventh letter of the alphabet is K. 
+
+00:02:03.689 --> 00:02:09.640
+ It is useful to remember that. OK, we now have CAK and another mysterious ... 
+
+00:02:09.640 --> 00:02:14.610
+ ... fourth letter. You will not be surprised that it will be equal to 1 plus 4 ... 
+
+00:02:14.610 --> 00:02:18.970
+ ... is together 5. The fifth letter of the alphabet is E, so: cake. 
+
+00:02:18.970 --> 00:02:22.600
+ What should I say? I did not have lunch! 
+
+00:02:22.600 --> 00:02:26.890
+ There are still some tricks. Letters that seem difficult to calculate ... 
+
+00:02:26.890 --> 00:02:30.720
+ ... you can skip. By just doing the simple thing, you can usually quickly guess what the word is ... 
+
+00:02:30.720 --> 00:02:36.170
+ ... even if a few letters are missing. If the last five digits are all zero, like here ... 
+
+00:02:36.170 --> 00:02:40.210
+ ... then it is almost certainly a space. This is also useful for quick reading. Do not forget … 
+
+00:02:40.210 --> 00:02:44.880
+ ... when this was invented in the 1960s, computers were still primitive, certainly compared to ... 
+
+00:02:44.880 --> 00:02:49.820
+ ... the technology of today. Then you often had to do this work by hand. And not for games ... 
+
+00:02:49.820 --> 00:02:55.250
+ but for business work! Bytes that start crazy, like with 001 ... 
+
+00:02:55.250 --> 00:02:58.760
+ ... are almost certainly a punctuation mark. 
+
+00:02:58.760 --> 00:03:05.760
+ That is it. You have learned something again: reading binary text. With a little practice ... 
+
+00:03:06.130 --> 00:03:09.340
+ … are you succeeding! I'm looking for a piece of cake! 
+
+00:03:09.340 --> 00:03:11.340
+ Translation: Pictio.nl 
+

@@ -1,0 +1,481 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.439 --> 00:00:05.630
+ After that, when everything started to recover and people had more or 
+
+00:00:05.630 --> 00:00:10.919
+ less recovered and the stock exchanges began to recover from trillions of dollars started 
+
+00:00:10.919 --> 00:00:13.169
+ of them, 
+
+00:00:13.169 --> 00:00:18.370
+ Google network engineers said there were only five people in the world that were capable 
+
+00:00:18.370 --> 00:00:21.850
+ to approve changes to your most critical code. 
+
+00:00:21.850 --> 00:00:24.930
+ And each of these five had complete confidence. 
+
+00:00:24.930 --> 00:00:31.930
+ July 4 In Western Europe, it's Friday afternoon, and office workers look 
+
+00:00:32.550 --> 00:00:36.829
+ Your watches want to know if it's OK to come out sooner at work. 
+
+00:00:36.829 --> 00:00:42.989
+ In the United States, they are about to start a three-day bridge for Independence Day. 
+
+00:00:42.989 --> 00:00:49.219
+ At Google's headquarters in Monutain View, most of the building is empty, engineers 
+
+00:00:49.219 --> 00:00:53.339
+ They are good at home, with the machines ready to vibrate if something goes wrong, or they are 
+
+00:00:53.339 --> 00:00:57.679
+ Changing the way in data centers located around the world. 
+
+00:00:57.679 --> 00:01:01.499
+ There is still a well-lit office, but hidden in a silent corner of the building. Inside 
+
+00:01:01.499 --> 00:01:07.760
+ There is Maria Christensen, one of the most experienced engineers and one of the five in trust. 
+
+00:01:07.760 --> 00:01:13.510
+ She is, against all corporate order, making a change to the core of the Google infrastructure code 
+
+00:01:15.780 --> 00:01:21.750
+ Only one section has changed: and it is the first part of the Google login code 
+
+00:01:21.750 --> 00:01:26.130
+ Apps. This should be an incredibly complicated function that generates more functions 
+
+00:01:26.130 --> 00:01:32.320
+ to try to check passwords, double-factor authentication, third-party password checks, suspicious activity, 
+
+00:01:32.320 --> 00:01:37.890
+ hackers, phreakers, fraudsters, and all kinds of disaster prevention. 
+
+00:01:37.890 --> 00:01:44.890
+ She has only changed one line of code, which she has put on, and says ... 
+
+00:01:45.120 --> 00:01:46.670
+ "return true;". (Result is true). 
+
+00:01:46.670 --> 00:01:51.560
+ She skips all the warnings of the software that says that this will not work, which is dangerous, 
+
+00:01:51.560 --> 00:01:57.590
+ This is broken, and it marks that it is immediately applied and updated. 
+
+00:01:57.590 --> 00:02:03.170
+ So the Google system updates the code through its data centers. From coast to coast 
+
+00:02:03.170 --> 00:02:07.570
+ In the United States, towards Doblí and Europe, in the Far East and low in South America. 
+
+00:02:07.570 --> 00:02:12.040
+ It takes about three minutes. And what it means is this: 
+
+00:02:12.040 --> 00:02:19.040
+ So much so that you find yourself as a Google password, it will be treated as correct. There are not 
+
+00:02:19.670 --> 00:02:25.560
+ more proof of password. If you enter the username, enter. 
+
+00:02:25.560 --> 00:02:29.730
+ And if that seems not possible, as something that could not happen, if it seems something that would not happen, remember 
+
+00:02:29.730 --> 00:02:35.910
+ Dropbox, the file upload service used by 175 million people including, I'm pretty sure, 
+
+00:02:35.910 --> 00:02:38.450
+ Most people in this room. 
+
+00:02:38.450 --> 00:02:44.930
+ In 2011, they had exactly that security mistake for three hours. Now, fortunately, the person 
+
+00:02:44.930 --> 00:02:49.220
+ who discovered it - who was not a Dropbox worker - told him responsibly 
+
+00:02:49.220 --> 00:02:51.550
+ Instead of counting on the world, so the wrongdoing was limited. 
+
+00:02:51.550 --> 00:02:57.650
+ Maria does not intend to responsibly tell anyone. Most engineers who 
+
+00:02:57.650 --> 00:03:02.680
+ They would be notified of a change in code like this they are not available. And those that some have been 
+
+00:03:02.680 --> 00:03:07.520
+ Between one and three minutes before Maria enters to start her session now 
+
+00:03:07.520 --> 00:03:12.020
+ open Google accounts - forget about the email notification, it's about three minutes ago 
+
+00:03:12.020 --> 00:03:17.099
+ to read, understand, and get to realize exactly what the change entails before Maria starts session 
+
+00:03:17.099 --> 00:03:20.730
+ and remotely removes its Andorid mobile when reporting it as a stalemate. 
+
+00:03:20.730 --> 00:03:25.540
+ None of the engineers can do it in time. The rest of the Google Trusted Five are still there 
+
+00:03:25.540 --> 00:03:30.459
+ Sleeping while their phones silently erase themselves. 
+
+00:03:30.459 --> 00:03:35.540
+ And Maria emails her manifesto to dozens of news sites, posts messages on a couple of high-traffic websites 
+
+00:03:35.540 --> 00:03:39.920
+ and close session - which is ironic since closing session does not mean in fact 
+
+00:03:39.920 --> 00:03:43.380
+ nothing else - enter your car, and you will take a flight. 
+
+00:03:43.380 --> 00:03:50.380
+ As soon as the first journalist does a test satisfactorily, the news is like smoke. The first place a 
+
+00:03:50.840 --> 00:03:57.370
+ Extending it all over the Internet was strangely the Drudge Report: and then they said it was because 
+
+00:03:57.370 --> 00:04:01.840
+ They did not use Gmail and they really did not understand it, and they only got the story 
+
+00:04:01.840 --> 00:04:03.780
+ more than immediately go to protect yourself. 
+
+00:04:03.780 --> 00:04:08.030
+ Because that's what most people did. The following hours, people tended to fall 
+
+00:04:08.030 --> 00:04:08.739
+ in one of these three groups: 
+
+00:04:08.739 --> 00:04:14.470
+ First of all, the defenders. Desperately trying to block your accounts, desperately trying 
+
+00:04:14.470 --> 00:04:18.840
+ to delete anything that can be incriminating, and stop your other accounts of being 
+
+00:04:18.840 --> 00:04:19.329
+ committed 
+
+00:04:19.329 --> 00:04:25.720
+ Because, remember, if you have access to someone else's mail, then you have access to each one of them 
+
+00:04:25.720 --> 00:04:30.570
+ Web services they use - because they can request a password change directly to your inbox. 
+
+00:04:30.570 --> 00:04:36.080
+ How good you are being a defender generally depends on how good you are getting all of them 
+
+00:04:36.080 --> 00:04:41.250
+ You have other accounts away from that committed address. 
+
+00:04:41.250 --> 00:04:44.620
+ Certainly, even fat people who did not use Gmail realized that 
+
+00:04:44.620 --> 00:04:49.730
+ Other people who sent messages did. 
+
+00:04:49.730 --> 00:04:54.980
+ Facebook was the first great web service to react, fast enough, so fast that most commentators 
+
+00:04:54.980 --> 00:05:01.020
+ They suggest that they actually had a plan for it years ago. In a few minutes 
+
+00:05:01.020 --> 00:05:06.470
+ of history development, Facebook not only disables reset of passwords but the capacity 
+
+00:05:06.470 --> 00:05:10.830
+ to start session in general, assuming that most of the people had their accounts compromised, 
+
+00:05:10.830 --> 00:05:16.430
+ so they just turn it off. And how almost everyone actually had already logged into their phone 
+
+00:05:16.430 --> 00:05:22.490
+ and your computer, Facebook quickly became * the * trusted method to contact anyone 
+
+00:05:22.490 --> 00:05:26.600
+ - And that there was a new level of confidence that remained after people watched cautiously 
+
+00:05:26.600 --> 00:05:28.150
+ to the mail 
+
+00:05:28.150 --> 00:05:32.639
+ At that time they were the amateur detectives. Those who suspected that their couple were cheating on them. 
+
+00:05:32.639 --> 00:05:35.889
+ Those who were desperate to find what their peers earned, or 
+
+00:05:35.889 --> 00:05:39.300
+ what did his master think of them really. It was not really restricted to mail, clearly, 
+
+00:05:39.300 --> 00:05:45.430
+ If you have access to someone's Google account, in most cases you have access to your complete 
+
+00:05:45.430 --> 00:05:51.419
+ Search history and all the websites you have visited. For years, and years, and years. 
+
+00:05:51.419 --> 00:05:56.639
+ Did you disable it? Most of this room is not. It was described by a writer 
+
+00:05:56.639 --> 00:06:01.180
+ like "looking at the soul of my wife". And the divorce rate had a considerable increase in some 
+
+00:06:01.180 --> 00:06:02.479
+ months later. 
+
+00:06:02.479 --> 00:06:07.330
+ Meanwhile, companies using Gmail, or companies working with companies that used Gmail, only 
+
+00:06:07.330 --> 00:06:12.509
+ They had to assume that all their corporate secrets had been stolen: in the coming years, 
+
+00:06:12.509 --> 00:06:17.110
+ Patent and copyright lawyers would make a huge amount of money according to the claims of one side 
+
+00:06:17.110 --> 00:06:20.240
+ to the other between corpulions. 
+
+00:06:20.240 --> 00:06:24.840
+ Now the European stock markets, the only ones open at that time on July 4, fell directly 
+
+00:06:24.840 --> 00:06:29.100
+ Almost immediately, Asians and Americans would do the same thing when they opened 
+
+00:06:29.100 --> 00:06:30.270
+ next Monday. 
+
+00:06:30.270 --> 00:06:36.500
+ But the most obvious group, but the largest, would be the pyromaniac. Anyone who had any type of 
+
+00:06:36.500 --> 00:06:43.500
+ A prominent presence on the Internet would have its destroyed account, completely destroyed, in ten minutes. 
+
+00:06:44.020 --> 00:06:48.449
+ Any YouTube channel with any type of audience would find all their work eliminated and vandalized, 
+
+00:06:48.449 --> 00:06:54.090
+ Even worse than the new system of comments made by YouTube. Some firemen attacked 
+
+00:06:54.090 --> 00:06:59.490
+ Individual people, hoping to be able to eliminate everything as part of a revenge, but others ... 
+
+00:06:59.490 --> 00:07:02.840
+ others just tried to destroy as much data as they could from as many people as 
+
+00:07:02.840 --> 00:07:04.169
+ they could as quickly as they could. 
+
+00:07:04.169 --> 00:07:10.580
+ Google, clearly, had backups. They reverted everything - but most third-party websites, 
+
+00:07:10.580 --> 00:07:17.380
+ Vulnerable through password changes, they were not that lucky. 
+
+00:07:17.380 --> 00:07:18.229
+ (laughs) 
+
+00:07:18.229 --> 00:07:24.310
+ Each blog with more than a couple of readers has cruel messages, or code that redirects 
+
+00:07:24.310 --> 00:07:31.259
+ to websites with shocking content, or just destroyed. A huge number did not have backups usable 
+
+00:07:31.259 --> 00:07:36.300
+ This was the last blow of the majority of the forums, the old ones that have been 
+
+00:07:36.300 --> 00:07:41.570
+ lowering use year after year. As soon as the account of the administrator falls, 
+
+00:07:41.570 --> 00:07:46.300
+ the entire site was quickly destroyed. And not many of these recovered because no 
+
+00:07:46.300 --> 00:07:47.770
+ many of them had backup copies. 
+
+00:07:47.770 --> 00:07:52.770
+ Some made things in favor of "good". First of all, the huge amount of 
+
+00:07:52.770 --> 00:07:58.419
+ Traffic - of people trying to fix and break things I would say that Google itself could not 
+
+00:07:58.419 --> 00:08:03.000
+ Supported so much workload: a handful of people would end up frustrated by the slow loading times and servers falling. 
+
+00:08:03.000 --> 00:08:07.680
+ But thirty minutes later, at least some of the Google network engineers have noticed what 
+
+00:08:07.680 --> 00:08:13.460
+ It was happening and pulled out of the cable - in a physical case, literally stretching the cables of the 
+
+00:08:13.460 --> 00:08:19.430
+ Data centers and unplugging everything they could. Someone could finally be able to get there 
+
+00:08:19.430 --> 00:08:23.660
+ A shutdown command within the systems that Maria had engaged two hours ago. 
+
+00:08:23.660 --> 00:08:28.520
+ After that, and three minutes later, Google falls on the Internet for the first time in 
+
+00:08:28.520 --> 00:08:32.700
+ very, a long time. 
+
+00:08:32.700 --> 00:08:37.820
+ Between these two hours of riot, of pandemonium, there were the people that Maria Christensen wanted 
+
+00:08:37.820 --> 00:08:42.620
+ actually arrive She was waiting to be next to Chelsea Manning, next Julian 
+
+00:08:42.620 --> 00:08:46.730
+ Assange, the next Edward Snowden. More than that: she is waiting to create hundreds, 
+
+00:08:46.730 --> 00:08:52.570
+ Thousands, millions of people taking this filtering role, through the brief hours of "freedom" that she 
+
+00:08:52.570 --> 00:08:56.700
+ I had created to change the world to the best. That was his manifesto: 
+
+00:08:56.700 --> 00:09:02.000
+ He left Find the things that need to be filtered, find the archives of the corporations and 
+
+00:09:02.000 --> 00:09:06.529
+ Governments that are destroying our world, and teach them in the light of day. 
+
+00:09:06.529 --> 00:09:12.459
+ His point of view was unfortunately optimistic. And yes, some people did it. There were thousands of leaks, 
+
+00:09:12.459 --> 00:09:17.860
+ Some of international importance: a few reminded the Obama transition team, then 
+
+00:09:17.860 --> 00:09:23.560
+ of the 2008 elections, they used Gmail until they could have their official addresses at whitehouse.gov 
+
+00:09:23.560 --> 00:09:30.560
+ And they had stories of millionaire executives talking about stories of clandestine workshops 
+
+00:09:31.529 --> 00:09:37.000
+ and burying them; stories of mining companies exploiting workers and exposing them to a danger 
+
+00:09:37.000 --> 00:09:42.459
+ incredible story after history of people putting aside human considerations and - this phrase 
+
+00:09:42.459 --> 00:09:46.360
+ It is widely used - acting towards the best interests of shareholders. 
+
+00:09:46.360 --> 00:09:49.430
+ But none of these stories came to the news. 
+
+00:09:49.430 --> 00:09:54.050
+ Because what Maria Christensen did not do was control the story. Wikileaks and their allies 
+
+00:09:54.050 --> 00:09:59.550
+ They always did: they repeated the stories for months in a cycle of 24h that always 
+
+00:09:59.550 --> 00:10:03.180
+ wanted more, more, more, but in reality ... 
+
+00:10:03.180 --> 00:10:06.560
+ In this case, however, the story was about the process, not about the information. 
+
+00:10:06.560 --> 00:10:11.300
+ The angle that all the news they took was that the email was suddenly unsafe, that you were at risk, 
+
+00:10:11.300 --> 00:10:14.440
+ You should defend yourself against it and that's how it is done, that websites are 
+
+00:10:14.440 --> 00:10:19.560
+ being damaged, and that's how you protect yourself, and look at us because we will help you. 
+
+00:10:20.000 --> 00:10:24.220
+ So there was no tremendous revelation printed on the main pages. They should have been, 
+
+00:10:24.220 --> 00:10:30.490
+ There are endless numbers of covers, but there were simply too many stories, and 
+
+00:10:30.490 --> 00:10:34.360
+ all of them were much less interesting to the public than the question of yours 
+
+00:10:34.360 --> 00:10:38.290
+ company has watched your search history. 
+
+00:10:38.290 --> 00:10:44.610
+ And clearly, for most people, there was no long-term damage, at least not to them 
+
+00:10:44.610 --> 00:10:48.680
+ personally Statistically speaking, you could fix it. Of course, everyone knew 
+
+00:10:48.680 --> 00:10:53.740
+ someone who had been affected, everyone knew who would get into trouble, but the odds 
+
+00:10:53.740 --> 00:10:59.130
+ They are you, yourself, you have proved unharmed. And while a lot of high level companies 
+
+00:10:59.130 --> 00:11:04.700
+ They suffered little, there was no time for the world to change. If you throw innumerable gallons of oil 
+
+00:11:04.700 --> 00:11:10.930
+ Inside the Gulf could not kill BP: what could? So most small businesses survive unhealthy 
+
+00:11:10.930 --> 00:11:17.370
+ and the economy recovered little by little, having been damaged by no more than any natural disaster. 
+
+00:11:17.370 --> 00:11:23.610
+ And Gmail, a year later, had almost as many active users as before. Because, after all, 
+
+00:11:23.610 --> 00:11:27.870
+ What were the chances that this would happen again? And it is not as if the government 
+
+00:11:27.870 --> 00:11:32.670
+ I can not read your messages anyway. And nobody really was damaged in the long term, and maybe 
+
+00:11:32.670 --> 00:11:37.890
+ It was better than me and she broke, you know? Everything works at the end. Besides 
+
+00:11:37.890 --> 00:11:41.459
+ in addition, it would be a real problem trying to change my email account to another site. 
+
+00:11:41.459 --> 00:11:47.070
+ I would have to change my address! 
+
+00:11:47.070 --> 00:11:52.100
+ It's amazing how we trust single point mistakes. And while this is a scenario 
+
+00:11:52.100 --> 00:11:58.440
+ worst case - quite frankly - everyone here would have an axis where everything, 
+
+00:11:58.440 --> 00:12:04.440
+ At least in your online life, hang on a thread. 
+
+00:12:04.440 --> 00:12:09.079
+ The email account that you forgot access had access to everything. Or that password your ex 
+
+00:12:09.079 --> 00:12:09.899
+ you still know 
+
+00:12:09.899 --> 00:12:16.149
+ But my argument is: even when the disaster happens, when the world falls 
+
+00:12:16.149 --> 00:12:23.149
+ around you, remember that this eventually, this should also happen. Because more is needed 
+
+00:12:26.940 --> 00:12:30.260
+ that a single point mistake to change the world- 
+
+00:12:30.260 --> 00:12:36.300
+ Oh, and what was Maria Christiensen? She was arrested at the airport after her flight 
+
+00:12:36.300 --> 00:12:39.079
+ It was delayed ... because the airline worked with Google Apps. 
+
+00:12:39.079 --> 00:12:43.079
+ Thanks to all, I am Tom Scott, enjoy the rest of the show. 
+
+00:12:43.880 --> 00:12:45.880
+ Translated by Marcos Salomón (@enrospv) 
+

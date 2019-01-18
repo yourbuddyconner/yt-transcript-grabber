@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.099 --> 00:00:05.879
+ Moonpig is a British company that makes personalized junk. If you want a cheap rag with the photo of 
+
+00:00:05.879 --> 00:00:10.340
+ someone's ugly baby on it, or if you thought someone was a witty and overpriced 
+
+00:00:10.340 --> 00:00:15.500
+ card with their name printed on it, sending a good gift idea, then Moonpig was the place for you. 
+
+00:00:15.500 --> 00:00:20.090
+ Except: yesterday, developer Paul Price revealed a security breach that, according to 
+
+00:00:20.090 --> 00:00:25.000
+ him, exposed all personal data of the users of Moonpig. Up to the level at which you 
+
+00:00:25.000 --> 00:00:29.039
+ realistic to be able to do identity theft. So: how could that happen? 
+
+00:00:29.039 --> 00:00:33.640
+ Well, first I explain how well designed apps work. You download the app, you log in with 
+
+00:00:33.640 --> 00:00:37.629
+ your username and password, which are then checked on the server over a secure connection 
+
+00:00:37.629 --> 00:00:42.449
+ and if they are correct, the app gets a token, a random sequence of characters, such as a cookie 
+
+00:00:42.449 --> 00:00:47.159
+ from a browser, which can then serve in place of those details in the future. That way you avoid 
+
+00:00:47.159 --> 00:00:49.179
+ that you have to save the user's password on the device. 
+
+00:00:49.179 --> 00:00:53.799
+ And if the app was built by a completely different company, such as the "Log in with Facebook" 
+
+00:00:53.799 --> 00:00:57.519
+ button, or something like this, then there are additional precautions that you can take to ensure that 
+
+00:00:57.519 --> 00:01:02.359
+ third-party app never gets the user data. The most used method is called 
+
+00:01:02.359 --> 00:01:05.269
+ oAuth2, you can look it up if you are interested. 
+
+00:01:05.269 --> 00:01:09.829
+ All right. So: send the username and password, receive the token, use the token in the future to prove that you 
+
+00:01:09.829 --> 00:01:16.799
+ are authorized. And that's what Moonpig did. Except that the token was always your customer number. 
+
+00:01:16.799 --> 00:01:20.820
+ That is bad in itself. It means that you have no way to revoke the rights of that app, ever. 
+
+00:01:20.820 --> 00:01:25.109
+ Even if someone changes their password. It means that if someone finds out your client number, 
+
+00:01:25.109 --> 00:01:28.880
+ they can pretend to be you and there is nothing you can do about it outside of closing your account, but it is 
+
+00:01:28.880 --> 00:01:35.170
+ not completely disastrous. Because a well-designed customer number will be a long, randomly generated one 
+
+00:01:35.170 --> 00:01:39.140
+ series, it would take thousands of years to be someone else ... 
+
+00:01:39.140 --> 00:01:41.119
+ ... not so ... 
+
+00:01:41.119 --> 00:01:46.939
+ The customer numbers of Moonpig were consecutive. If you were user 51624, then the person was that 
+
+00:01:46.939 --> 00:01:53.939
+ registered for you number 51623. And the person after you is 51625. And do not forget that 
+
+00:01:54.429 --> 00:01:58.829
+ the only token is that is sent by that app - or by a malicious attacker pretending to be 
+
+00:01:58.829 --> 00:02:01.020
+ that app, that's customer number. 
+
+00:02:01.020 --> 00:02:05.130
+ So you did not even have to guess someone's username or password. You did not have to crack anything at all. 
+
+00:02:05.130 --> 00:02:09.250
+ Someone could just send a request to the Moonpig server with someone else's 
+
+00:02:09.250 --> 00:02:14.540
+ easy to guess customer number, and the server's response came to them and not their owner. 
+
+00:02:14.540 --> 00:02:18.140
+ So with this method you could retrieve the name from someone else's credit card, you could use the last one 
+
+00:02:18.140 --> 00:02:22.380
+ get four digits, get the expiration date and their address. That used to be more than enough 
+
+00:02:22.380 --> 00:02:26.890
+ data to call Apple and access an iCloud account. And then it is 
+
+00:02:26.890 --> 00:02:30.700
+ game over. Steal their email address, steal their Amazon Web Services account if they have one 
+
+00:02:30.700 --> 00:02:35.540
+ and make up to $ 10,000 debt by mincing to Bitcoins with someone else's credit card. 
+
+00:02:35.540 --> 00:02:40.280
+ And this is the crucial thing: because those ID numbers were sequential, an attacker could 
+
+00:02:40.280 --> 00:02:44.590
+ run through it and get the data from every customer they had. There were 
+
+00:02:44.590 --> 00:02:48.440
+ no limits, no checks that said "hey, that person is very many requests to submit, 
+
+00:02:48.440 --> 00:02:53.430
+ maybe we should just stop him. "It was a near-perfect storm of incompetent 
+
+00:02:53.430 --> 00:02:58.160
+ computer programming. This is not a single line of code with a bug in it: this is about decisions made by 
+
+00:02:58.160 --> 00:03:01.510
+ the developers of the site. Do not get me wrong, I've also written code that was so bad, but that was years 
+
+00:03:01.510 --> 00:03:04.620
+ ago when I was still learning and I was not paid for it. 
+
+00:03:04.620 --> 00:03:10.120
+ The honor goes to Paul Price, not only because he has discovered this, but also to deal with it wisely and to report it. 
+
+00:03:10.120 --> 00:03:14.410
+ After he found the error, he stopped it. He personally warned Moonpig, warned them, 
+
+00:03:14.410 --> 00:03:18.870
+ and only after they refused to correct the errors did he publish it. He kept it secret for a year, 
+
+00:03:18.870 --> 00:03:22.760
+ was about 11 months more time than he should have given them. Has there in that time 
+
+00:03:22.760 --> 00:03:27.040
+ someone maliciously stole the details of each customer and told nothing about it? We know 
+
+00:03:27.040 --> 00:03:31.890
+ not it. Paul's report also states that, as a precaution, he only obtained the data of himself 
+
+00:03:31.890 --> 00:03:35.340
+ and of the test users he has created to test the bug. Remember that if you want to amuse yourself 
+
+00:03:35.340 --> 00:03:39.500
+ with things like this, that there is a small chance that a company will try to sue you, 
+
+00:03:39.500 --> 00:03:44.190
+ whether you report to the police, instead of filling the leak in security: there is a lot of risk involved 
+
+00:03:44.190 --> 00:03:47.750
+ and not so much glory. I myself have discovered some things like this in the past, and fortunately for me, 
+
+00:03:47.750 --> 00:03:53.710
+ In both cases the holes were closed within 48 hours and the companies thanked me. 
+
+00:03:53.710 --> 00:03:57.200
+ There are two lessons here: one for developers, I come back to that, and one for 
+
+00:03:57.200 --> 00:03:59.650
+ the people they hire and who are less technical. 
+
+00:03:59.650 --> 00:04:04.090
+ If you are not technical, and you listen to this and think "oh no, is our site vulnerable?" 
+
+00:04:04.090 --> 00:04:08.930
+ Have someone test your site. Even better would be, if you have the buget for it, someone from outside the company 
+
+00:04:08.930 --> 00:04:13.730
+ to recruit to test it. The search term you need is "pentest". And if someone mentions one 
+
+00:04:13.730 --> 00:04:18.690
+ bug in security, let it fix, thank them, and do not go into PR spin mode and do not ignore it. 
+
+00:04:18.690 --> 00:04:23.190
+ For that matter, I asked for a response at Moonpig this morning, and gave them the rest of the day 
+
+00:04:23.190 --> 00:04:27.760
+ to answer: their PR company sent me their press release very quickly saying: "We can 
+
+00:04:27.760 --> 00:04:33.290
+ assure our customers that all passwords and payment details are secure and that this has always been the case. " 
+
+00:04:33.290 --> 00:04:38.130
+ That is what you can call a suspicious specific denial. They did not mention addresses, or 
+
+00:04:38.130 --> 00:04:42.030
+ imitation, or something else, and none of the other propositions. I asked about it 
+
+00:04:42.030 --> 00:04:46.160
+ and whether "payment information" also included the last four digits of card numbers: while i 
+
+00:04:46.160 --> 00:04:50.710
+ this recording, seven hours late, they still have not answered. However, they do have the part of it 
+
+00:04:50.710 --> 00:04:54.620
+ closed their site with which the app worked. If they still answer, I will add that 
+
+00:04:54.620 --> 00:04:56.040
+ to the description of the video. 
+
+00:04:56.040 --> 00:05:01.240
+ And developers: if you are creating something that stores personal data, program as if 
+
+00:05:01.240 --> 00:05:06.630
+ you are being attacked. Because you will be attacked. Never trust the user's input. Assume that 
+
+00:05:06.630 --> 00:05:11.150
+ someone who sends something to your site has bad intent until the contrary is proven and prepare you 
+
+00:05:11.150 --> 00:05:15.710
+ at the worst. Do not think "ah, nobody will ever notice this". Think "how can 
+
+00:05:15.710 --> 00:05:19.820
+ I destroy this? "Because I guarantee you, there will be someone who thinks so. 
+

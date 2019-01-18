@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.900
+ Buffer exploits are one of the basic bugs of modern computer science. 
+
+00:00:03.900 --> 00:00:10.000
+ They are responsible for glitches in games. They are responsible for all sorts of viruses and exploits, 
+
+00:00:10.000 --> 00:00:14.500
+ and they are also responsible for a number of major technical disasters. 
+
+00:00:14.500 --> 00:00:19.500
+ During the last 48 hours, at the time of admission, we had one of those technical disasters, namely Heartbleed, 
+
+00:00:19.500 --> 00:00:23.060
+ what is a buffer exploit at the core. 
+
+00:00:23.420 --> 00:00:27.600
+ I am going to try to explain what that is; the technical people in the audience are likely to cringe 
+
+00:00:27.600 --> 00:00:32.400
+ because I make it so strongly, but for the less technical people, for the people 
+
+00:00:32.400 --> 00:00:38.000
+ just start programming, or be interested in computers, this is how it works - and to start with, do not worry if you 
+
+00:00:38.000 --> 00:00:41.400
+ uses a programming language of a higher level such as JavaScript, or the like, 
+
+00:00:41.400 --> 00:00:46.800
+ you do not have to worry about buffer overflows, it is all solved for you in the compiler. 
+
+00:00:46.800 --> 00:00:52.800
+ But if you work with C, or even in Fortan - something very basic - well, then buffer overflows 
+
+00:00:52.800 --> 00:00:55.080
+ something that you have to adjust for. 
+
+00:00:55.080 --> 00:01:01.000
+ So, let's imagine that we have a program - we draw a box here - some program, 
+
+00:01:01.000 --> 00:01:06.700
+ and that program wants input, information. This could for example be a huge file of the hard drive, 
+
+00:01:06.700 --> 00:01:12.400
+ it may just be some data that comes in, but let's say it's a chain - just some incoming text - 
+
+00:01:12.400 --> 00:01:18.600
+ and that chain must be a certain length, so that that program puts a certain amount of memory in front of it 
+
+00:01:18.600 --> 00:01:24.600
+ - here, in it - but what comes in is not what it expects. 
+
+00:01:24.600 --> 00:01:31.400
+ What comes in is a much longer, or even a bit longer, piece of text than expected. 
+
+00:01:31.400 --> 00:01:35.700
+ So instead of this we have this, a little bit more. 
+
+00:01:35.700 --> 00:01:41.000
+ And what happens is that, just like a train that runs through the fenders at the end of a platform 
+
+00:01:41.000 --> 00:01:44.800
+ and drive into the station, screaming loudly, the program causing some damage. 
+
+00:01:44.800 --> 00:01:50.800
+ It will continue to write that chain in memory beyond the end of that reserved memory space. 
+
+00:01:50.800 --> 00:01:54.000
+ And that is going to cause crashes, generally it goes 
+
+00:01:54.000 --> 00:01:57.800
+ cause an error in the program when looking for data and not 
+
+00:01:57.800 --> 00:01:59.200
+ eeeeeeee 
+
+00:01:59.200 --> 00:02:00.900
+ nothing finds except what is being typed. 
+
+00:02:00.900 --> 00:02:05.400
+ But if you're a smart attacker, if you know what you're doing, if you know what your goal is, 
+
+00:02:05.400 --> 00:02:12.400
+ then you can put together a much longer chain - here - that contains all sorts of instructions, all kinds of code, 
+
+00:02:12.400 --> 00:02:18.100
+ if you know what that program is looking for then you can continue to write in the program and 
+
+00:02:18.100 --> 00:02:21.000
+ to put your own instructions about what is already there. 
+
+00:02:21.000 --> 00:02:24.400
+ That is a fairly basic buffer overflow attack. 
+
+00:02:24.860 --> 00:02:31.000
+ In the past 48 hours we have had Heartbleed and that is a vulnerability in OpenSSL. 
+
+00:02:31.000 --> 00:02:37.400
+ OpenSSL is the open source code that roughly ... let's say half, two-thirds, 
+
+00:02:37.400 --> 00:02:41.220
+ in any case handles a very large proportion of global secure internet traffic, 
+
+00:02:41.220 --> 00:02:46.200
+ that which is going on between you and online banks, or between you and your private e-mail. 
+
+00:02:46.200 --> 00:02:48.840
+ That all goes via OpenSSL. 
+
+00:02:48.840 --> 00:02:52.800
+ It is responsible for that little padlock in your browser, 
+
+00:02:52.800 --> 00:02:57.000
+ it makes it appear and can say "yes, this is definitely a secure connection", 
+
+00:02:57.000 --> 00:03:03.700
+ so a bug in it is a big problem, and it's interesting because it's actually a UNDERflow attack buffer. 
+
+00:03:03.700 --> 00:03:08.300
+ And to explain that, I have to explain something called Heartbeat. 
+
+00:03:08.300 --> 00:03:13.800
+ For example, I have my computer - here, my laptop - and it talks to a server here 
+
+00:03:13.800 --> 00:03:18.000
+ with OpenSSL on it, it can send something called a heartbeat (heartbeat) command. 
+
+00:03:18.000 --> 00:03:22.600
+ And the heartbeat command is actually "does this connection live? Does it work?" 
+
+00:03:22.600 --> 00:03:26.700
+ It is actually a [HEART RATE SOUND] that alternates between the two. 
+
+00:03:26.700 --> 00:03:31.800
+ And the heartbeat command works like this: I send some data and the server sends it back to me. 
+
+00:03:31.800 --> 00:03:36.500
+ So I say, "here is the word HEART, send it back to me," and the server does that. 
+
+00:03:36.500 --> 00:03:38.800
+ But that is not exactly how it works. 
+
+00:03:38.800 --> 00:03:47.000
+ What I am sending "here is the word HEART, it is four bytes long, please send those four bytes back to me." 
+
+00:03:47.000 --> 00:03:52.000
+ And that's what the server does. It receives them and sends them back immediately. 
+
+00:03:52.000 --> 00:03:55.500
+ But the problem is, with specifically this version of OpenSSL, 
+
+00:03:55.500 --> 00:04:02.000
+ if you would say "here is the word HEART, it is 64,000 characters long" 
+
+00:04:02.000 --> 00:04:06.000
+ Well ... OpenSSL is not going to check if that's right. 
+
+00:04:06.000 --> 00:04:10.400
+ Instead it opens a small buffer, the word HART stops there, 
+
+00:04:10.400 --> 00:04:14.200
+ and then it sends back what else it can find. 
+
+00:04:14.200 --> 00:04:17.700
+ It will continue to read that buffer, even though that buffer has ended. 
+
+00:04:17.700 --> 00:04:25.000
+ It will read 64,000 of what it is thinking about at the time and it will send it back to me. 
+
+00:04:25.000 --> 00:04:30.800
+ And that is dangerous, because those 64,000 might well contain very personal data. 
+
+00:04:30.800 --> 00:04:35.700
+ It could contain session tokens that cause you to act as other users on the site, 
+
+00:04:35.700 --> 00:04:43.000
+ or it could contain private keys - the big cryptic numbers that say the server is who he claims to be. 
+
+00:04:43.000 --> 00:04:46.500
+ If you could get their private keys you could pretend to be them. 
+
+00:04:46.500 --> 00:04:51.000
+ You could pretend to be who this server is: Google, the government, an online bank 
+
+00:04:51.000 --> 00:04:56.800
+ - you could get those numbers, get them out of memory by happiness, or by being smart 
+
+00:04:56.800 --> 00:05:00.000
+ and, well, you can then pretend to them. 
+
+00:05:00.200 --> 00:05:06.800
+ And that is a horrible bug for the internet, so for the last 48 hours there are a lot of server administrators 
+
+00:05:06.800 --> 00:05:12.500
+ desperately updating to ensure that their version is the new, modified version. 
+
+00:05:13.240 --> 00:05:18.800
+ So, that is it, that is a buffer overflow, or a buffer underflow in this case, and that is Heartbleed. 
+
+00:05:18.800 --> 00:05:24.000
+ But one more thing. If you want to be paranoid, and I want to emphasize that I am not paranoid about this, 
+
+00:05:24.000 --> 00:05:29.500
+ I believe very much in 'stupidity over collusion', but, if you want to be paranoid, think about it: 
+
+00:05:29.500 --> 00:05:36.600
+ that bug has not been repaired for two years. Has anyone else seen him and did not let it know? 
+
+00:05:36.600 --> 00:05:40.200
+ And has that person since then been quietly obtaining information? 
+
+00:05:40.200 --> 00:05:46.440
+ Or if you really want to be very paranoid, and again I emphasize that I am not, but if you really want to be very paranoid ... 
+
+00:05:47.620 --> 00:05:50.320
+ ... who put that bug in the first place? 
+
+00:05:51.740 --> 00:05:53.740
+ Translated by Alexander 
+

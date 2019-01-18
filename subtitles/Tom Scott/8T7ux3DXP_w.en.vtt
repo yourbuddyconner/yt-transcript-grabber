@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.299 --> 00:00:01.550
+ None of this I see. 
+
+00:00:01.550 --> 00:00:04.560
+ I do not see the top of the mountain or a huge abyss 
+
+00:00:04.560 --> 00:00:08.240
+ and the camera is not assigned to any magical device. 
+
+00:00:08.240 --> 00:00:11.290
+ I'm in the Mixed Reality Lab at YouTube in New York 
+
+00:00:11.290 --> 00:00:15.059
+ and if I want to see something more than green walls around me, 
+
+00:00:15.059 --> 00:00:16.910
+ I will have to put on these glasses. 
+
+00:00:16.910 --> 00:00:19.359
+ The problem with virtual reality is, 
+
+00:00:19.359 --> 00:00:21.999
+ while a man with glasses is overwhelmed, 
+
+00:00:21.999 --> 00:00:24.249
+ waving his hands and enjoying it, 
+
+00:00:24.249 --> 00:00:27.019
+ everyone else has no idea what's going on. 
+
+00:00:27.019 --> 00:00:30.789
+ Mixed reality is a way to let other people see, 
+
+00:00:30.789 --> 00:00:33.019
+ what would it be there. 
+
+00:00:33.019 --> 00:00:37.239
+ We have a real camera that shoots you in your glasses 
+
+00:00:37.239 --> 00:00:38.600
+ on a green background 
+
+00:00:38.600 --> 00:00:41.930
+ and the only thing the game needs to know is where the virtual camera is supposed to be. 
+
+00:00:41.930 --> 00:00:47.039
+ We use HTC Vive glasses and the third handheld controller, 
+
+00:00:47.039 --> 00:00:49.530
+ assigned to the camera, 
+
+00:00:49.530 --> 00:00:52.850
+ allowing the game to know where the camera is. 
+
+00:00:52.850 --> 00:00:57.519
+ So we can have a real camera and a virtual camera, 
+
+00:00:57.519 --> 00:01:00.929
+ which moves through space and shoots video, 
+
+00:01:00.929 --> 00:01:03.360
+ as if it were in a virtual reality with you. 
+
+00:01:03.360 --> 00:01:07.230
+ We have a top Intel processor on our computer 
+
+00:01:07.230 --> 00:01:11.960
+ 32 gigabytes of RAM and the current peak in graphics cards, 
+
+00:01:11.960 --> 00:01:14.310
+ NVidii GTX 1080. 
+
+00:01:14.310 --> 00:01:16.120
+ The image is recorded in 4K, 
+
+00:01:16.120 --> 00:01:20.110
+ because anything smaller would cause problems. 
+
+00:01:20.110 --> 00:01:21.870
+ For mixed reality to work, 
+
+00:01:21.870 --> 00:01:27.230
+ we need to put a small configuration file into the game folder, 
+
+00:01:27.230 --> 00:01:32.280
+ in which we describe where the driver is assigned 
+
+00:01:32.280 --> 00:01:34.210
+ and where is the lens of our camera. 
+
+00:01:34.210 --> 00:01:38.840
+ We also need to align the rotation and field of view of the camera, 
+
+00:01:38.840 --> 00:01:43.210
+ but otherwise it should work with the current version of Unity. 
+
+00:01:43.210 --> 00:01:47.030
+ Unity is a tool that is often used to build 3D programs. 
+
+00:01:47.030 --> 00:01:48.720
+ Because there is this system built in, 
+
+00:01:48.720 --> 00:01:52.040
+ The Mixed Reality Laboratory works with lots of VR games. 
+
+00:01:52.040 --> 00:01:53.780
+ Not with all but with most of them. 
+
+00:01:53.780 --> 00:01:56.920
+ And because the position of the HTC Vive drivers is very accurate, 
+
+00:01:56.920 --> 00:01:59.360
+ we can do things like this close shot of a laser gun, 
+
+00:01:59.360 --> 00:02:01.160
+ which I just hold, hopefully. 
+
+00:02:01.160 --> 00:02:03.960
+ Maybe it's a Vive driver, 
+
+00:02:03.960 --> 00:02:07.350
+ but its position is more or less perfect. 
+
+00:02:07.350 --> 00:02:09.470
+ When playing in a normal virtual reality, 
+
+00:02:09.470 --> 00:02:13.700
+ the computer must only generate what you see in your glasses. 
+
+00:02:13.700 --> 00:02:16.500
+ For mixed reality, the computer still generates another look, 
+
+00:02:16.500 --> 00:02:20.840
+ namely the perspective of the third driver - the virtual camera. 
+
+00:02:20.840 --> 00:02:26.480
+ So, finally, we have four views instead of one. 
+
+00:02:26.480 --> 00:02:29.780
+ Four - first normal view of glasses, 
+
+00:02:29.780 --> 00:02:34.480
+ but also background and two layers in front of the player 
+
+00:02:34.480 --> 00:02:36.420
+ from a virtual camera point of view. 
+
+00:02:36.420 --> 00:02:40.930
+ One foreground layer is a normal image to be seen before the player 
+
+00:02:40.930 --> 00:02:44.990
+ and then a luma layer that helps remove all black space. 
+
+00:02:44.990 --> 00:02:48.819
+ The SteamVR plugin automatically recognizes what's in the background and foreground 
+
+00:02:48.819 --> 00:02:50.850
+ depending on where the glasses are. 
+
+00:02:50.850 --> 00:02:56.270
+ Everything between the glasses and the virtual camera is the foreground 
+
+00:02:56.270 --> 00:03:00.100
+ and everything behind the glasses is the background. 
+
+00:03:00.100 --> 00:03:04.290
+ In our studio we make the composition alive. 
+
+00:03:04.290 --> 00:03:08.590
+ This gives us a rough impression of what the final product will look like. 
+
+00:03:08.590 --> 00:03:11.440
+ The living composition is not completely dopilovaná, 
+
+00:03:11.440 --> 00:03:14.110
+ but we can use those four original views 
+
+00:03:14.110 --> 00:03:18.620
+ and produce a much more detailed composition by hand. 
+
+00:03:18.620 --> 00:03:21.260
+ Virtual studios are not new. 
+
+00:03:21.260 --> 00:03:23.950
+ For years, BBC has been using a similar thing in the election, 
+
+00:03:23.950 --> 00:03:26.320
+ but they have carefully prepared graphic elements, 
+
+00:03:26.320 --> 00:03:28.440
+ a lot of expensive equipment 
+
+00:03:28.440 --> 00:03:33.470
+ and moderators need to practice everything perfectly, otherwise it does not look good. 
+
+00:03:33.470 --> 00:03:36.770
+ And by replacing our glasses with the Helm of Justice, 
+
+00:03:36.770 --> 00:03:40.580
+ we get a brace show show from the nineties, Knightmare. 
+
+00:03:40.580 --> 00:03:43.180
+ So far, it has always been expensive, custom-built affairs, 
+
+00:03:43.180 --> 00:03:45.830
+ but they use technologies that can be obtained here. 
+
+00:03:45.830 --> 00:03:47.300
+ If you want to do this at home, 
+
+00:03:47.300 --> 00:03:51.000
+ you will need a large green background, 
+
+00:03:51.000 --> 00:03:52.490
+ maybe you could paint the walls! 
+
+00:03:52.490 --> 00:03:54.430
+ You will need a very powerful computer, 
+
+00:03:54.430 --> 00:03:58.080
+ a camera that can send an image to a computer, 
+
+00:03:58.080 --> 00:04:00.980
+ the recording card and the third driver. 
+
+00:04:00.980 --> 00:04:03.590
+ But if you have all these things, 
+
+00:04:03.590 --> 00:04:05.790
+ you can enjoy the mixed reality in the comfort of your home! 
+
+00:04:05.790 --> 00:04:08.910
+ Thanks to everyone on the YouTube site in New York and the Mixed Reality Lab. 
+
+00:04:08.910 --> 00:04:11.830
+ You can find out more about them in the links below the video. 
+
+00:04:16.540 --> 00:04:17.720
+ (Do you leave the impact?) 
+
+00:04:17.720 --> 00:04:18.420
+ (That's pretty ...!) 
+
+00:04:18.420 --> 00:04:19.420
+ Yeah, it's funny! 
+
+00:04:19.420 --> 00:04:20.420
+ So, and we have it! 
+
+00:04:21.689 --> 00:04:22.310
+ That is all! 
+

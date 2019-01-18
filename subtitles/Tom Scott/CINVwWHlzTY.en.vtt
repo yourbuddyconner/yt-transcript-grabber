@@ -1,0 +1,733 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:03.400
+ There has been a lot of talk about whether the British government will force 
+
+00:00:03.400 --> 00:00:07.340
+ companies, such as WhatsApp, to make a back entrance into their encryption system, 
+
+00:00:07.340 --> 00:00:10.960
+ So the police and government can read your messages, it should be necessary 
+
+00:00:10.960 --> 00:00:13.820
+ At the time of the recording, they have not yet done so. 
+
+00:00:13.820 --> 00:00:18.170
+ But laws that could let them do it in the future are already there. 
+
+00:00:18.170 --> 00:00:21.560
+ And here is something you might not have thought I would say: 
+
+00:00:21.580 --> 00:00:23.560
+ It sounds like a sensible idea. 
+
+00:00:25.220 --> 00:00:26.540
+ The Basal 
+
+00:00:26.620 --> 00:00:30.700
+ Back doors have been allowed for old-fashioned phone calls for decades. 
+
+00:00:30.880 --> 00:00:31.860
+ They are called interceptions. 
+
+00:00:31.900 --> 00:00:36.239
+ And if a criminal investigation has enough documentation for a warrant, 
+
+00:00:36.239 --> 00:00:38.260
+ so they can look in your mail, 
+
+00:00:38.260 --> 00:00:39.610
+ they can listen to your phone calls, 
+
+00:00:39.610 --> 00:00:41.260
+ and they can intercept your text messages 
+
+00:00:41.260 --> 00:00:43.620
+ It's called "wiretaps" in English, because the police many years ago 
+
+00:00:43.620 --> 00:00:48.280
+ Literally would put a device into a physical telephone line. 
+
+00:00:48.280 --> 00:00:50.020
+ So for anyone who grew up knowing this, 
+
+00:00:50.020 --> 00:00:51.649
+ anyone who has grown up with computers like this, 
+
+00:00:51.649 --> 00:00:54.129
+ just like just about every politician in the government, 
+
+00:00:54.129 --> 00:00:58.850
+ Well, then it seems reasonable that there should also include - for example - WhatsApp. 
+
+00:00:58.850 --> 00:01:00.480
+ So why not? 
+
+00:01:00.480 --> 00:01:03.239
+ Well, first, let's look at the technical details. 
+
+00:01:03.239 --> 00:01:06.590
+ It all depends on who holds the keys. 
+
+00:01:06.590 --> 00:01:08.220
+ Modern encryption uses complicated mathematics 
+
+00:01:08.220 --> 00:01:10.960
+ it is easy for a computer to calculate one way, 
+
+00:01:10.960 --> 00:01:13.270
+ but almost impossible for it, the other way. 
+
+00:01:13.270 --> 00:01:14.430
+ A really simple example: 
+
+00:01:14.430 --> 00:01:18.689
+ If I ask you to multiply two prime numbers, like 13 × 17, 
+
+00:01:18.689 --> 00:01:21.490
+ You can do this by just pressing a few keys on your calculator. 
+
+00:01:21.490 --> 00:01:23.220
+ And because they were prime numbers, 
+
+00:01:23.220 --> 00:01:28.340
+ We know this is the only way to get 221 by multiplying two whole numbers together. 
+
+00:01:28.340 --> 00:01:31.860
+ except 221 times 1, and it's not quite useful. 
+
+00:01:31.860 --> 00:01:36.470
+ But if I ask you, "Which two prime numbers should be multiplied to get 161?" 
+
+00:01:36.470 --> 00:01:38.160
+ There is no way to find out quickly. 
+
+00:01:38.160 --> 00:01:40.079
+ There are a few shortcuts you can take, 
+
+00:01:40.079 --> 00:01:43.079
+ But it is still basically a brute-force approach. 
+
+00:01:43.079 --> 00:01:45.500
+ Now imagine you're not trying to calculate for 161, 
+
+00:01:45.500 --> 00:01:48.250
+ but instead something like this ... 
+
+00:01:48.250 --> 00:01:50.070
+ you begin to see the scale of the problem. 
+
+00:01:50.070 --> 00:01:51.900
+ And that's just a simple example, 
+
+00:01:51.900 --> 00:01:55.600
+ Modern cryptography uses far more complicated one-way operations. 
+
+00:01:55.600 --> 00:02:00.340
+ The important thing is that you can get a computer to do maths that are single-way, 
+
+00:02:00.340 --> 00:02:05.030
+ but could take longer than the lifetime of the universe to brute-force back. 
+
+00:02:05.030 --> 00:02:08.110
+ The result is that you can have two keys: two huge numbers. 
+
+00:02:08.110 --> 00:02:09.410
+ One public, one private. 
+
+00:02:09.410 --> 00:02:12.090
+ You send your public key to the world. 
+
+00:02:12.090 --> 00:02:13.810
+ Anyone can encrypt a message with it; 
+
+00:02:13.810 --> 00:02:16.670
+ the message is converted to what looks like random noise. 
+
+00:02:16.670 --> 00:02:19.850
+ Even the same public key cannot convert it back. 
+
+00:02:19.850 --> 00:02:22.020
+ But you can take the noise and use your private key 
+
+00:02:22.020 --> 00:02:23.920
+ - and only your private key - 
+
+00:02:23.920 --> 00:02:24.920
+ to decrypt it. 
+
+00:02:24.920 --> 00:02:27.620
+ When you want to send a message back, you use their public key, 
+
+00:02:27.620 --> 00:02:29.560
+ and they use their private key to decrypt it. 
+
+00:02:29.560 --> 00:02:34.760
+ And the beautiful part of this: there is no need to exchange keys in advance, 
+
+00:02:34.760 --> 00:02:38.230
+ You don't have to work out old-school disposable pads, or anything like that. 
+
+00:02:38.230 --> 00:02:41.220
+ You can send your public key to the internet for anyone to see. 
+
+00:02:41.220 --> 00:02:43.750
+ As long as you keep the private key secret, 
+
+00:02:43.750 --> 00:02:44.950
+ no one else can read your messages. 
+
+00:02:44.950 --> 00:02:50.050
+ It's a system that has been tested under incredibly harsh conditions for decades. 
+
+00:02:50.050 --> 00:02:52.160
+ It works. 
+
+00:02:52.160 --> 00:02:54.030
+ The chin knows it's really unfriendly to use. 
+
+00:02:54.030 --> 00:02:57.310
+ It's hard enough to get someone to join a new bedding service as it is, 
+
+00:02:57.310 --> 00:02:59.160
+ not to talk about getting their friends along. 
+
+00:02:59.160 --> 00:03:01.460
+ Now you have to generate strange key hallucinations too? 
+
+00:03:01.460 --> 00:03:04.100
+ And if you lose your phone or otherwise forget the key, 
+
+00:03:04.100 --> 00:03:06.350
+ or your hard drive breaks down and you are without a backup, 
+
+00:03:06.350 --> 00:03:10.230
+ are all your messages gone, lost as random noise forever. 
+
+00:03:10.230 --> 00:03:13.220
+ E-mail that works this way has been around for decades 
+
+00:03:13.220 --> 00:03:16.060
+ But it is too complicated and it is too unfriendly for most people. 
+
+00:03:16.060 --> 00:03:18.480
+ The security was not worth the effort. 
+
+00:03:18.480 --> 00:03:19.810
+ So instead, let web mail services, 
+
+00:03:19.810 --> 00:03:22.370
+ along with Facebook, Twitter, and everyone else, 
+
+00:03:22.370 --> 00:03:23.370
+ Don't worry about it. 
+
+00:03:23.370 --> 00:03:25.100
+ Previously, they were mostly unencrypted, 
+
+00:03:25.100 --> 00:03:27.180
+ but quickly realized that was a bad idea - 
+
+00:03:27.180 --> 00:03:29.300
+ so now they use regular web encryption, 
+
+00:03:29.300 --> 00:03:30.920
+ the padlock on your browser, 
+
+00:03:30.920 --> 00:03:32.750
+ to make sure nobody on your network can see 
+
+00:03:32.750 --> 00:03:36.030
+ your password or messages when they are underway 
+
+00:03:36.030 --> 00:03:38.850
+ And that is the threat most people care about. 
+
+00:03:38.850 --> 00:03:41.910
+ But they have the contents of the plain text messages, 
+
+00:03:41.910 --> 00:03:43.040
+ or something close to it, 
+
+00:03:43.040 --> 00:03:45.550
+ And these companies can give it back to you whenever you want. 
+
+00:03:45.550 --> 00:03:48.700
+ Which means that when a government comes with a warrant, 
+
+00:03:48.700 --> 00:03:51.100
+ companies can also provide the messages to them. 
+
+00:03:51.100 --> 00:03:52.640
+ And that was fine, right? 
+
+00:03:52.640 --> 00:03:53.640
+ This was reasonable. 
+
+00:03:53.640 --> 00:03:57.230
+ This was an acceptable compromise between security and ease of use. 
+
+00:03:57.230 --> 00:04:02.150
+ Or at least it was until it was revealed that - in short - 
+
+00:04:02.150 --> 00:04:06.430
+ all major governments have a copy of virtually everything everyone has ever written; 
+
+00:04:06.430 --> 00:04:09.020
+ at what time there were a few companies that decided that they actually 
+
+00:04:09.020 --> 00:04:13.250
+ did not want to take the risk that anywhere - not even their own employees - 
+
+00:04:13.250 --> 00:04:18.400
+ Even theoretically, should be able to access messages that people sent. 
+
+00:04:18.400 --> 00:04:23.050
+ The result is WhatsApp, and iMessage, and the many smaller apps like them. 
+
+00:04:23.050 --> 00:04:25.690
+ They have "end-to-end encryption". 
+
+00:04:25.690 --> 00:04:29.680
+ Your phone automatically generates a public and private key for you. 
+
+00:04:29.680 --> 00:04:32.050
+ It exchanges public keys behind the scenes, 
+
+00:04:32.050 --> 00:04:33.650
+ while writing your first message to someone 
+
+00:04:33.650 --> 00:04:35.190
+ and everything is encrypted. 
+
+00:04:35.190 --> 00:04:36.190
+ And all of it automatically! 
+
+00:04:36.190 --> 00:04:39.010
+ But WhatsApp and iMessage are not open source, 
+
+00:04:39.010 --> 00:04:40.940
+ so hypothetically they could steal your private key too 
+
+00:04:40.940 --> 00:04:43.750
+ or quietly issue a fake one to a person and sit in the middle listening, 
+
+00:04:43.750 --> 00:04:45.890
+ But in practice people would notice. 
+
+00:04:45.890 --> 00:04:49.530
+ There are certainly small loopholes that could work under special circumstances 
+
+00:04:49.530 --> 00:04:52.980
+ But the odds are small and security experts are already 
+
+00:04:52.980 --> 00:04:57.820
+ In the process of separating each and every edition of each messaging program, you go to it 
+
+00:04:57.820 --> 00:05:00.390
+ just to see if anyone has put a back door into it. 
+
+00:05:00.390 --> 00:05:01.620
+ Shortly said: 
+
+00:05:01.620 --> 00:05:04.890
+ if any of these apps are served a warrant right now, 
+
+00:05:04.890 --> 00:05:08.370
+ is the most they could say, how much two people have spoken, 
+
+00:05:08.370 --> 00:05:10.410
+ and maybe roughly where they were: 
+
+00:05:10.410 --> 00:05:12.370
+ But never what they were talking about. 
+
+00:05:12.370 --> 00:05:16.310
+ More than that is literally, mathematically impossible. 
+
+00:05:16.310 --> 00:05:19.180
+ But it is impossible only because of the way they have designed their systems. 
+
+00:05:19.180 --> 00:05:21.970
+ And that's the vulnerability. 
+
+00:05:21.970 --> 00:05:24.760
+ A government could make it a legal requirement for Apple and Facebook 
+
+00:05:24.760 --> 00:05:28.000
+ that they should quietly add a back door in all their encryption 
+
+00:05:28.000 --> 00:05:30.240
+ if they want to sell something in their country. 
+
+00:05:30.240 --> 00:05:32.450
+ I have heard this wording as "banning mathematics", 
+
+00:05:32.450 --> 00:05:34.090
+ but it is a bit like saying that 
+
+00:05:34.090 --> 00:05:38.740
+ The ban on beating a stranger in the face is "to ban hands". 
+
+00:05:38.740 --> 00:05:42.150
+ And if Apple and Facebook refuse to add a back door, a government could ... 
+
+00:05:42.150 --> 00:05:45.830
+ ... theoretically, they could ban their phones or ban their apps from sale, 
+
+00:05:45.830 --> 00:05:47.510
+ or prosecute those responsible 
+
+00:05:47.510 --> 00:05:49.880
+ or block Facebook, which owns WhatsApp, 
+
+00:05:49.880 --> 00:05:52.410
+ or they could make ISPs block their services, 
+
+00:05:52.410 --> 00:05:53.610
+ or they could ... 
+
+00:05:53.610 --> 00:05:56.480
+ ... in practice, they will pay fines to the company. 
+
+00:05:56.480 --> 00:05:58.320
+ Apple and Facebook have local addresses, 
+
+00:05:58.320 --> 00:06:00.500
+ They pay ... little treasure. 
+
+00:06:00.510 --> 00:06:02.830
+ From the sidelines, I would love to see the British government 
+
+00:06:02.830 --> 00:06:05.970
+ Go up to Apple and see who flashed first. 
+
+00:06:05.970 --> 00:06:09.310
+ But companies have bowed to foreign countries many times before. 
+
+00:06:09.310 --> 00:06:10.730
+ BlackBerry left the Indian government 
+
+00:06:10.730 --> 00:06:15.050
+ Get full access to users' chat and web history back in 2013. 
+
+00:06:15.050 --> 00:06:17.290
+ The only reason WhatsApp can't read your messages 
+
+00:06:17.290 --> 00:06:21.550
+ is that they have deliberately chosen to design their systems that way. 
+
+00:06:21.550 --> 00:06:23.260
+ They were just as popular without encryption: 
+
+00:06:23.260 --> 00:06:24.260
+ it was a reflection, 
+
+00:06:24.260 --> 00:06:27.660
+ They had been running for years before they turned on encryption. 
+
+00:06:27.660 --> 00:06:29.840
+ This was a human decision, 
+
+00:06:29.840 --> 00:06:33.139
+ not an inevitable fact of technology. 
+
+00:06:33.139 --> 00:06:36.260
+ So why is an encryption backdoor such a bad idea? 
+
+00:06:36.260 --> 00:06:40.100
+ Well, if there is a back door, it can and will be abused. 
+
+00:06:40.100 --> 00:06:42.420
+ Local UK authorities have already used our monitoring laws, 
+
+00:06:42.420 --> 00:06:45.090
+ - those who were made to stop terrorism, 
+
+00:06:45.090 --> 00:06:47.300
+ to monitor loudly the doggie, 
+
+00:06:47.300 --> 00:06:48.900
+ strike down illegal feeding of pigeons, 
+
+00:06:48.900 --> 00:06:51.630
+ and spying on some parents to see if they actually lived near enough 
+
+00:06:51.630 --> 00:06:53.920
+ to a particular school they wanted to get their children in. 
+
+00:06:53.920 --> 00:06:57.120
+ Now is it useful for crime prevention? 
+
+00:06:57.120 --> 00:06:58.120
+ Of course. 
+
+00:06:58.120 --> 00:06:59.120
+ And there is the argument that 
+
+00:06:59.120 --> 00:07:01.050
+ "If you have something to hide, you have nothing to fear": 
+
+00:07:01.050 --> 00:07:03.950
+ Perhaps they should not have illegally fed these pigeons. 
+
+00:07:03.950 --> 00:07:08.260
+ And yes, you see this, you probably have nothing to hide and nothing to fear 
+
+00:07:08.260 --> 00:07:11.650
+ from the current government of your country. 
+
+00:07:11.650 --> 00:07:14.669
+ But laws and governments are changing and, incidentally, 
+
+00:07:14.669 --> 00:07:18.110
+ is the internet and the apps we use on our phones global. 
+
+00:07:18.110 --> 00:07:19.740
+ If you allow a back door here, 
+
+00:07:19.740 --> 00:07:22.740
+ you also allow another country's government to spy on its opponents, 
+
+00:07:22.740 --> 00:07:25.710
+ and another to spy on people they suspect might be gay, 
+
+00:07:25.710 --> 00:07:27.200
+ or using cannabis, 
+
+00:07:27.200 --> 00:07:28.200
+ or who are Christians, 
+
+00:07:28.200 --> 00:07:30.270
+ or depending on what is illegal in the country. 
+
+00:07:30.270 --> 00:07:31.270
+ In fifty years, 
+
+00:07:31.270 --> 00:07:33.740
+ you may be part of a country where eating meat has been banned, 
+
+00:07:33.740 --> 00:07:37.830
+ and the government will want to come after you to track down 
+
+00:07:37.830 --> 00:07:41.810
+ the illegal bacon ring your friends are a part of. 
+
+00:07:41.810 --> 00:07:44.810
+ "Nothing to hide" only works if people are in power 
+
+00:07:44.810 --> 00:07:48.430
+ Share your and everyone you celebrate values ​​wholeheartedly 
+
+00:07:48.430 --> 00:07:50.860
+ and always want to. 
+
+00:07:50.860 --> 00:07:53.260
+ To make matters worse: On the surface, this seems to be similar 
+
+00:07:53.260 --> 00:07:55.150
+ for ordinary, old-fashioned phone tapping, but it's not: 
+
+00:07:55.150 --> 00:07:57.120
+ depending on how the back door is set up, 
+
+00:07:57.120 --> 00:08:01.540
+ A government may not just be able to get what someone has sent now. 
+
+00:08:01.540 --> 00:08:03.550
+ They could get the whole message history. 
+
+00:08:03.550 --> 00:08:05.980
+ Maybe years of messages back and forth 
+
+00:08:05.980 --> 00:08:08.140
+ with hundreds or thousands of other people. 
+
+00:08:08.140 --> 00:08:11.340
+ It's not just a look into what a person says: 
+
+00:08:11.340 --> 00:08:15.260
+ It is an overwhelming look into many, many people's thoughts. 
+
+00:08:15.260 --> 00:08:19.110
+ That's what long forgotten nude image someone sent five years ago. 
+
+00:08:19.110 --> 00:08:23.770
+ It's the angry style they wrote in school and with which they now disagree completely. 
+
+00:08:23.770 --> 00:08:25.260
+ It's not just "what do they say" 
+
+00:08:25.260 --> 00:08:28.199
+ It is "what have they ever said". 
+
+00:08:28.199 --> 00:08:33.229
+ It is all under the assumption that the back door is not being abused by people with more personal problems. 
+
+00:08:33.229 --> 00:08:35.010
+ All it takes is one single employee, 
+
+00:08:35.010 --> 00:08:37.060
+ in the government or by the message app, 
+
+00:08:37.060 --> 00:08:41.260
+ And then we've got a huge amount of personal information leaked. 
+
+00:08:41.260 --> 00:08:42.790
+ Either about the general public 
+
+00:08:42.790 --> 00:08:46.700
+ or about concrete people who someone wants revenge on. 
+
+00:08:46.700 --> 00:08:48.640
+ It dumps the "blunt-ex-test" 
+
+00:08:48.640 --> 00:08:50.091
+ Can a person with an agenda 
+
+00:08:50.091 --> 00:08:51.430
+ Use this to destroy a life? 
+
+00:08:51.430 --> 00:08:54.150
+ A press survey found hundreds of cases 
+
+00:08:54.150 --> 00:08:56.790
+ where police officers and civil servants in the US 
+
+00:08:56.790 --> 00:08:59.760
+ searched for private information for personal reasons. 
+
+00:08:59.760 --> 00:09:03.020
+ And let's not start off what would happen if a hacker, 
+
+00:09:03.020 --> 00:09:05.500
+ or even another government's intelligence service, 
+
+00:09:05.500 --> 00:09:07.390
+ got access to the back door. 
+
+00:09:07.390 --> 00:09:09.190
+ Or how it would make it much more risky 
+
+00:09:09.190 --> 00:09:12.380
+ to report abuse of government power, on any scale. 
+
+00:09:13.400 --> 00:09:15.780
+ There is an argument that it would be worth it 
+
+00:09:15.780 --> 00:09:18.130
+ That all the downsides would be a small price to pay 
+
+00:09:18.130 --> 00:09:20.990
+ to Stop Very Rare Bad Things. 
+
+00:09:20.990 --> 00:09:24.920
+ I disagree, but it is an opinion, not a fact. 
+
+00:09:24.920 --> 00:09:27.850
+ But an encryption backdoor would not stop bad things from happening. 
+
+00:09:27.850 --> 00:09:31.910
+ The problem of stopping terrorism right now is not a lack of information. 
+
+00:09:31.910 --> 00:09:35.490
+ The Manchester bomber was reported to authorities five times, 
+
+00:09:35.490 --> 00:09:38.100
+ including his own friends and family. 
+
+00:09:38.100 --> 00:09:40.440
+ An anonymous source from within the UK security services 
+
+00:09:40.440 --> 00:09:44.560
+ told Reuters that at any given time, 500 people are being investigated 
+
+00:09:44.570 --> 00:09:47.250
+ and about 3,000 people "of interest". 
+
+00:09:47.250 --> 00:09:48.870
+ For scale, just to reassure you, 
+
+00:09:48.870 --> 00:09:51.529
+ it is only about 0.005% of the British population. 
+
+00:09:51.529 --> 00:09:54.430
+ But the way to solve this is no more data 
+
+00:09:54.430 --> 00:09:56.710
+ It's having enough police officers and security personnel 
+
+00:09:56.710 --> 00:09:59.540
+ with enough time to do their jobs and investigate. 
+
+00:09:59.540 --> 00:10:04.450
+ And let's be clear: everyone who wants secure communication for evil purposes 
+
+00:10:04.450 --> 00:10:06.220
+ just wanted to use something else 
+
+00:10:06.220 --> 00:10:09.510
+ Any of thousands of smaller services the government has not noticed yet 
+
+00:10:09.510 --> 00:10:12.160
+ or that they could not possibly have jurisdiction over. 
+
+00:10:12.160 --> 00:10:13.850
+ Or if even that is not an option, 
+
+00:10:13.850 --> 00:10:16.300
+ they can come up with a code themselves, 
+
+00:10:16.300 --> 00:10:19.890
+ just own jokes and references that no one else understands. 
+
+00:10:19.890 --> 00:10:24.070
+ So when I say that an encryption back door sounds like a sensible idea, 
+
+00:10:24.070 --> 00:10:25.070
+ I mean it. 
+
+00:10:25.070 --> 00:10:26.720
+ It sounds reasonable. 
+
+00:10:26.720 --> 00:10:30.839
+ Like a lot of ideas sound reasonable when you express them in one or two sentences. 
+
+00:10:30.839 --> 00:10:33.339
+ But the devil is in the detail. 
+
+00:10:33.339 --> 00:10:35.770
+ If we could copy the way interceptions worked, 
+
+00:10:35.770 --> 00:10:37.580
+ limited in scope and time, 
+
+00:10:37.580 --> 00:10:39.780
+ demanding a warrant and some physical effort, 
+
+00:10:39.780 --> 00:10:43.080
+ and not the story of all that anyone ever said 
+
+00:10:43.080 --> 00:10:45.339
+ and not available to repressive governments elsewhere in the world, 
+
+00:10:45.339 --> 00:10:49.420
+ So surely, I would definitely be for it. 
+
+00:10:49.420 --> 00:10:52.040
+ Making an encryption backdoor is not impossible: 
+
+00:10:52.040 --> 00:10:54.180
+ But to build a sensible one is. 
+
+00:10:54.800 --> 00:10:57.100
+ Thanks to everyone who helped with proofreading my script, 
+
+00:10:57.100 --> 00:11:00.560
+ and to everyone here at Cambridge Center for Computing History, 
+
+00:11:00.570 --> 00:11:02.820
+ who let me film with this wonderful old equipment. 
+

@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:04.680
+ I received a lot of requests to talk about the loophole in iPhone devices - those that 
+
+00:00:04.680 --> 00:00:09.599
+ If you send this message via a message, the receiver phone will hang. 
+
+00:00:09.599 --> 00:00:14.929
+ Now there are a lot of theories, Apple has not confirmed any of them. 
+
+00:00:14.929 --> 00:00:19.010
+ I have not seen any in-depth analysis. So, this combination of some explanations 
+
+00:00:19.010 --> 00:00:24.640
+ More realistic that I found 
+
+00:00:24.640 --> 00:00:27.920
+ And also my experience on this phone. 
+
+00:00:27.920 --> 00:00:33.250
+ Idea # 1: It does not always work. It is not like the old iPhone loophole 
+
+00:00:33.250 --> 00:00:38.020
+ If you try to render certain text anywhere in the operating system. 
+
+00:00:38.020 --> 00:00:42.710
+ This is a minute .. It should appear in the dropdown notices banner, 
+
+00:00:42.710 --> 00:00:47.550
+ And sometimes works .. This is an idea: what happens to the text in the dropdown notices banner 
+
+00:00:47.620 --> 00:00:52.750
+ And does not happen anywhere else? abbreviation. You see the first letters .. 
+
+00:00:52.750 --> 00:00:56.030
+ The first words, then point point point at the end. 
+
+00:00:56.030 --> 00:00:57.030
+ The first words, then point point point at the end. 
+
+00:00:57.030 --> 00:01:02.309
+ Directly, here is an indication of the problem. Because shortening text is not an easy process 
+
+00:01:02.309 --> 00:01:03.590
+ As you might think. 
+
+00:01:03.590 --> 00:01:07.680
+ Apple is smart. They do not cut text based on the number of bytes, the naive way to do it. 
+
+00:01:07.680 --> 00:01:12.320
+ If they do, the phones will collapse constantly for those who use emoticons. 
+
+00:01:12.320 --> 00:01:15.940
+ And do not interrupt the text based on a specified number of characters as well. 
+
+00:01:15.940 --> 00:01:20.400
+ For iPhone Specifies how much text you can display based on screen size 
+
+00:01:20.400 --> 00:01:25.200
+ The font size in which notifications are displayed, and the content of the message itself. 
+
+00:01:25.200 --> 00:01:30.370
+ It always cuts a character, not a byte. Can you display the full message? Great .. view them all. 
+
+00:01:30.370 --> 00:01:34.760
+ Is the text too large? So, how many characters can be displayed? 
+
+00:01:34.760 --> 00:01:38.600
+ Well, what's the odd thing about this letter? For people in England, the United States, and more .. 
+
+00:01:38.600 --> 00:01:43.030
+ Contains Arabic text. Not a plain text, but a strange Arabic text! 
+
+00:01:43.030 --> 00:01:48.200
+ Text with the composition, those signs that are above and below the letters (explains the movements). 
+
+00:01:48.200 --> 00:01:52.180
+ Here is the stud of the Persians. English words at first is not a problem, and the shapes in the end as well. 
+
+00:01:52.180 --> 00:01:57.560
+ You can put any text there, as long as the pieces 
+
+00:01:57.560 --> 00:02:00.520
+ Be somewhere in the middle of the mixture of Arabic letters. 
+
+00:02:00.520 --> 00:02:06.760
+ We can say - somewhat - that the problem with dealing with the Arabic text. This is almost obvious. 
+
+00:02:06.760 --> 00:02:12.190
+ IPhone tries to cut off the strange Arabic word from the middle .. It fails for some reason 
+
+00:02:12.190 --> 00:02:14.390
+ And somewhere there, there is the defect that leads to the collapse of the device. 
+
+00:02:14.390 --> 00:02:20.170
+ This part we are almost certain of. Here's my expectation: It seems logical when it is 
+
+00:02:20.170 --> 00:02:24.950
+ You remove a character by pressing the clear button, the length of the text becomes shorter. 
+
+00:02:24.950 --> 00:02:27.950
+ But in Arabic, this is not always the case. 
+
+00:02:27.950 --> 00:02:33.440
+ Arabic text is something really interesting: the letters have multiple forms 
+
+00:02:33.440 --> 00:02:38.500
+ The character changes its shape based on its position in the word at first, in the middle or end of the word. 
+
+00:02:38.500 --> 00:02:43.000
+ I found some texts - I do not know if they are used on a daily basis - where adding a character makes the word shorter !! 
+
+00:02:43.000 --> 00:02:48.640
+ I found some texts - I do not know if they are used on a daily basis - where adding a character makes the word shorter !! 
+
+00:02:48.640 --> 00:02:53.990
+ So that if this text is cut from the middle, the output will be longer than the original text before cutting. 
+
+00:02:53.990 --> 00:02:58.230
+ So I guess, the phone tries to calculate how many characters can be displayed on the screen, 
+
+00:02:58.230 --> 00:03:03.990
+ And finds a strange text so that if it is cut it becomes longer. 
+
+00:03:03.990 --> 00:03:09.990
+ This looks like an unexpected event that will cause a bug in the code 
+
+00:03:09.990 --> 00:03:15.290
+ Written mostly by people who write in English. 
+
+00:03:15.290 --> 00:03:18.740
+ But what do you know? We have to wait and see if Apple will find a solution after the problem, 
+
+00:03:18.740 --> 00:03:22.599
+ Or will be resolved in the next version. 
+

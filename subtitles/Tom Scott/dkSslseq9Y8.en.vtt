@@ -1,0 +1,460 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.089 --> 00:00:02.060
+ It's Christmas, I'm home with my family 
+
+00:00:02.060 --> 00:00:04.960
+ Which explains the wallpapers and the big football pants 
+
+00:00:04.960 --> 00:00:07.460
+ Also, I know I already uploaded a Christmas video in it too 
+
+00:00:07.460 --> 00:00:10.860
+ I canceled until 2016 because there will certainly be no company, 
+
+00:00:10.860 --> 00:00:13.650
+ which will have a huge, easy to avoid security problem during Christmas 
+
+00:00:13.650 --> 00:00:18.050
+ which people will be asking me to, um, I explain ... 
+
+00:00:18.050 --> 00:00:18.820
+ [pause] 
+
+00:00:18.820 --> 00:00:21.610
+ When I was a kid at school, there was something called "chinny reckon". 
+
+00:00:21.610 --> 00:00:23.170
+ In your school he might have called it another way 
+
+00:00:23.170 --> 00:00:26.029
+ such as Jimmy Hill or an itchy beard, but the idea was: 
+
+00:00:26.029 --> 00:00:27.250
+ someone invented a dubious assertion 
+
+00:00:27.250 --> 00:00:28.699
+ for example, their uncle works at NASA and 
+
+00:00:28.699 --> 00:00:30.269
+ gives them a ride on space rockets 
+
+00:00:30.269 --> 00:00:32.300
+ and you say yes, of course. "Chinny reckon". 
+
+00:00:32.300 --> 00:00:37.230
+ Well, around the same time, even when the World Wide Web was just a few servers that worked mainly 
+
+00:00:37.230 --> 00:00:38.760
+ in academic laboratories, 
+
+00:00:38.760 --> 00:00:41.280
+ they did not need now called web caches: 
+
+00:00:41.280 --> 00:00:44.370
+ a query comes for a web page and the server, in the past, 
+
+00:00:44.370 --> 00:00:46.230
+ would look at this page on the disk 
+
+00:00:46.230 --> 00:00:49.120
+ and would load it and send it back 
+
+00:00:49.120 --> 00:00:52.260
+ But as the network expanded, server requests became much bigger - 
+
+00:00:52.260 --> 00:00:55.950
+ not only in terms of the number of individual file requests they receive, 
+
+00:00:55.950 --> 00:00:59.129
+ but how much work they should do for each of these queries 
+
+00:00:59.129 --> 00:01:03.670
+ Loading the Steam main page includes loading more than 50 requests for files, images, and 
+
+00:01:03.670 --> 00:01:04.259
+ style schemes, 
+
+00:01:04.259 --> 00:01:07.670
+ and returns between 5 and 6 megabytes of data. 
+
+00:01:07.670 --> 00:01:10.159
+ But there is a lot of work in the background: 
+
+00:01:10.159 --> 00:01:12.380
+ their server should check the database, 
+
+00:01:12.380 --> 00:01:16.279
+ find out which games are currently being promoted from all 10,000 Steam games, 
+
+00:01:16.279 --> 00:01:17.560
+ to load all price information, 
+
+00:01:17.560 --> 00:01:20.899
+ decide which bits go to which part of the site, and if you logged in, 
+
+00:01:20.899 --> 00:01:25.090
+ you need to add tons of customized stuff to you just. 
+
+00:01:25.090 --> 00:01:26.380
+ All this is extremely heavy for a database. 
+
+00:01:26.380 --> 00:01:28.560
+ It takes a lot of processor power. 
+
+00:01:28.560 --> 00:01:30.749
+ And here comes the caching. 
+
+00:01:30.749 --> 00:01:33.520
+ Thus, there are many ways web servers cache: 
+
+00:01:33.520 --> 00:01:34.889
+ has Content Delivery Networks 
+
+00:01:34.889 --> 00:01:37.259
+ and even the user's browser. 
+
+00:01:37.259 --> 00:01:40.560
+ And in the case of Steam, they use all the techniques, 
+
+00:01:40.560 --> 00:01:42.060
+ including the one that got fucked here, 
+
+00:01:42.060 --> 00:01:44.619
+ which is caching their web servers. 
+
+00:01:44.619 --> 00:01:49.609
+ A huge number of requests to Steam servers are for pages that are already generated 
+
+00:01:49.609 --> 00:01:50.520
+ soon. 
+
+00:01:50.520 --> 00:01:53.729
+ If they receive ten thousand queries per second on their home page, 
+
+00:01:53.729 --> 00:01:56.859
+ it would be ridiculous for the server to open its database and 
+
+00:01:56.859 --> 00:01:59.849
+ to look for what is currently being offered ten thousand times per second, 
+
+00:01:59.849 --> 00:02:01.579
+ only in case something has changed. 
+
+00:02:01.579 --> 00:02:05.459
+ So he's only reviewing it once, caching the result in his memory for ... 
+
+00:02:05.459 --> 00:02:08.009
+ well, I do not know for how long, maybe a second, maybe a minute, 
+
+00:02:08.009 --> 00:02:09.920
+ may even half an hour in some cases. 
+
+00:02:09.920 --> 00:02:13.340
+ Indeed, a huge number of servers do exactly the same thing: 
+
+00:02:13.340 --> 00:02:16.780
+ there is no way just a web server to handle a site as large as Steam, 
+
+00:02:16.780 --> 00:02:21.299
+ so all hundreds of servers check the central database from time to time, 
+
+00:02:21.299 --> 00:02:25.120
+ they keep their own version of each public page in their own memory, 
+
+00:02:25.120 --> 00:02:26.810
+ and they send it to everyone who asks for it. 
+
+00:02:26.810 --> 00:02:30.879
+ And when a query comes, it is forwarded to any of these free servers. 
+
+00:02:30.879 --> 00:02:33.260
+ Thus, if there is a sudden leap in traffic, 
+
+00:02:33.260 --> 00:02:35.069
+ Steam can just run several additional servers, 
+
+00:02:35.069 --> 00:02:39.069
+ add them to those who match the queries and everything works. 
+
+00:02:39.069 --> 00:02:44.079
+ And each server can have 30 different versions of this site cached: for different 
+
+00:02:44.079 --> 00:02:44.799
+ languages, 
+
+00:02:44.799 --> 00:02:46.659
+ for different regions, for different devices. 
+
+00:02:46.659 --> 00:02:50.969
+ If this server has the correct version in memory and it is not outdated, 
+
+00:02:50.969 --> 00:02:52.530
+ there is no reason to deal with the database - 
+
+00:02:52.530 --> 00:02:55.150
+ he just sends the one he already knows. 
+
+00:02:55.150 --> 00:02:59.290
+ This means that only a minimal amount of the huge amount of traffic has to bother 
+
+00:02:59.290 --> 00:03:00.439
+ database: 
+
+00:03:00.439 --> 00:03:04.590
+ the rest comes directly from the memory of a system built to send web pages, 
+
+00:03:04.590 --> 00:03:07.079
+ which is tens of times faster. 
+
+00:03:07.079 --> 00:03:08.560
+ Which is great for anonymous passers-by, 
+
+00:03:08.560 --> 00:03:11.659
+ who just read about a game or watch the main page. 
+
+00:03:11.659 --> 00:03:14.239
+ But what about the people logged into the system? 
+
+00:03:14.239 --> 00:03:17.159
+ They expect to see their name and avatar at the top of the page, 
+
+00:03:17.159 --> 00:03:19.829
+ to see the entire site personalized for them. 
+
+00:03:19.829 --> 00:03:23.269
+ It does not make sense to sell someone a game they already own. 
+
+00:03:23.269 --> 00:03:25.519
+ Unless you have it on a CD 10 years ago 
+
+00:03:25.519 --> 00:03:26.909
+ you do not care to look for him, 
+
+00:03:26.909 --> 00:03:29.269
+ and it's about $ 2 to install it again, so ... 
+
+00:03:29.269 --> 00:03:33.870
+ Anyway. The traditional logic is that you do not cache pages for users who are logged in 
+
+00:03:34.389 --> 00:03:36.920
+ Logged users are the minority of most sites - 
+
+00:03:36.920 --> 00:03:39.120
+ as a news site, you have thousands, 
+
+00:03:39.120 --> 00:03:41.760
+ perhaps millions of people reading, but only a little 
+
+00:03:41.760 --> 00:03:43.859
+ who can log in and change what's there. 
+
+00:03:43.859 --> 00:03:46.930
+ So, anyone who is not logged in, millions, they get the standard, 
+
+00:03:46.930 --> 00:03:49.370
+ cached version but if you log in as an editor, 
+
+00:03:49.370 --> 00:03:51.099
+ then every time you want a page, 
+
+00:03:51.099 --> 00:03:53.790
+ the server checks the database to check everything again, 
+
+00:03:53.790 --> 00:03:55.480
+ in case anything has changed. 
+
+00:03:55.480 --> 00:03:58.799
+ Cache does not bar something that is personalized. 
+
+00:03:58.799 --> 00:04:01.749
+ But: this is not always a good strategy. 
+
+00:04:01.749 --> 00:04:04.930
+ Steam may receive more requests from logged-in users than anonymous, 
+
+00:04:04.930 --> 00:04:06.529
+ especially when there is a sale 
+
+00:04:06.529 --> 00:04:10.409
+ people often reload the page to see if anything has changed, ready to buy. 
+
+00:04:10.409 --> 00:04:15.090
+ In such a situation it may be a good idea to tell the web servers that yes, 
+
+00:04:15.090 --> 00:04:17.759
+ you need to cache some pages, such as the main, 
+
+00:04:17.759 --> 00:04:21.120
+ for logged-in users, as long as you do 2 things: 
+
+00:04:21.120 --> 00:04:24.569
+ First, you crash the cache if any data changes, 
+
+00:04:24.569 --> 00:04:27.800
+ so no one will buy a game and then see that it can still be bought. 
+
+00:04:27.800 --> 00:04:34.630
+ And second, absolutely never let someone see someone else's cached page. 
+
+00:04:34.630 --> 00:04:37.990
+ Emmy, someone from Steam, at Christmas, 
+
+00:04:37.990 --> 00:04:39.639
+ make a quick change to the caching system, 
+
+00:04:39.639 --> 00:04:41.479
+ surely to make the site go a little faster. 
+
+00:04:41.479 --> 00:04:44.370
+ And, without asking, they told the caching servers not to care 
+
+00:04:44.370 --> 00:04:47.240
+ the current logged-in user, or any of their settings. 
+
+00:04:47.240 --> 00:04:52.310
+ So when, a moment later, a request came from someone to see their own, personal account, 
+
+00:04:52.310 --> 00:04:54.949
+ one of the caches browses the account in the database, 
+
+00:04:54.949 --> 00:04:56.830
+ then stores the received web page. 
+
+00:04:56.830 --> 00:04:57.960
+ In what language it was, 
+
+00:04:57.960 --> 00:05:00.349
+ with the personal data of which he was there. 
+
+00:05:00.349 --> 00:05:03.900
+ And when someone else sends a request for their account page after a fraction of a second: 
+
+00:05:03.900 --> 00:05:05.949
+ this server has sent the cached page, 
+
+00:05:05.949 --> 00:05:09.580
+ which contains the details of the first person, back to the second. 
+
+00:05:09.580 --> 00:05:13.330
+ And each one of these many, many web servers caches someone else's information - 
+
+00:05:13.330 --> 00:05:16.840
+ who had no luck to ask for their details from the server first, 
+
+00:05:16.840 --> 00:05:19.360
+ right at the wrong time. 
+
+00:05:19.360 --> 00:05:20.770
+ And maybe after a minute, perhaps more, 
+
+00:05:20.770 --> 00:05:22.360
+ cache has caused these data to lose validity, 
+
+00:05:22.360 --> 00:05:25.900
+ and quickly stored the details of the next unhappy man, 
+
+00:05:25.900 --> 00:05:27.210
+ sending them to everyone else. 
+
+00:05:27.210 --> 00:05:30.110
+ At this point, many people checked their own account details, 
+
+00:05:30.110 --> 00:05:33.410
+ wondering if their credit cards would be drained. 
+
+00:05:33.410 --> 00:05:37.349
+ So if this is some support for Steam, they are not alone, 
+
+00:05:37.349 --> 00:05:40.050
+ they made the same mistake as the Norwegian government in 2012, 
+
+00:05:40.050 --> 00:05:41.879
+ when for about 15 minutes, 
+
+00:05:41.879 --> 00:05:46.370
+ Everyone who logs in to see his taxes saw some other personal details. 
+
+00:05:46.370 --> 00:05:49.400
+ In fact, they are not just some other personal details, 
+
+00:05:49.400 --> 00:05:52.509
+ but the details of a man named Kenneth Belkowski from Oslo. 
+
+00:05:52.509 --> 00:05:55.199
+ I believe they personally apologized to Kenneth. 
+
+00:05:55.199 --> 00:05:58.050
+ And good news is that the request to update the data - 
+
+00:05:58.050 --> 00:05:59.930
+ that is to change passwords, to buy things, 
+
+00:05:59.930 --> 00:06:02.280
+ and so on - will never hit the cache. 
+
+00:06:02.280 --> 00:06:05.789
+ Well, it should not, unless there is a much larger cut that Steam did not say 
+
+00:06:05.789 --> 00:06:07.020
+ to anyone for the moment. 
+
+00:06:07.020 --> 00:06:09.419
+ When you click on "Buy" or "Change password" 
+
+00:06:09.419 --> 00:06:13.629
+ your browser sends something called a POST request that passes all caches - 
+
+00:06:13.629 --> 00:06:15.449
+ so your cookie cookie is checked along the path, 
+
+00:06:15.449 --> 00:06:18.629
+ and most likely will show an error if you think you are trying to see someone 
+
+00:06:18.629 --> 00:06:20.110
+ another account. 
+
+00:06:20.110 --> 00:06:22.319
+ Which means that these people - and I've seen a few - 
+
+00:06:22.319 --> 00:06:26.259
+ who claim that during the shoot somebody bought soup games on their account 
+
+00:06:26.259 --> 00:06:26.639
+ and 
+
+00:06:26.639 --> 00:06:28.759
+ immediately request a refund? Well, 
+
+00:06:28.759 --> 00:06:31.289
+ I'm not saying you make it up, 
+
+00:06:31.289 --> 00:06:35.659
+ but if it was the playground: "chinny reckon". 
+
+00:06:35.659 --> 00:06:37.150
+ Merry Christmas to all. 
+
+00:06:37.150 --> 00:06:38.949
+ One more thing I remembered while I was editing this: 
+
+00:06:38.949 --> 00:06:41.990
+ If you know a gamer on Youtube, a twitter in Twitch, 
+
+00:06:41.990 --> 00:06:43.699
+ which meets these requirements: 
+
+00:06:43.699 --> 00:06:45.289
+ tell him to contact me, 
+
+00:06:45.289 --> 00:06:47.460
+ there is a joint work that I will want to do with them, 
+
+00:06:47.460 --> 00:06:48.379
+ at the beginning of the new year. 
+
+00:06:49.380 --> 00:06:51.380
+ Translated by Iliya Manolov ... 
+

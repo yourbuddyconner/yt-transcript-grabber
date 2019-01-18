@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.030 --> 00:00:02.510 align:start position:0%
+ 
+welcome<00:00:00.599><c> to</c><00:00:00.750><c> the</c><00:00:00.870><c> self-checkout</c><c.colorCCCCCC><00:00:01.650><c> scan</c></c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+welcome to the self-checkout<c.colorCCCCCC> scan
+ </c>
+
+00:00:02.520 --> 00:00:06.670 align:start position:0%
+welcome to the self-checkout<c.colorCCCCCC> scan
+efficiently<00:00:03.360><c> for</c><00:00:03.600><c> bonus</c><00:00:04.049><c> loyalty</c><00:00:04.650><c> points</c><00:00:04.890><c> a</c></c>
+
+00:00:06.670 --> 00:00:06.680 align:start position:0%
+efficiently for bonus loyalty points<c.colorCCCCCC> a
+ </c>
+
+00:00:06.680 --> 00:00:12.070 align:start position:0%
+efficiently for bonus loyalty points<c.colorCCCCCC> a
+diet<00:00:07.680><c> soda</c></c><c.colorE5E5E5><00:00:08.040><c> that's</c><00:00:08.730><c> probably</c><00:00:09.510><c> a</c><00:00:09.630><c> good</c></c><c.colorCCCCCC><00:00:09.840><c> idea</c></c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+diet soda<c.colorE5E5E5> that's probably a good</c><c.colorCCCCCC> idea
+ </c>
+
+00:00:12.080 --> 00:00:14.509 align:start position:0%
+diet soda<c.colorE5E5E5> that's probably a good</c><c.colorCCCCCC> idea
+alright<00:00:13.080><c> team</c><00:00:13.349><c> it's</c><00:00:13.559><c> a</c><00:00:13.620><c> two-minute</c><00:00:13.950><c> game</c><00:00:14.190><c> get</c></c>
+
+00:00:14.509 --> 00:00:14.519 align:start position:0%
+<c.colorCCCCCC>alright team it's a two-minute game get
+ </c>
+
+00:00:14.519 --> 00:00:20.179 align:start position:0%
+<c.colorCCCCCC>alright team it's a two-minute game get
+all<00:00:14.700><c> the</c><00:00:14.849><c> items</c><00:00:15.000><c> in</c><00:00:15.450><c> the</c><00:00:15.660><c> bag</c><00:00:15.690><c> off</c><00:00:16.289><c> you</c><00:00:16.500><c> go</c><00:00:19.189><c> on</c></c>
+
+00:00:20.179 --> 00:00:20.189 align:start position:0%
+all the items<c.colorCCCCCC> in the bag off you go on
+ </c>
+
+00:00:20.189 --> 00:00:27.109 align:start position:0%
+all the items<c.colorCCCCCC> in the bag off you go on</c>
+<c.colorE5E5E5>expected</c><c.colorCCCCCC><00:00:21.060><c> I'm</c><00:00:21.210><c> comin</c></c><c.colorE5E5E5><00:00:21.660><c> up</c><00:00:25.910><c> warning</c></c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+<c.colorE5E5E5>expected</c><c.colorCCCCCC> I'm comin</c><c.colorE5E5E5> up warning
+ </c>
+
+00:00:27.119 --> 00:00:29.330 align:start position:0%
+<c.colorE5E5E5>expected</c><c.colorCCCCCC> I'm comin</c><c.colorE5E5E5> up warning
+staring<00:00:27.630><c> into</c><00:00:27.869><c> the</c><00:00:27.990><c> laser</c><00:00:28.230><c> scanner</c><00:00:28.769><c> may</c><00:00:29.099><c> cause</c></c>
+
+00:00:29.330 --> 00:00:29.340 align:start position:0%
+staring<c.colorE5E5E5> into the laser scanner may cause
+ </c>
+
+00:00:29.340 --> 00:00:33.080 align:start position:0%
+staring<c.colorE5E5E5> into the laser scanner may cause
+data<00:00:29.670><c> that</c><00:00:29.910><c> is</c><00:00:30.150><c> perfectly</c><00:00:30.660><c> safe</c></c>
+

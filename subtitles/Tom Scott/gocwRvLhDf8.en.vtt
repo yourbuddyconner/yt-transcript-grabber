@@ -1,0 +1,289 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:03.120
+ Each YouTube video has a unique ID. 
+
+00:00:03.120 --> 00:00:05.770
+ And it's in the URL: an 11-character string 
+
+00:00:05.770 --> 00:00:08.820
+ that uniquely identifies any video you want. 
+
+00:00:08.820 --> 00:00:12.580
+ Now, YouTube has millions and millions of videos. 
+
+00:00:12.580 --> 00:00:16.460
+ The latest data they have reported say they have 
+
+00:00:16.460 --> 00:00:20.380
+ 400 hours of video coming up every minute. 
+
+00:00:20.380 --> 00:00:23.369
+ So, will there be a time when these IDs are depleted? 
+
+00:00:23.369 --> 00:00:27.240
+ Well, to find out, we must talk about counting systems. 
+
+00:00:27.240 --> 00:00:29.509
+ People count on Base 10. From 0 to 9. 
+
+00:00:29.509 --> 00:00:31.949
+ That will be, hopefully, you will be familiar. 
+
+00:00:31.949 --> 00:00:34.060
+ Computers have 2 base, in binary, 
+
+00:00:34.060 --> 00:00:36.200
+ but this is difficult for humans to read, 
+
+00:00:36.200 --> 00:00:38.900
+ It's too long to write it very and very quickly, 
+
+00:00:38.900 --> 00:00:43.650
+ and for this reason, computers are often shown in base 16, hexadecimal. 
+
+00:00:43.650 --> 00:00:46.340
+ You have 0 to 9, and after the A to the F, 
+
+00:00:46.340 --> 00:00:49.040
+ and then continue adding to the next column. 
+
+00:00:49.040 --> 00:00:50.660
+ Humans can not easily understand it, 
+
+00:00:50.660 --> 00:00:53.400
+ but it is efficient if we have to write it somewhere, 
+
+00:00:53.400 --> 00:00:59.100
+ and 16 - 2 to the power of 4 - it is also easy for computers to understand. 
+
+00:00:59.100 --> 00:01:00.790
+ So what happens with base 64? 
+
+00:01:00.790 --> 00:01:05.360
+ That would be a ridiculous account system, right? Except 
+
+00:01:05.360 --> 00:01:08.000
+ 64 is another of these easy numbers for computers, 
+
+00:01:08.000 --> 00:01:10.370
+ and is 2 at the power of 6. 
+
+00:01:10.370 --> 00:01:12.750
+ And humans can reach 64 very easily: 
+
+00:01:12.750 --> 00:01:15.670
+ 0 to 9, and then the capital letters of A to Z, 
+
+00:01:15.670 --> 00:01:18.770
+ then the minuscule of the 'a' to the 'z', and two more characters. 
+
+00:01:18.770 --> 00:01:20.850
+ Most of the base 64 uses the bar and the plus sign, 
+
+00:01:20.850 --> 00:01:22.810
+ but they do not work so well in URLs, 
+
+00:01:22.810 --> 00:01:25.830
+ and for that reason YouTube uses scripts and underscores. 
+
+00:01:25.830 --> 00:01:28.090
+ And that YouTube URL, that unique ID, 
+
+00:01:28.090 --> 00:01:32.270
+ It's really just a random number in base 64. 
+
+00:01:32.270 --> 00:01:34.370
+ And they could have chosen base 10 or base 16, 
+
+00:01:34.370 --> 00:01:36.200
+ but they did not do it: they chose base 64, 
+
+00:01:36.200 --> 00:01:40.520
+ since it allows you to place a huge number in a small space 
+
+00:01:40.520 --> 00:01:43.090
+ and still make it readable to humans. 
+
+00:01:43.090 --> 00:01:45.840
+ The author and programmer Sam Hughes, by the way, 
+
+00:01:45.840 --> 00:01:51.210
+ pushed it to the limit, and invented Base 65536, 
+
+00:01:51.210 --> 00:01:54.740
+ which basically includes all the characters of all languages. 
+
+00:01:54.740 --> 00:01:56.960
+ This is ridiculous and unnecessary, 
+
+00:01:56.960 --> 00:01:59.570
+ But since that could stop the programmers? 
+
+00:01:59.570 --> 00:02:04.659
+ So, why did YouTube start counting from 1 and go up? 
+
+00:02:04.659 --> 00:02:07.780
+ Well, in the first place, they should synchronize their count 
+
+00:02:07.780 --> 00:02:11.370
+ Among all the servers that handle the video loads 
+
+00:02:11.370 --> 00:02:14.400
+ or they should assign a block of names to each server. 
+
+00:02:14.400 --> 00:02:16.680
+ Either way, there is a lot of tracking to do, 
+
+00:02:16.680 --> 00:02:18.740
+ And much to make sure it's never doubled. 
+
+00:02:18.740 --> 00:02:21.690
+ Instead, they only generate a random number for each video, 
+
+00:02:21.690 --> 00:02:24.590
+ look at it if it has already been taken, and if not, it is used. 
+
+00:02:24.590 --> 00:02:28.090
+ And secondly, this is a very, very bad idea 
+
+00:02:28.090 --> 00:02:32.390
+ to count only 1, 2, 3 and so on in URLs. 
+
+00:02:32.390 --> 00:02:35.550
+ Incremental counters, as they are called, can be a great security problem: 
+
+00:02:35.550 --> 00:02:39.510
+ If you see video 283 up there, then you might ask: 
+
+00:02:39.510 --> 00:02:42.260
+ What is video 284? And video 282? 
+
+00:02:42.260 --> 00:02:43.990
+ And it is easy to enumerate, as it is called, 
+
+00:02:43.990 --> 00:02:46.520
+ to review the entire list. 
+
+00:02:46.520 --> 00:02:49.420
+ Hidden YouTube videos, those that do not appear publicly 
+
+00:02:49.420 --> 00:02:52.450
+ But the link can be sent to people, they could not work. 
+
+00:02:52.450 --> 00:02:57.970
+ And by the way. Lots of poorly designed web pages use incremental counters. 
+
+00:02:57.970 --> 00:03:00.550
+ And it's a terrible idea. 
+
+00:03:00.550 --> 00:03:03.569
+ And I could tell the competitors exactly how many customers you have, 
+
+00:03:03.569 --> 00:03:04.880
+ because he only has to count them. 
+
+00:03:04.880 --> 00:03:07.750
+ I could let people download all your records easily, 
+
+00:03:07.750 --> 00:03:08.810
+ because they can be reviewed. 
+
+00:03:08.810 --> 00:03:12.920
+ And on a webpage someone from Florida has sent me this week, 
+
+00:03:12.920 --> 00:03:16.520
+ It allows you to look at the personal data of other people. 
+
+00:03:16.520 --> 00:03:21.380
+ Do not use incremental counters if you are building a website. Use a random number. 
+
+00:03:21.380 --> 00:03:22.930
+ And that leads me to the question: 
+
+00:03:22.930 --> 00:03:26.260
+ how big are the numbers that YouTube uses? 
+
+00:03:26.260 --> 00:03:28.310
+ Well, let's calculate it. 
+
+00:03:28.310 --> 00:03:32.310
+ One of the characters in base 64 allows you to have 64 identification numbers. 
+
+00:03:32.310 --> 00:03:37.569
+ Two characters This is 64 for 64, or 4,096. 
+
+00:03:37.569 --> 00:03:42.610
+ Three characters 64 for 64 for 64 or 64 for the power of 3. 
+
+00:03:42.610 --> 00:03:45.560
+ And that is already more than a quarter of a million. 
+
+00:03:45.560 --> 00:03:50.590
+ And if we go to 4? Well, now we are over 16 million. 
+
+00:03:50.590 --> 00:03:53.980
+ If you use base 64, you can assign an identification number 
+
+00:03:53.980 --> 00:03:57.410
+ to all those who live in London there down twice, 
+
+00:03:57.410 --> 00:04:00.489
+ and all you need are four characters. 
+
+00:04:00.489 --> 00:04:02.950
+ This is done very quickly. We can continue doing this, 
+
+00:04:02.950 --> 00:04:06.660
+ And with seven characters we already have four billion. 
+
+00:04:06.660 --> 00:04:10.300
+ Now, it assumes that YouTube checks through a dictionary, 
+
+00:04:10.300 --> 00:04:13.660
+ and does not allow real words to appear up there - 
+
+00:04:13.660 --> 00:04:15.250
+ especially nothing rude. 
+
+00:04:15.250 --> 00:04:18.669
+ But this will be a small minority of URLs, 
+
+00:04:18.669 --> 00:04:22.069
+ and for our purposes, we can more or less just ignore it. 
+
+00:04:22.069 --> 00:04:27.169
+ With 11 characters on YouTube, we have 73 trillions of 786 quadriles 
+
+00:04:27.169 --> 00:04:30.589
+ 976 billion 294 billion 838 million 
+
+00:04:30.589 --> 00:04:32.479
+ 206 thousand and 464 videos. 
+
+00:04:32.479 --> 00:04:35.669
+ This is enough for all human beings on planet earth 
+
+00:04:35.669 --> 00:04:41.629
+ They upload a video every minute for about 18,000 years. 
+
+00:04:41.629 --> 00:04:42.599
+ And YouTube planned ahead of time. 
+
+00:04:42.599 --> 00:04:45.889
+ Can they run out of URLs? Technically, yes. 
+
+00:04:45.889 --> 00:04:49.969
+ Practically No. What if they did? 
+
+00:04:49.969 --> 00:04:52.559
+ They just added another character. 
+
+00:04:53.640 --> 00:04:56.180
+ [Translated by Anna MacGrath] 
+
+00:04:57.320 --> 00:05:02.960
+ Ha! A dam! A dam! If! 
+

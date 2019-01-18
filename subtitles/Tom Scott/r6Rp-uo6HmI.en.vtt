@@ -1,0 +1,265 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.070 --> 00:00:04.760
+ Have you noticed that videos that contain falling snow and paper clips celebrate it look bad? 
+
+00:00:04.760 --> 00:00:07.370
+ At one point there are volatile things in the air inside the video, 
+
+00:00:07.370 --> 00:00:10.280
+ The quality of the video you see is suddenly deteriorating. 
+
+00:00:10.280 --> 00:00:13.639
+ You can notice this speech in this stunning clip that has been throwing 200 kilos of scraps of paper 
+
+00:00:13.639 --> 00:00:16.580
+ In the song Ed Sheeran in the program X-Factor British 
+
+00:00:16.580 --> 00:00:21.810
+ Ok, if you know and understand the techniques of compressing videos you can go and watch another video. 
+
+00:00:21.810 --> 00:00:23.720
+ You are the only one who does not know the pressure: let's talk about the frequency of bits. 
+
+00:00:23.720 --> 00:00:27.359
+ By the way if this is not clear, I am not in Norway. 
+
+00:00:27.359 --> 00:00:30.640
+ I could have looked for real snow or bought a load of holiday scraps, 
+
+00:00:30.640 --> 00:00:33.960
+ But this way I can do my experiments using the controlled digital effects. 
+
+00:00:33.960 --> 00:00:38.190
+ Plus I will not need to clean anything after testing. 
+
+00:00:38.190 --> 00:00:40.600
+ Ok, to sum up the problem with one sentence: 
+
+00:00:40.600 --> 00:00:44.120
+ There are only a lot of units and expanse (mean 1.0 binary digital counting system) 
+
+00:00:44.120 --> 00:00:48.180
+ In the days of traditional televisions, the videos were not compressed. 
+
+00:00:48.180 --> 00:00:49.899
+ The principle of her work was: the camera reads and clears the signal, 
+
+00:00:49.899 --> 00:00:51.170
+ Then they are transported via air, 
+
+00:00:51.170 --> 00:00:53.260
+ Your TV was showing the signal again. 
+
+00:00:53.260 --> 00:00:54.969
+ And yes yes, it was standard 
+
+00:00:54.969 --> 00:00:59.039
+ But everything and every detail the camera picks up is brought to you and displayed by your TV. 
+
+00:00:59.039 --> 00:01:01.660
+ This is quite a thing since the number of television stations then was limited and limited 
+
+00:01:01.660 --> 00:01:04.570
+ Literally they were transported through the air. 
+
+00:01:04.570 --> 00:01:06.920
+ This waste and waste is not necessary 
+
+00:01:06.920 --> 00:01:09.450
+ The reason why a digital TV has a large number of channels and stations, 
+
+00:01:09.450 --> 00:01:11.780
+ The reason why online videos are already working, 
+
+00:01:11.780 --> 00:01:13.830
+ Is pressure. 
+
+00:01:13.830 --> 00:01:18.000
+ If you try to move every pixel in HD video with perfect quality, 
+
+00:01:18.000 --> 00:01:22.850
+ You will need a speed of up to 1 gigabyte per second via a cable, 
+
+00:01:22.850 --> 00:01:27.570
+ This super speed exceeds the rate of 100 combined US broadband connection, 
+
+00:01:27.570 --> 00:01:31.170
+ Or more than 50 times the rate of North Korean broadband connection combined. 
+
+00:01:31.170 --> 00:01:35.810
+ So if you want YouTube to work: the amount of data and bitrate, 
+
+00:01:35.810 --> 00:01:38.110
+ Should be reduced. 
+
+00:01:38.110 --> 00:01:40.970
+ The first step is normal, normal pressure of images. 
+
+00:01:40.970 --> 00:01:43.420
+ All images published on the Internet are compressed, 
+
+00:01:43.420 --> 00:01:47.430
+ The basis of this pressure is by getting rid of small details that most likely will not notice the eye's absence. 
+
+00:01:47.430 --> 00:01:50.210
+ At least they will not be observed unless they are filmed and republished 
+
+00:01:50.210 --> 00:01:53.680
+ Twenty times by twenty users in Instagram !. 
+
+00:01:53.680 --> 00:01:56.799
+ You can take every frame in the video 
+
+00:01:56.799 --> 00:01:58.950
+ Then apply this pressure mechanism to all of them. 
+
+00:01:58.950 --> 00:02:01.630
+ The second step is compressing overlapping video frames. 
+
+00:02:01.630 --> 00:02:04.520
+ Unless there is a big change in the scene, what is the need for a full frame storage? 
+
+00:02:04.520 --> 00:02:06.950
+ As long as the changes can be stored alone only between the tires? 
+
+00:02:06.950 --> 00:02:09.750
+ In the end I speak and background simple and ordinary background, 
+
+00:02:09.750 --> 00:02:12.710
+ Therefore, it is not necessary to send new background data at a time. 
+
+00:02:12.710 --> 00:02:15.740
+ All you have to do is tell the video player to replay what was already 
+
+00:02:15.740 --> 00:02:17.860
+ Or if I move a little and I speak, 
+
+00:02:17.860 --> 00:02:21.220
+ Just tell the operator to move the pixel set slightly to the right, 
+
+00:02:21.220 --> 00:02:24.240
+ There are some changes in color here and there. 
+
+00:02:24.240 --> 00:02:26.890
+ This is a way to reduce a video that needs 1 gigabyte per second 
+
+00:02:26.890 --> 00:02:28.870
+ To something you can run on your phone: 
+
+00:02:28.870 --> 00:02:30.500
+ It's all maths and numbers. Lots of math. 
+
+00:02:30.500 --> 00:02:33.520
+ But I think the explanation of using Idealism is better: 
+
+00:02:33.520 --> 00:02:35.660
+ I will lower the bitrate for this video, 
+
+00:02:35.660 --> 00:02:39.010
+ Ie the number of zeros and units per second used in video encoding. 
+
+00:02:39.010 --> 00:02:41.860
+ And yes True YouTube will play this rate after I upload it to the site, 
+
+00:02:41.860 --> 00:02:44.010
+ But can not return any details to the section 
+
+00:02:44.010 --> 00:02:47.340
+ So even if you're watching the video at the best possible quality, 
+
+00:02:47.340 --> 00:02:49.870
+ What you see now remains a limited version. 
+
+00:02:49.870 --> 00:02:51.980
+ This rate is 200 Kbps, 
+
+00:02:51.980 --> 00:02:54.810
+ Two hundred thousand and one zero flow through the wire every second. 
+
+00:02:54.810 --> 00:02:56.730
+ Do not show bad and bad using modern methods in coding, 
+
+00:02:56.730 --> 00:03:00.810
+ Maybe some details of my face or my hair or the movements of my hand, 
+
+00:03:00.810 --> 00:03:04.080
+ Yet you can still see what is going on. 
+
+00:03:04.080 --> 00:03:06.110
+ But now let's put a little snow. 
+
+00:03:06.110 --> 00:03:10.660
+ Suddenly, these bits were not exploited and all consumed on me. 
+
+00:03:10.660 --> 00:03:13.340
+ Instead they are exploited and consumed to track volatile objects around me. 
+
+00:03:13.340 --> 00:03:16.100
+ These volatile things are chaotic and continue to change direction, it is complicated, 
+
+00:03:16.100 --> 00:03:18.930
+ So moving these pixels here will not work 
+
+00:03:18.930 --> 00:03:21.480
+ Let's put the holiday clips, too, this time around. 
+
+00:03:21.480 --> 00:03:23.360
+ Here we are, everything started to crumble 
+
+00:03:23.360 --> 00:03:25.500
+ The more objects that move in the frame, 
+
+00:03:25.500 --> 00:03:26.510
+ More clips 
+
+00:03:26.510 --> 00:03:29.370
+ This led to the spread and dissipation of these two hundred thousand bits 
+
+00:03:29.370 --> 00:03:30.670
+ More clips! 
+
+00:03:30.670 --> 00:03:34.480
+ No matter how the encoder tried to improve the details of faces and degree of skin, 
+
+00:03:34.480 --> 00:03:38.600
+ It can not because there are no spare batches. More clips! More snow! 
+
+00:03:38.600 --> 00:03:40.560
+ Now even if you raise the bitrate, 
+
+00:03:40.560 --> 00:03:42.430
+ And raised the quality to the best possible, 
+
+00:03:42.430 --> 00:03:44.350
+ However, it will not be clear now. 
+
+00:03:44.350 --> 00:03:48.260
+ Do not know why I scream! I'll add the sound of the wind later. 
+
+00:03:48.260 --> 00:03:52.590
+ Actually it's not about the clips themselves. But on the movement. 
+
+00:03:52.590 --> 00:03:54.370
+ If we freeze all these things in the air, 
+
+00:03:54.370 --> 00:03:57.010
+ We made it a background: 
+
+00:03:57.010 --> 00:03:58.620
+ During the following seconds, 
+
+00:03:58.620 --> 00:04:01.850
+ The quality of the video will return. 
+
+00:04:01.850 --> 00:04:05.990
+ This is why the image is cluttered when your favorite team wins and the holiday scraps are thrown! 
+
+00:04:05.990 --> 00:04:08.830
+ Literally, videos are no longer as I used to. 
+
+00:04:10.900 --> 00:04:12.900
+ Translation: Fares Shehadeh 
+

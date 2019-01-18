@@ -1,0 +1,235 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.110 --> 00:00:03.739
+ If you are on hold at a company. and they play music over the line, 
+
+00:00:03.739 --> 00:00:08.260
+ then chances are that it sounds bad - and sometimes there is even noise. 
+
+00:00:08.260 --> 00:00:11.610
+ Telephone signals are not made to send music through, and to explain why ... 
+
+00:00:11.610 --> 00:00:15.539
+ we have to go far back in time, to a period with telephone equipment like this. 
+
+00:00:15.539 --> 00:00:19.210
+ The first telephone calls were connected by a human operator ... 
+
+00:00:19.210 --> 00:00:22.500
+ that literally connected the two telephone wires to one circuit ... 
+
+00:00:22.500 --> 00:00:24.350
+ to a large plate full of switches. 
+
+00:00:24.350 --> 00:00:25.730
+ Also called "switchboard". 
+
+00:00:25.730 --> 00:00:29.270
+ Every sound on the one hand, be it speech, music or whatever, 
+
+00:00:29.270 --> 00:00:33.660
+ was converted into an electrical signal, sent through the wire, 
+
+00:00:33.660 --> 00:00:35.750
+ and converted back on the other side. 
+
+00:00:35.750 --> 00:00:37.270
+ When you send music, you get music - 
+
+00:00:37.270 --> 00:00:41.150
+ although this was limited by the possibilities of the tiny microphone and loudspeaker. 
+
+00:00:41.150 --> 00:00:44.980
+ But telephone exchanges like this only work for a small number of connections. 
+
+00:00:44.980 --> 00:00:47.630
+ Because of course you can not do this for every telephone call. 
+
+00:00:47.630 --> 00:00:48.720
+ [TELEPHONE IS OVER] 
+
+00:00:48.720 --> 00:00:50.470
+ Telephone companies quickly realized that they could save 
+
+00:00:50.470 --> 00:00:55.000
+ on installing thousands of cables between the power plants, miles apart, 
+
+00:00:55.000 --> 00:00:59.500
+ if they could send several calls simultaneously through a thread. 
+
+00:00:59.500 --> 00:01:03.210
+ So instead of transmitting every frequency of the sound in the original signal, 
+
+00:01:03.210 --> 00:01:05.570
+ cut off the high and low frequencies, 
+
+00:01:05.570 --> 00:01:09.250
+ the frequencies that are not strictly necessary to understand speech, 
+
+00:01:09.250 --> 00:01:12.850
+ and they shifted each call to a different frequency range. 
+
+00:01:12.850 --> 00:01:15.720
+ On the other hand, like tuning a radio, 
+
+00:01:15.720 --> 00:01:19.640
+ they moved each conversation back to the right frequencies so that you could understand it. 
+
+00:01:19.640 --> 00:01:23.619
+ The quality was not great, but it was good enough. 
+
+00:01:23.619 --> 00:01:25.800
+ And hey, we got cheap long-distance calling. 
+
+00:01:25.800 --> 00:01:27.400
+ We got used to the sound quality of the phone. 
+
+00:01:27.400 --> 00:01:28.500
+ [MACHINE CLICKS] 
+
+00:01:28.500 --> 00:01:30.220
+ And it became the standard. 
+
+00:01:30.229 --> 00:01:33.740
+ So anyway [TELEPHONE GOES OVER] music would not sound that good, 
+
+00:01:33.740 --> 00:01:36.130
+ with all high and low frequencies cut off. 
+
+00:01:36.130 --> 00:01:38.320
+ But as long as we still call through analog circuits, 
+
+00:01:38.320 --> 00:01:39.360
+ [MACHINE SPRING BACK] 
+
+00:01:39.360 --> 00:01:40.970
+ it would not sound like noise. 
+
+00:01:40.970 --> 00:01:44.369
+ That was the problem of computers. 
+
+00:01:44.369 --> 00:01:48.550
+ Telephone companies realized that they could send more calls through the same cable, 
+
+00:01:48.550 --> 00:01:50.759
+ or in the same airspace via a mobile network, 
+
+00:01:50.759 --> 00:01:53.159
+ if they used computers to compress the audio. 
+
+00:01:53.159 --> 00:01:55.480
+ And the more they compressed it, 
+
+00:01:55.480 --> 00:01:57.439
+ the more calls they could send simultaneously through one cable, 
+
+00:01:57.439 --> 00:01:59.600
+ and the cheaper it was for them. 
+
+00:01:59.600 --> 00:02:02.369
+ Today there is enough power in almost all phones ... 
+
+00:02:02.369 --> 00:02:07.030
+ to compress 4K video directly, but then, not really yet. 
+
+00:02:07.030 --> 00:02:10.190
+ MP3s had just been invented, and these phones did not have enough power 
+
+00:02:10.190 --> 00:02:11.620
+ to compress even that. 
+
+00:02:11.620 --> 00:02:15.770
+ To this day, the standards for telephony are based on fast and simple compression ... 
+
+00:02:15.770 --> 00:02:19.000
+ built years ago, made to work with very little computing power, 
+
+00:02:19.000 --> 00:02:20.870
+ and is optimized for speech. 
+
+00:02:20.870 --> 00:02:24.290
+ That compression is great in compressing a single, clear voice - 
+
+00:02:24.290 --> 00:02:27.150
+ but throw a lot of difficult music against it, with all its instruments, 
+
+00:02:27.150 --> 00:02:29.470
+ [COMPRESSED MUSIC] ... and it sounds bad. 
+
+00:02:29.470 --> 00:02:31.730
+ But not bad enough to completely change into noise. 
+
+00:02:31.730 --> 00:02:33.659
+ There remains one more puzzle piece. 
+
+00:02:33.659 --> 00:02:34.709
+ Someone else who runs away from it. 
+
+00:02:34.709 --> 00:02:38.130
+ Because in the worst case, that waiting music is not only compressed ... 
+
+00:02:38.130 --> 00:02:40.560
+ by the telephone company on your way to you, 
+
+00:02:40.560 --> 00:02:44.120
+ but is it already compressed by a totally different system 
+
+00:02:44.120 --> 00:02:47.900
+ while your call is jumping around within the company's internal telephone network. 
+
+00:02:47.900 --> 00:02:52.250
+ An internal telephone network that is probably built by the lowest bidder. 
+
+00:02:52.250 --> 00:02:55.400
+ So the telephone company takes that cut signal 
+
+00:02:55.400 --> 00:02:58.620
+ and cut it yourself in another way, before sending it to you. 
+
+00:02:58.620 --> 00:03:00.349
+ And in a very badly built system, 
+
+00:03:00.349 --> 00:03:03.720
+ is there perhaps a whole third layer of horrendous compression ... 
+
+00:03:03.720 --> 00:03:05.959
+ from the company that runs the call center ... 
+
+00:03:05.959 --> 00:03:08.070
+ that you're actually calling with, in some distant country. 
+
+00:03:08.070 --> 00:03:11.080
+ [MUSIC BEGINS TO PLAY] Speech can survive this necklace ... 
+
+00:03:11.080 --> 00:03:12.530
+ but music ... 
+
+00:03:12.530 --> 00:03:16.080
+ [MUSIC CHANGES IN NOISE] ... music can not! 
+
+00:03:16.880 --> 00:03:19.950
+ Thank you very much to the team at the Milton Keynes Museum 
+
+00:03:19.950 --> 00:03:21.440
+ and their Connected Earth exhibition, 
+
+00:03:21.440 --> 00:03:23.660
+ where as good as all this connection equipment 
+
+00:03:23.660 --> 00:03:25.830
+ free to use and play with. 
+
+00:03:25.830 --> 00:03:29.160
+ Look in the description for more information about this. 
+
+00:03:30.700 --> 00:03:32.380
+ This is not TARDIS. 
+
+00:03:32.380 --> 00:03:34.680
+ This is really just a police telephone booth. 
+
+00:03:34.680 --> 00:03:36.680
+ NL translation by hrnbouma 
+

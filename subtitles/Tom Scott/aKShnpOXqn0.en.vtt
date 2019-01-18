@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.099 --> 00:00:04.310
+ There is a new security bug in the news called "Shellshock". Everyone seems a bit panicked, 
+
+00:00:04.310 --> 00:00:09.720
+ but it turns out that no tech journalist tries to explain it 
+
+00:00:09.720 --> 00:00:17.700
+ to the public. This is quite logical as it is quite complicated. 
+
+00:00:17.700 --> 00:00:20.730
+ I will try. 
+
+00:00:20.730 --> 00:00:23.630
+ There was once a command prompt. 
+
+00:00:23.630 --> 00:00:29.039
+ The command prompt is a way to give a computer commands via text instead of clicking 
+
+00:00:29.039 --> 00:00:34.760
+ or tap. You can see it as a conversation with your computer. 
+
+00:00:34.760 --> 00:00:39.679
+ So I can type commands such as "move this file here", "shows which programs are active 
+
+00:00:39.679 --> 00:00:46.010
+ are "or" change my password "and then the computer will do this. Of course it is very explicit 
+
+00:00:46.010 --> 00:00:51.030
+ and there are a number of safeguards built in, but remember that the command 
+
+00:00:51.030 --> 00:00:57.909
+ for "removing everything on the computer - yes, I'm sure" 
+
+00:00:57.909 --> 00:00:59.799
+ but eight characters long. 
+
+00:00:59.799 --> 00:01:04.750
+ And it is not just a question-and-answer thing. You can write programs with this. You can 
+
+00:01:04.750 --> 00:01:10.770
+ use variables. For example, you could say: "remember: if I type X later, I mean 
+
+00:01:10.770 --> 00:01:14.780
+ this long and complicated thing that I put in quotes because I do not 
+
+00:01:14.780 --> 00:01:20.030
+ a hundred times want to re-type, okay? ", then it says" okay "and then you can later 
+
+00:01:20.030 --> 00:01:21.990
+ X types. 
+
+00:01:21.990 --> 00:01:27.219
+ That is where the bug is! Everything between the quotation marks on the screen should be treated 
+
+00:01:27.219 --> 00:01:32.939
+ as a simple text and never, but never, as an assignment. That way you can do things 
+
+00:01:32.939 --> 00:01:37.219
+ to send to the outside world without being afraid that it will cause damage. It will simply be treated as text. 
+
+00:01:37.219 --> 00:01:42.670
+ But in one of the most popular command-line interfaces available, "Bash", if you have one 
+
+00:01:42.670 --> 00:01:47.469
+ certain string at the beginning of a variable move, then Bash does not know it anymore and it will be the string 
+
+00:01:47.469 --> 00:01:49.409
+ treat as an assignment. 
+
+00:01:49.409 --> 00:01:53.890
+ Okay, that's a bug, but if you need someone to type it in physically, then 
+
+00:01:53.890 --> 00:01:56.049
+ that is not exactly the best exploit in the world. 
+
+00:01:56.049 --> 00:01:59.890
+ The problem is: nobody needs to type it in physically. 
+
+00:01:59.890 --> 00:02:04.729
+ Because the command prompt is also a way for different programs to talk to each other. 
+
+00:02:04.729 --> 00:02:10.570
+ Unix, the operating system that runs on a lot of modern servers, 
+
+00:02:10.570 --> 00:02:15.630
+ is based on the idea that - instead of continuously rewriting code - that programs 
+
+00:02:15.630 --> 00:02:20.630
+ other, simpler programs can ask. If you are in a file 
+
+00:02:20.630 --> 00:02:25.040
+ To search for words, you do not have to write a code for that, because that has already been done for you and 
+
+00:02:25.040 --> 00:02:30.390
+ probably better. Your program silently uses the command prompt in the background and 
+
+00:02:30.390 --> 00:02:35.560
+ the output is returned, silently in the background. Never appears on the screen, never 
+
+00:02:35.560 --> 00:02:40.160
+ with text, but it is all treated with the same shell, normally Bash. 
+
+00:02:40.160 --> 00:02:45.400
+ Do you see where I want to go? Because the program that you send web pages will 
+
+00:02:45.400 --> 00:02:50.450
+ sometimes use the Bash command prompt to talk to other small programs. Badly written 
+
+00:02:50.450 --> 00:02:55.290
+ webapps - probably written in PHP, my favorite - will be the 
+
+00:02:55.290 --> 00:03:00.390
+ sometimes use command prompt and that is a bad way, but they do that. And "embedded systems", things like 
+
+00:03:00.390 --> 00:03:06.410
+ routers or smart-home devices ... they may use Bash 
+
+00:03:06.410 --> 00:03:12.170
+ because they rely on safety. But as the input of the world, the things of random 
+
+00:03:12.170 --> 00:03:17.080
+ Internet users that they send to you, if that is maliciously made with 
+
+00:03:17.080 --> 00:03:23.040
+ that special string ... Oh jee. Every person on the internet would suddenly 
+
+00:03:23.040 --> 00:03:27.770
+ be able to run dangerous jobs on your web servers. Then you have 
+
+00:03:27.770 --> 00:03:34.250
+ "Remote Code Execution". Or you are owned. Probably with a zero, because it is the internet. You can 
+
+00:03:34.250 --> 00:03:38.490
+ there are very likely servers crashing, you can also do much more damage. If 
+
+00:03:38.490 --> 00:03:42.760
+ this video is online, I would not be surprised if someone had a smart, 
+
+00:03:42.760 --> 00:03:46.950
+ self-duplicating attack has made the world go round and copy itself. 
+
+00:03:46.950 --> 00:03:53.640
+ And the very bad news: that bug was, unnoticed, in Bash for about 25 years. 
+
+00:03:53.640 --> 00:03:57.750
+ So a lot has to be patched. 
+
+00:03:57.750 --> 00:04:02.450
+ That is how it works. The conclusion for the end user? Make sure your computer 
+
+00:04:02.450 --> 00:04:06.940
+ and all your servers are up-to-date with patches and security updates. There is not much that you can do 
+
+00:04:06.940 --> 00:04:11.280
+ do against these bugs, but you can stay up-to-date. And the people who write code 
+
+00:04:11.280 --> 00:04:15.230
+ that is executed deeply, or code that can be affected by this, 
+
+00:04:15.230 --> 00:04:20.250
+ the only thing I can say is: I hope you have safety tips 
+
+00:04:20.250 --> 00:04:21.599
+ not from a guy on YouTube. 
+
+00:04:22.500 --> 00:04:24.500
+ Translation / Translation: (an anonymous YouTuber) 
+

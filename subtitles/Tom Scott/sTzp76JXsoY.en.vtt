@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.380
+ Let's say your team just won a World Cup match. 
+
+00:00:03.740 --> 00:00:06.200
+ Unlikely if you are English, I understand, but let's say you are French 
+
+00:00:06.200 --> 00:00:09.600
+ and just beat the Swiss and you feel patriotic. 
+
+00:00:09.960 --> 00:00:14.040
+ You open your phone, you go to your Twitter app, which gives you 140 characters 
+
+00:00:14.140 --> 00:00:15.980
+ and the first thing you do is swipe through the keyboard, 
+
+00:00:16.100 --> 00:00:19.960
+ you swipe through the emojis on your phone until you find the French flag. 
+
+00:00:20.100 --> 00:00:23.920
+ And then you press the button and he probably gives you a nice, wavy flag here 
+
+00:00:24.100 --> 00:00:27.160
+ and of course it helps a bit that the French flag is fairly easy to draw 
+
+00:00:27.280 --> 00:00:29.420
+ compared to the British flag. That's it. 
+
+00:00:29.600 --> 00:00:38.000
+ But once you've done that, one flag is entered, your number of characters will change directly to 138. 
+
+00:00:38.660 --> 00:00:41.940
+ Why does that happen? You only entered one flag there 
+
+00:00:42.100 --> 00:00:46.100
+ and you can enter even more complex characters. Emojis, generally 
+
+00:00:46.300 --> 00:00:49.020
+ are very very long when it comes to binary representation, 
+
+00:00:49.020 --> 00:00:51.280
+ but they count as one character. 
+
+00:00:51.280 --> 00:00:58.300
+ Type an A, one character. A very complex emoji smiley, one character. 
+
+00:00:58.300 --> 00:01:00.000
+ Why does the flag cost two characters? 
+
+00:01:00.000 --> 00:01:03.300
+ The reason has to do with the Unicode Consortium. 
+
+00:01:03.300 --> 00:01:09.960
+ They are the people who decide what goes in Unicode and they are the reason that you have 250 new emojis. 
+
+00:01:10.300 --> 00:01:15.020
+ But they do not want to put flags in Unicode because flags change very often. 
+
+00:01:15.020 --> 00:01:20.820
+ In the last decade more countries have been added, countries have been changed by military coups 
+
+00:01:20.820 --> 00:01:23.280
+ or because the citizens revolted and so they have changed their flags. 
+
+00:01:23.600 --> 00:01:29.260
+ And Unicode does not want to deal with that, so instead they have made something 
+
+00:01:29.260 --> 00:01:34.100
+ called 'Regional Indicator symbols' 
+
+00:01:34.600 --> 00:01:37.180
+ Yes, I can write fine on a whiteboard. That's it. 
+
+00:01:37.180 --> 00:01:38.600
+ Regional indicator symbols. 
+
+00:01:38.760 --> 00:01:43.980
+ And what they are are characters that are simply A to Z. 
+
+00:01:43.980 --> 00:01:47.340
+ with dots around it. That is the official representation. 
+
+00:01:48.520 --> 00:01:51.540
+ And what that button does, what that French flag does, 
+
+00:01:51.540 --> 00:01:54.260
+ is that he does not type in a French flag. 
+
+00:01:54.520 --> 00:01:57.460
+ In reality, he types in, behind the scenes, 
+
+00:01:57.460 --> 00:01:59.660
+ what anyone who does not have the French flag as a picture will see, 
+
+00:02:00.600 --> 00:02:03.420
+ an F and an R. 
+
+00:02:03.420 --> 00:02:04.040
+ Fr. 
+
+00:02:04.260 --> 00:02:07.280
+ That is the code for France, French sites also end on .fr. 
+
+00:02:07.280 --> 00:02:12.560
+ That code is what all programs that do not support the French flag see. 
+
+00:02:12.560 --> 00:02:15.920
+ The iPhone supports him. Android supports him in most cases. 
+
+00:02:15.920 --> 00:02:18.980
+ I think modern versions of Windows still support him. 
+
+00:02:18.980 --> 00:02:21.760
+ He takes those two characters and says 'oh, you mean the French flag!' 
+
+00:02:23.180 --> 00:02:26.940
+ He puts them together, 'lies' to you and shows you only one character. 
+
+00:02:28.160 --> 00:02:32.300
+ But the number of characters you have left is not, because Twitter sees them as two characters 
+
+00:02:32.300 --> 00:02:34.820
+ because they actually are, they count as two 
+
+00:02:35.040 --> 00:02:37.040
+ and your number goes down. 
+
+00:02:37.040 --> 00:02:42.540
+ So that's it. Two characters, joined together as one, form the French flag. 
+
+00:02:42.720 --> 00:02:48.060
+ It's that simple: that's why it takes two characters to make an emoji flag and not one. 
+
+00:02:48.520 --> 00:02:52.560
+ And if that was pretty interesting, then I have a much longer video about what counts as a character 
+
+00:02:52.560 --> 00:02:58.780
+ in my own language series and soon there will be an upload about emojis and their history here. 
+
+00:02:59.140 --> 00:03:01.140
+ In the meantime, this is why two characters for a flag are needed 
+
+00:03:01.140 --> 00:03:03.740
+ and that is something you may not have known. 
+
+00:03:07.980 --> 00:03:10.400
+ This really does not happen. 
+
+00:03:10.400 --> 00:03:12.220
+ Is this not a whiteboard paint? 
+
+00:03:13.080 --> 00:03:15.660
+ This is just a wall, I have drawn on the wall 
+
+00:03:16.080 --> 00:03:17.340
+ [Translation by Alexander] 
+

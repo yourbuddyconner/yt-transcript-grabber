@@ -1,0 +1,430 @@
+WEBVTT
+Kind: captions
+Language: en
+Style:
+::cue(c.colorCCCCCC) { color: rgb(204,204,204);
+ }
+::cue(c.colorE5E5E5) { color: rgb(229,229,229);
+ }
+##
+
+00:00:00.030 --> 00:00:02.750 align:start position:0%
+ 
+I<00:00:00.060><c> am</c><00:00:00.329><c> with</c><c.colorE5E5E5><00:00:00.599><c> Simon</c><00:00:01.230><c> Willison</c><00:00:01.760><c> Zeppelin</c></c>
+
+00:00:02.750 --> 00:00:02.760 align:start position:0%
+I am with<c.colorE5E5E5> Simon Willison Zeppelin
+ </c>
+
+00:00:02.760 --> 00:00:08.150 align:start position:0%
+I am with<c.colorE5E5E5> Simon Willison Zeppelin</c>
+<c.colorCCCCCC>experts<00:00:03.419><c> hello</c><00:00:06.109><c> Simon</c><00:00:07.109><c> Thompson</c><00:00:07.560><c> it</c><00:00:07.919><c> up</c><00:00:08.040><c> now</c></c>
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+<c.colorCCCCCC>experts hello Simon Thompson it up now
+ </c>
+
+00:00:08.160 --> 00:00:12.799 align:start position:0%
+<c.colorCCCCCC>experts hello Simon Thompson it up now
+so</c><c.colorE5E5E5><00:00:08.970><c> in</c><00:00:09.920><c> 1910</c><00:00:10.920><c> the</c><00:00:11.280><c> airship</c><00:00:11.730><c> America</c><00:00:12.360><c> made</c><00:00:12.630><c> the</c></c>
+
+00:00:12.799 --> 00:00:12.809 align:start position:0%
+so<c.colorE5E5E5> in 1910 the airship America made the
+ </c>
+
+00:00:12.809 --> 00:00:16.160 align:start position:0%
+so<c.colorE5E5E5> in 1910 the airship America made the
+first<00:00:13.139><c> ever</c><00:00:13.410><c> attempt</c><00:00:14.009><c> at</c><00:00:14.340><c> a</c><00:00:14.759><c> cross</c><00:00:15.450><c> Atlantic</c></c>
+
+00:00:16.160 --> 00:00:16.170 align:start position:0%
+first ever attempt at a cross Atlantic
+ 
+
+00:00:16.170 --> 00:00:18.920 align:start position:0%
+first ever attempt at a cross Atlantic
+<c.colorE5E5E5>crossing</c><c.colorCCCCCC><00:00:16.710><c> and</c><00:00:17.609><c> on</c><00:00:17.970><c> the</c><00:00:18.060><c> way</c><00:00:18.180><c> into</c></c><c.colorE5E5E5><00:00:18.480><c> the</c><00:00:18.600><c> airship</c></c>
+
+00:00:18.920 --> 00:00:18.930 align:start position:0%
+<c.colorE5E5E5>crossing</c><c.colorCCCCCC> and on the way into</c><c.colorE5E5E5> the airship
+ </c>
+
+00:00:18.930 --> 00:00:21.019 align:start position:0%
+<c.colorE5E5E5>crossing</c><c.colorCCCCCC> and on the way into</c><c.colorE5E5E5> the airship</c>
+<c.colorE5E5E5>one<00:00:19.080><c> of</c><00:00:19.199><c> the</c><00:00:19.289><c> engineers</c><00:00:19.710><c> scooped</c><00:00:20.340><c> up</c><00:00:20.550><c> a</c><00:00:20.670><c> stray</c></c>
+
+00:00:21.019 --> 00:00:21.029 align:start position:0%
+<c.colorE5E5E5>one of the engineers scooped up a stray
+ </c>
+
+00:00:21.029 --> 00:00:23.000 align:start position:0%
+<c.colorE5E5E5>one of the engineers scooped up a stray
+cat</c><c.colorCCCCCC><00:00:21.359><c> who've</c><00:00:21.869><c> been</c><00:00:22.050><c> living</c><00:00:22.320><c> in</c><00:00:22.439><c> the</c><00:00:22.560><c> hangar</c><00:00:22.890><c> and</c></c>
+
+00:00:23.000 --> 00:00:23.010 align:start position:0%
+cat<c.colorCCCCCC> who've been living in the hangar and
+ </c>
+
+00:00:23.010 --> 00:00:25.130 align:start position:0%
+cat<c.colorCCCCCC> who've been living in the hangar and
+the</c><c.colorE5E5E5><00:00:23.490><c> cat</c><00:00:23.789><c> laid</c><00:00:24.060><c> they</c></c><c.colorCCCCCC><00:00:24.240><c> christen</c><00:00:24.600><c> the</c><00:00:24.660><c> cat</c><00:00:24.840><c> kiddo</c></c>
+
+00:00:25.130 --> 00:00:25.140 align:start position:0%
+the<c.colorE5E5E5> cat laid they</c><c.colorCCCCCC> christen the cat kiddo
+ </c>
+
+00:00:25.140 --> 00:00:26.689 align:start position:0%
+the<c.colorE5E5E5> cat laid they</c><c.colorCCCCCC> christen the cat kiddo</c>
+<c.colorCCCCCC>put<00:00:25.680><c> him</c></c><c.colorE5E5E5><00:00:25.769><c> on</c><00:00:25.859><c> the</c><00:00:25.949><c> airship</c></c><c.colorCCCCCC><00:00:26.220><c> said</c><00:00:26.460><c> this</c><00:00:26.580><c> would</c></c>
+
+00:00:26.689 --> 00:00:26.699 align:start position:0%
+<c.colorCCCCCC>put him</c><c.colorE5E5E5> on the airship</c><c.colorCCCCCC> said this would
+ </c>
+
+00:00:26.699 --> 00:00:28.160 align:start position:0%
+<c.colorCCCCCC>put him</c><c.colorE5E5E5> on the airship</c><c.colorCCCCCC> said this would</c>
+<c.colorE5E5E5>be<00:00:26.760><c> great</c><00:00:26.849><c> we'll</c><00:00:27.090><c> take</c></c><c.colorCCCCCC><00:00:27.150><c> him</c><00:00:27.390><c> along</c><00:00:27.570><c> he</c><00:00:27.810><c> can</c><00:00:28.080><c> be</c></c>
+
+00:00:28.160 --> 00:00:28.170 align:start position:0%
+<c.colorE5E5E5>be great we'll take</c><c.colorCCCCCC> him along he can be
+ </c>
+
+00:00:28.170 --> 00:00:30.500 align:start position:0%
+<c.colorE5E5E5>be great we'll take</c><c.colorCCCCCC> him along he can be
+the<00:00:28.289><c> ship's</c><00:00:28.500><c> mascot</c></c><c.colorE5E5E5><00:00:28.980><c> kiddo</c><00:00:29.580><c> was</c><00:00:29.789><c> not</c><00:00:30.119><c> keen</c><00:00:30.390><c> on</c></c>
+
+00:00:30.500 --> 00:00:30.510 align:start position:0%
+the ship's mascot<c.colorE5E5E5> kiddo was not keen on
+ </c>
+
+00:00:30.510 --> 00:00:32.749 align:start position:0%
+the ship's mascot<c.colorE5E5E5> kiddo was not keen on</c>
+<c.colorCCCCCC>this</c><c.colorE5E5E5><00:00:30.660><c> idea</c><00:00:30.960><c> at</c><00:00:31.080><c> all</c></c><c.colorCCCCCC><00:00:31.230><c> kicked</c><00:00:31.740><c> a</c><00:00:31.859><c> real</c><00:00:32.160><c> stink</c></c><c.colorE5E5E5><00:00:32.520><c> and</c></c>
+
+00:00:32.749 --> 00:00:32.759 align:start position:0%
+<c.colorCCCCCC>this</c><c.colorE5E5E5> idea at all</c><c.colorCCCCCC> kicked a real stink</c><c.colorE5E5E5> and
+ </c>
+
+00:00:32.759 --> 00:00:34.430 align:start position:0%
+<c.colorCCCCCC>this</c><c.colorE5E5E5> idea at all</c><c.colorCCCCCC> kicked a real stink</c><c.colorE5E5E5> and
+so<00:00:33.300><c> once</c><00:00:33.630><c> they</c><00:00:33.780><c> got</c><00:00:33.899><c> out</c></c><c.colorCCCCCC><00:00:34.050><c> of</c><00:00:34.170><c> the</c><00:00:34.320><c> Atlantic</c></c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+so once they got<c.colorE5E5E5> out</c><c.colorCCCCCC> of the Atlantic
+ </c>
+
+00:00:34.440 --> 00:00:36.920 align:start position:0%
+so once they got<c.colorE5E5E5> out</c><c.colorCCCCCC> of the Atlantic</c>
+<c.colorCCCCCC>they<00:00:34.890><c> transmitted</c><00:00:35.460><c> the</c><00:00:35.579><c> first</c></c><c.colorE5E5E5><00:00:35.610><c> ever</c><00:00:36.239><c> radio</c></c>
+
+00:00:36.920 --> 00:00:36.930 align:start position:0%
+<c.colorCCCCCC>they transmitted the first</c><c.colorE5E5E5> ever radio
+ </c>
+
+00:00:36.930 --> 00:00:39.709 align:start position:0%
+<c.colorCCCCCC>they transmitted the first</c><c.colorE5E5E5> ever radio
+message</c><c.colorCCCCCC><00:00:37.469><c> from</c><00:00:37.800><c> an</c><00:00:38.010><c> aircraft</c></c><c.colorE5E5E5><00:00:38.250><c> and</c><00:00:38.879><c> the</c><00:00:39.390><c> message</c></c>
+
+00:00:39.709 --> 00:00:39.719 align:start position:0%
+message<c.colorCCCCCC> from an aircraft</c><c.colorE5E5E5> and the message
+ </c>
+
+00:00:39.719 --> 00:00:42.709 align:start position:0%
+message<c.colorCCCCCC> from an aircraft</c><c.colorE5E5E5> and the message
+was<00:00:39.960><c> Roy</c><00:00:40.559><c> come</c><00:00:41.100><c> and</c><00:00:41.250><c> fetch</c><00:00:41.460><c> this</c></c><c.colorCCCCCC><00:00:41.700><c> goddamn</c><00:00:42.300><c> cat</c></c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+was Roy come and fetch this<c.colorCCCCCC> goddamn cat
+ </c>
+
+00:00:42.719 --> 00:00:45.170 align:start position:0%
+was Roy come and fetch this<c.colorCCCCCC> goddamn cat</c>
+<c.colorCCCCCC>so<00:00:43.410><c> they</c><00:00:43.530><c> sent</c><00:00:43.860><c> a</c><00:00:44.010><c> lifeboat</c><00:00:44.370><c> out</c><00:00:44.550><c> to</c><00:00:44.760><c> fetch</c><00:00:44.969><c> the</c></c>
+
+00:00:45.170 --> 00:00:45.180 align:start position:0%
+<c.colorCCCCCC>so they sent a lifeboat out to fetch the
+ </c>
+
+00:00:45.180 --> 00:00:48.410 align:start position:0%
+<c.colorCCCCCC>so they sent a lifeboat out to fetch the
+cat<00:00:45.390><c> the</c><00:00:45.690><c> cat</c><00:00:45.719><c> was</c><00:00:46.110><c> put</c><00:00:46.350><c> in</c><00:00:46.590><c> a</c><00:00:46.980><c> bag</c></c><c.colorE5E5E5><00:00:47.579><c> lowered</c></c>
+
+00:00:48.410 --> 00:00:48.420 align:start position:0%
+cat the cat was put in a bag<c.colorE5E5E5> lowered
+ </c>
+
+00:00:48.420 --> 00:00:50.240 align:start position:0%
+cat the cat was put in a bag<c.colorE5E5E5> lowered
+down<00:00:48.719><c> towards</c></c><c.colorCCCCCC><00:00:49.170><c> low</c><00:00:49.289><c> fast</c><00:00:49.530><c> real</c><00:00:49.739><c> choppy</c><00:00:50.039><c> water</c></c>
+
+00:00:50.240 --> 00:00:50.250 align:start position:0%
+down towards<c.colorCCCCCC> low fast real choppy water
+ </c>
+
+00:00:50.250 --> 00:00:53.660 align:start position:0%
+down towards<c.colorCCCCCC> low fast real choppy water
+the<00:00:50.760><c> cat</c><00:00:51.030><c> was</c><00:00:51.770><c> furious</c><00:00:52.770><c> the</c><00:00:53.250><c> waves</c><00:00:53.489><c> are</c><00:00:53.640><c> too</c></c>
+
+00:00:53.660 --> 00:00:53.670 align:start position:0%
+<c.colorCCCCCC>the cat was furious the waves are too
+ </c>
+
+00:00:53.670 --> 00:00:55.340 align:start position:0%
+<c.colorCCCCCC>the cat was furious the waves are too</c>
+<c.colorE5E5E5>choppy<00:00:53.969><c> they</c><00:00:54.149><c> couldn't</c><00:00:54.480><c> rescue</c><00:00:54.660><c> me</c><00:00:54.960><c> and</c><00:00:55.079><c> I'm</c></c>
+
+00:00:55.340 --> 00:00:55.350 align:start position:0%
+<c.colorE5E5E5>choppy they couldn't rescue me and I'm
+ </c>
+
+00:00:55.350 --> 00:00:57.080 align:start position:0%
+<c.colorE5E5E5>choppy they couldn't rescue me and I'm
+the</c><c.colorCCCCCC><00:00:55.500><c> hoisting</c><00:00:55.860><c> back</c><00:00:56.039><c> onboard</c><00:00:56.280><c> it's</c></c><c.colorE5E5E5><00:00:56.789><c> okay</c></c>
+
+00:00:57.080 --> 00:00:57.090 align:start position:0%
+the<c.colorCCCCCC> hoisting back onboard it's</c><c.colorE5E5E5> okay
+ </c>
+
+00:00:57.090 --> 00:00:58.849 align:start position:0%
+the<c.colorCCCCCC> hoisting back onboard it's</c><c.colorE5E5E5> okay
+we're</c><c.colorCCCCCC><00:00:57.239><c> taking</c><00:00:57.539><c> with</c><00:00:57.660><c> the</c><00:00:58.050><c> cat</c><00:00:58.260><c> then</c><00:00:58.469><c> settle</c></c>
+
+00:00:58.849 --> 00:00:58.859 align:start position:0%
+we're<c.colorCCCCCC> taking with the cat then settle
+ </c>
+
+00:00:58.859 --> 00:01:00.260 align:start position:0%
+we're<c.colorCCCCCC> taking with the cat then settle</c>
+<c.colorE5E5E5>down<00:00:59.070><c> obviously</c></c><c.colorCCCCCC><00:00:59.520><c> deciding</c><00:00:59.910><c> that</c></c><c.colorE5E5E5><00:01:00.000><c> the</c><00:01:00.120><c> airship</c></c>
+
+00:01:00.260 --> 00:01:00.270 align:start position:0%
+<c.colorE5E5E5>down obviously</c><c.colorCCCCCC> deciding that</c><c.colorE5E5E5> the airship
+ </c>
+
+00:01:00.270 --> 00:01:02.689 align:start position:0%
+<c.colorE5E5E5>down obviously</c><c.colorCCCCCC> deciding that</c><c.colorE5E5E5> the airship</c>
+<c.colorCCCCCC>was<00:01:00.539><c> a</c><00:01:00.570><c> lot</c><00:01:00.750><c> better</c><00:01:00.989><c> than</c><00:01:01.230><c> the</c><00:01:01.320><c> back</c><00:01:01.559><c> and</c><00:01:02.430><c> um</c></c>
+
+00:01:02.689 --> 00:01:02.699 align:start position:0%
+<c.colorCCCCCC>was a lot better than the back and um
+ </c>
+
+00:01:02.699 --> 00:01:04.969 align:start position:0%
+<c.colorCCCCCC>was a lot better than the back and um
+and<00:01:02.910><c> you</c><00:01:03.809><c> know</c></c><c.colorE5E5E5><00:01:03.870><c> settled</c><00:01:04.530><c> into</c><00:01:04.650><c> the</c><00:01:04.769><c> flight</c></c>
+
+00:01:04.969 --> 00:01:04.979 align:start position:0%
+and you know<c.colorE5E5E5> settled into the flight
+ </c>
+
+00:01:04.979 --> 00:01:06.170 align:start position:0%
+and you know<c.colorE5E5E5> settled into the flight</c>
+<c.colorE5E5E5>they<00:01:05.159><c> quickly</c></c><c.colorCCCCCC><00:01:05.369><c> discovered</c><00:01:05.850><c> the</c><00:01:05.909><c> he</c><00:01:06.000><c> was</c></c><c.colorE5E5E5><00:01:06.090><c> the</c></c>
+
+00:01:06.170 --> 00:01:06.180 align:start position:0%
+<c.colorE5E5E5>they quickly</c><c.colorCCCCCC> discovered the he was</c><c.colorE5E5E5> the
+ </c>
+
+00:01:06.180 --> 00:01:07.609 align:start position:0%
+<c.colorE5E5E5>they quickly</c><c.colorCCCCCC> discovered the he was</c><c.colorE5E5E5> the
+perfect<00:01:06.540><c> companion</c><00:01:06.810><c> because</c><00:01:07.200><c> cats</c><00:01:07.470><c> are</c></c>
+
+00:01:07.609 --> 00:01:07.619 align:start position:0%
+<c.colorE5E5E5>perfect companion because cats are
+ </c>
+
+00:01:07.619 --> 00:01:09.350 align:start position:0%
+<c.colorE5E5E5>perfect companion because cats are
+better<00:01:07.740><c> than</c></c><c.colorCCCCCC><00:01:07.979><c> manometers</c><00:01:08.460><c> the</c><00:01:08.790><c> cat</c><00:01:09.030><c> would</c><00:01:09.180><c> get</c></c>
+
+00:01:09.350 --> 00:01:09.360 align:start position:0%
+better<c.colorE5E5E5> than</c><c.colorCCCCCC> manometers the cat would get
+ </c>
+
+00:01:09.360 --> 00:01:11.480 align:start position:0%
+better<c.colorE5E5E5> than</c><c.colorCCCCCC> manometers the cat would get
+grumpy</c><c.colorE5E5E5><00:01:09.630><c> before</c><00:01:10.380><c> they</c><00:01:10.500><c> hit</c><00:01:10.650><c> bad</c><00:01:10.920><c> weather</c><00:01:11.189><c> way</c></c>
+
+00:01:11.480 --> 00:01:11.490 align:start position:0%
+grumpy<c.colorE5E5E5> before they hit bad weather way
+ </c>
+
+00:01:11.490 --> 00:01:12.830 align:start position:0%
+grumpy<c.colorE5E5E5> before they hit bad weather way
+before<00:01:11.850><c> any</c><00:01:12.000><c> of</c><00:01:12.090><c> their</c><00:01:12.240><c> instruments</c></c><c.colorCCCCCC><00:01:12.540><c> could</c></c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+<c.colorE5E5E5>before any of their instruments</c><c.colorCCCCCC> could
+ </c>
+
+00:01:12.840 --> 00:01:14.780 align:start position:0%
+<c.colorE5E5E5>before any of their instruments</c><c.colorCCCCCC> could
+detect<00:01:13.080><c> him</c><00:01:13.350><c> that</c><00:01:13.710><c> was</c><00:01:13.830><c> a</c></c><c.colorE5E5E5><00:01:13.860><c> fine</c><00:01:14.220><c> but</c><00:01:14.610><c> they</c><00:01:14.729><c> were</c></c>
+
+00:01:14.780 --> 00:01:14.790 align:start position:0%
+detect him that was<c.colorCCCCCC> a</c><c.colorE5E5E5> fine but they were
+ </c>
+
+00:01:14.790 --> 00:01:17.240 align:start position:0%
+detect him that was<c.colorCCCCCC> a</c><c.colorE5E5E5> fine but they were</c>
+<c.colorE5E5E5>trying<00:01:15.210><c> to</c><00:01:15.330><c> cross</c><00:01:15.509><c> the</c><00:01:15.689><c> Atlantic</c></c><c.colorCCCCCC><00:01:16.110><c> 33</c></c><c.colorE5E5E5><00:01:16.740><c> hours</c><00:01:17.100><c> in</c></c>
+
+00:01:17.240 --> 00:01:17.250 align:start position:0%
+<c.colorE5E5E5>trying to cross the Atlantic</c><c.colorCCCCCC> 33</c><c.colorE5E5E5> hours in
+ </c>
+
+00:01:17.250 --> 00:01:19.490 align:start position:0%
+<c.colorE5E5E5>trying to cross the Atlantic</c><c.colorCCCCCC> 33</c><c.colorE5E5E5> hours in
+they<00:01:17.700><c> the</c><00:01:18.119><c> the</c><00:01:18.390><c> airship</c><00:01:18.840><c> broke</c><00:01:19.110><c> possibly</c></c>
+
+00:01:19.490 --> 00:01:19.500 align:start position:0%
+they the the airship broke possibly
+ 
+
+00:01:19.500 --> 00:01:20.780 align:start position:0%
+they the the airship broke possibly
+because<00:01:19.650><c> of</c><c.colorE5E5E5><00:01:19.680><c> sand</c><00:01:20.070><c> that</c><00:01:20.250><c> they</c><00:01:20.340><c> picked</c><00:01:20.610><c> up</c></c>
+
+00:01:20.780 --> 00:01:20.790 align:start position:0%
+because of<c.colorE5E5E5> sand that they picked up
+ </c>
+
+00:01:20.790 --> 00:01:21.289 align:start position:0%
+because of<c.colorE5E5E5> sand that they picked up
+earlier</c>
+
+00:01:21.289 --> 00:01:21.299 align:start position:0%
+earlier
+ 
+
+00:01:21.299 --> 00:01:22.490 align:start position:0%
+earlier
+they<00:01:21.479><c> couldn't</c><00:01:21.780><c> stir</c><00:01:22.049><c> it</c><00:01:22.200><c> they</c><00:01:22.320><c> found</c>
+
+00:01:22.490 --> 00:01:22.500 align:start position:0%
+they couldn't stir it they found
+ 
+
+00:01:22.500 --> 00:01:24.080 align:start position:0%
+they couldn't stir it they found
+<c.colorE5E5E5>themselves<00:01:22.740><c> adrift</c><00:01:23.400><c> they</c><00:01:23.729><c> eventually</c></c>
+
+00:01:24.080 --> 00:01:24.090 align:start position:0%
+<c.colorE5E5E5>themselves adrift they eventually
+ </c>
+
+00:01:24.090 --> 00:01:26.469 align:start position:0%
+<c.colorE5E5E5>themselves adrift they eventually
+spotted<00:01:24.720><c> a</c><00:01:24.810><c> Royal</c><00:01:25.049><c> Mail</c><00:01:25.350><c> ship</c><00:01:25.380><c> out</c><00:01:25.860><c> at</c><00:01:26.130><c> sea</c></c>
+
+00:01:26.469 --> 00:01:26.479 align:start position:0%
+<c.colorE5E5E5>spotted a Royal Mail ship out at sea
+ </c>
+
+00:01:26.479 --> 00:01:29.450 align:start position:0%
+<c.colorE5E5E5>spotted a Royal Mail ship out at sea</c>
+<c.colorCCCCCC>managed</c><c.colorE5E5E5><00:01:27.479><c> to</c><00:01:27.630><c> signal</c><00:01:28.049><c> SOS</c><00:01:28.439><c> to</c><00:01:28.860><c> them</c><00:01:29.040><c> got</c></c>
+
+00:01:29.450 --> 00:01:29.460 align:start position:0%
+<c.colorCCCCCC>managed</c><c.colorE5E5E5> to signal SOS to them got
+ </c>
+
+00:01:29.460 --> 00:01:31.789 align:start position:0%
+<c.colorCCCCCC>managed</c><c.colorE5E5E5> to signal SOS to them got</c>
+<c.colorE5E5E5>rescued</c><c.colorCCCCCC><00:01:29.939><c> by</c><00:01:30.150><c> it</c></c><c.colorE5E5E5><00:01:30.210><c> and</c><00:01:30.600><c> I</c><00:01:31.200><c> think</c></c><c.colorCCCCCC><00:01:31.259><c> they</c><00:01:31.560><c> made</c><00:01:31.710><c> the</c></c>
+
+00:01:31.789 --> 00:01:31.799 align:start position:0%
+<c.colorE5E5E5>rescued</c><c.colorCCCCCC> by it</c><c.colorE5E5E5> and I think</c><c.colorCCCCCC> they made the
+ </c>
+
+00:01:31.799 --> 00:01:33.920 align:start position:0%
+<c.colorE5E5E5>rescued</c><c.colorCCCCCC> by it</c><c.colorE5E5E5> and I think</c><c.colorCCCCCC> they made the
+first<00:01:31.979><c> ever</c><00:01:32.189><c> aerial</c><00:01:32.520><c> SOS</c><00:01:32.909><c> call</c><00:01:33.180><c> as</c><00:01:33.329><c> well</c><00:01:33.509><c> and</c></c>
+
+00:01:33.920 --> 00:01:33.930 align:start position:0%
+<c.colorCCCCCC>first ever aerial SOS call as well and
+ </c>
+
+00:01:33.930 --> 00:01:35.390 align:start position:0%
+<c.colorCCCCCC>first ever aerial SOS call as well and
+they<00:01:34.020><c> were</c><00:01:34.079><c> rescued</c></c><c.colorE5E5E5><00:01:34.439><c> along</c><00:01:34.799><c> with</c><00:01:34.979><c> the</c><00:01:35.040><c> cat</c><00:01:35.250><c> the</c></c>
+
+00:01:35.390 --> 00:01:35.400 align:start position:0%
+they were rescued<c.colorE5E5E5> along with the cat the
+ </c>
+
+00:01:35.400 --> 00:01:37.039 align:start position:0%
+they were rescued<c.colorE5E5E5> along with the cat the
+airship<00:01:35.729><c> floated</c><00:01:36.240><c> off</c><00:01:36.360><c> and</c><00:01:36.540><c> was</c><00:01:36.630><c> never</c><00:01:36.810><c> seen</c></c>
+
+00:01:37.039 --> 00:01:37.049 align:start position:0%
+airship floated off and was<c.colorE5E5E5> never seen
+ </c>
+
+00:01:37.049 --> 00:01:38.510 align:start position:0%
+airship floated off and was<c.colorE5E5E5> never seen
+again<00:01:37.170><c> the</c><00:01:37.619><c> Royal</c><00:01:37.799><c> Mail</c><00:01:37.920><c> shipping</c><00:01:38.250><c> back</c><00:01:38.400><c> to</c></c>
+
+00:01:38.510 --> 00:01:38.520 align:start position:0%
+again<c.colorE5E5E5> the Royal Mail shipping back to
+ </c>
+
+00:01:38.520 --> 00:01:39.440 align:start position:0%
+again<c.colorE5E5E5> the Royal Mail shipping back to
+New<00:01:38.640><c> York</c></c><c.colorCCCCCC><00:01:38.700><c> where</c><00:01:39.060><c> kiddo</c></c>
+
+00:01:39.440 --> 00:01:39.450 align:start position:0%
+New York<c.colorCCCCCC> where kiddo
+ </c>
+
+00:01:39.450 --> 00:01:41.510 align:start position:0%
+New York<c.colorCCCCCC> where kiddo
+was<00:01:39.780><c> put</c><00:01:39.960><c> on</c><00:01:40.110><c> display</c><00:01:40.590><c> in</c><00:01:40.829><c> the</c><00:01:41.159><c> window</c><00:01:41.189><c> over</c></c>
+
+00:01:41.510 --> 00:01:41.520 align:start position:0%
+was put on<c.colorCCCCCC> display in the window over
+ </c>
+
+00:01:41.520 --> 00:01:43.190 align:start position:0%
+was put on<c.colorCCCCCC> display in the window over
+fancy<00:01:41.939><c> department</c><00:01:42.360><c> store</c><00:01:42.540><c> with</c><00:01:42.659><c> a</c><00:01:42.689><c> diamond</c></c>
+
+00:01:43.190 --> 00:01:43.200 align:start position:0%
+<c.colorCCCCCC>fancy department store with a diamond
+ </c>
+
+00:01:43.200 --> 00:01:45.649 align:start position:0%
+<c.colorCCCCCC>fancy department store with a diamond
+necklace<00:01:43.229><c> on</c></c><c.colorE5E5E5><00:01:43.770><c> as</c><00:01:43.950><c> the</c><00:01:44.430><c> as</c><00:01:44.610><c> a</c><00:01:44.640><c> celebrity</c><00:01:45.420><c> cat</c></c>
+
+00:01:45.649 --> 00:01:45.659 align:start position:0%
+necklace on<c.colorE5E5E5> as the as a celebrity cat
+ </c>
+
+00:01:45.659 --> 00:01:47.960 align:start position:0%
+necklace on<c.colorE5E5E5> as the as a celebrity cat
+and<00:01:45.869><c> he</c><00:01:46.200><c> really</c><00:01:46.590><c> did</c><00:01:46.829><c> live</c><00:01:47.220><c> the</c><00:01:47.399><c> left</c><00:01:47.579><c> rest</c><00:01:47.850><c> of</c></c>
+
+00:01:47.960 --> 00:01:47.970 align:start position:0%
+and he really did<c.colorE5E5E5> live the left rest of
+ </c>
+
+00:01:47.970 --> 00:01:51.020 align:start position:0%
+and he really did<c.colorE5E5E5> live the left rest of
+his<00:01:48.090><c> life</c><00:01:48.240><c> out</c><00:01:48.450><c> on</c><00:01:48.630><c> the</c><00:01:48.810><c> farm</c><00:01:49.430><c> Simon</c><00:01:50.430><c> thank</c><00:01:50.880><c> you</c></c>
+
+00:01:51.020 --> 00:01:51.030 align:start position:0%
+his<c.colorE5E5E5> life out on the farm Simon thank you
+ </c>
+
+00:01:51.030 --> 00:01:53.149 align:start position:0%
+his<c.colorE5E5E5> life out on the farm Simon thank you</c>
+<c.colorE5E5E5>very<00:01:51.180><c> much</c><00:01:51.509><c> that</c><00:01:51.899><c> is</c><00:01:52.140><c> something</c><00:01:52.710><c> you</c><00:01:53.130><c> might</c></c>
+
+00:01:53.149 --> 00:01:53.159 align:start position:0%
+<c.colorE5E5E5>very much that is something you might
+ </c>
+
+00:01:53.159 --> 00:01:56.689 align:start position:0%
+<c.colorE5E5E5>very much that is something you might</c>
+<c.colorCCCCCC>not<00:01:53.340><c> have</c></c><c.colorE5E5E5><00:01:53.549><c> known</c><00:01:53.820><c> thank</c><00:01:54.450><c> you</c></c>
+

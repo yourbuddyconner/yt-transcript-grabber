@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:05.600
+ Today, a link can cause a crash of Chrome that has become known. And here it is. If it is 
+
+00:00:05.600 --> 00:00:10.210
+ A real link, if you point to it or click it, Chrome will collapse immediately. at least, 
+
+00:00:10.210 --> 00:00:14.730
+ When I record this (video), if you see it in the future, it probably has. 
+
+00:00:14.730 --> 00:00:19.080
+ In order to understand why, we need to know the mechanism of computer storage of text 
+
+00:00:19.080 --> 00:00:24.180
+ As you know most likely, the computer stores letters and words - the term used for it is strings of letters 
+
+00:00:24.180 --> 00:00:29.160
+ Such as singularities and zeros. But metaphors - which you see on the screen, of files and folders are all accurate 
+
+00:00:29.160 --> 00:00:33.800
+ Arranged or, as in programming languages, the idea of ​​individual variables stored separately 
+
+00:00:33.800 --> 00:00:38.989
+ In memory, those metaphors hide what actually happens - which is basically, 
+
+00:00:38.989 --> 00:00:44.109
+ Or in silicon, they are in fact individual and zeros, with everything stuffed 
+
+00:00:44.109 --> 00:00:49.760
+ Side by side. How does the computer know where to start and stop reading in this mixture of diodes? 
+
+00:00:50.149 --> 00:00:54.409
+ Find the correct string and start reading it, very easy, there is an index of the sites of memories 
+
+00:00:54.409 --> 00:00:58.239
+ Somewhere. Most programmers do not really need to deal with them 
+
+00:00:58.239 --> 00:01:02.519
+ They all come out to you in the language you want, but at some point the computer must 
+
+00:01:02.519 --> 00:01:08.750
+ He says: Well, I see this part of the memory, right here. This - let's say the web page 
+
+00:01:08.750 --> 00:01:12.030
+ Which the user wants to see. Start reading from here. 
+
+00:01:12.030 --> 00:01:17.330
+ But remember: The memory reads a huge series of almost endless singularities and zeros 
+
+00:01:17.330 --> 00:01:21.590
+ If "start here" is all the information the computer got when trying to read it again, 
+
+00:01:21.590 --> 00:01:26.700
+ At the time, he does not know how long the chain is. He will continue to read with great joy 
+
+00:01:26.700 --> 00:01:31.270
+ Unless he has known the length. There are two approaches 
+
+00:01:31.270 --> 00:01:32.100
+ About solving this 
+
+00:01:32.100 --> 00:01:36.520
+ First, you can store the length of the string with the string. Overall at first. And therefore 
+
+00:01:36.520 --> 00:01:39.810
+ The computer brings it to the place, and the first thing to read 
+
+00:01:39.810 --> 00:01:45.360
+ Something says "Well, you're looking for 14 characters." He then reads the 14 letters, 
+
+00:01:45.360 --> 00:01:46.170
+ And everyone is happy. 
+
+00:01:46.170 --> 00:01:50.240
+ This is the modern way to do these things. Now we have a lot of memory, but there 
+
+00:01:50.240 --> 00:01:54.510
+ Benefit: If you store longer strings, longer than a few sentences, 
+
+00:01:54.510 --> 00:01:59.840
+ You will need more than one byte to store the length of the string - and it will also be 
+
+00:01:59.840 --> 00:02:04.870
+ Need to do this in every series, no matter how short or long they are. Their efficiency is not estimated in space 
+
+00:02:04.870 --> 00:02:09.119
+ I mean, I'm the simplest, there are other ways to deal with it, but anyway 
+
+00:02:09.119 --> 00:02:14.480
+ There are still a lot of applications that use older versions, and the hardest ones are: 
+
+00:02:14.480 --> 00:02:18.069
+ An empty character (NULL) at the end of your string. 
+
+00:02:18.069 --> 00:02:24.670
+ NULL is an entire byte zero. Eight double zeros in a row. We are not talking 
+
+00:02:24.670 --> 00:02:29.530
+ On trying to write the number 0 here, this has its own code, this is a special break character 
+
+00:02:29.530 --> 00:02:34.370
+ Named NULL. This is called a null-terminated string, 
+
+00:02:34.370 --> 00:02:38.519
+ The computer begins to read the string in terms of what is requested of it, and when it reaches NULL, 
+
+00:02:38.519 --> 00:02:42.680
+ When he sees eight zeros in a row, he says, ah! The series is over. Wonderful. Which means 
+
+00:02:42.680 --> 00:02:48.349
+ You do not need all the hype about storing height. Now, there are many numbers of 
+
+00:02:48.349 --> 00:02:52.840
+ Computer science lectures on any technique are more efficient for any operating system 
+
+00:02:52.840 --> 00:02:56.950
+ Or why you might want to store the length or you may not want, but all you need to know now 
+
+00:02:56.950 --> 00:03:01.310
+ Is that each of these technologies is still in use. 
+
+00:03:01.310 --> 00:03:03.540
+ Which brings me back to this link. 
+
+00:03:03.540 --> 00:03:09.659
+ At first, those centric signs. In the link, means an encrypted character 
+
+00:03:09.659 --> 00:03:15.620
+ You can not place specific punctuation in the connector because they have special meanings: 
+
+00:03:15.620 --> 00:03:20.370
+ A hash tag, for example, means "Go to this point of a web page", so if you are 
+
+00:03:20.370 --> 00:03:25.969
+ You need to use the tick tag in the filename, in the URL, encrypt it. You can encrypt it 
+
+00:03:25.969 --> 00:03:31.400
+ As represented here on this scheme, which brings us back to the eighties and strongly. But 
+
+00:03:31.400 --> 00:03:36.459
+ The important part is: The percentage followed by two or two letters means "About this to 
+
+00:03:36.459 --> 00:03:37.969
+ another thing". 
+
+00:03:37.969 --> 00:03:43.980
+ Okay. Let's try it on this link. We have two identical digits: percentage, three, zero, 
+
+00:03:43.980 --> 00:03:49.549
+ Here and here. If we search for it in the chart: it decrypts it for ... zero 
+
+00:03:49.549 --> 00:03:52.959
+ Not NULL, just literally, as if you typed zero. 
+
+00:03:52.959 --> 00:03:57.689
+ So far, innocent. Except that there is still a percentage sign, so we have again re-set the result 
+
+00:03:57.689 --> 00:04:03.459
+ We are now trying to decode a zero percent percentage. Which decrypts the 
+
+00:04:03.459 --> 00:04:04.019
+ NULL. 
+
+00:04:04.019 --> 00:04:07.700
+ So originally, I told myself, well, it gives a chain of a different length than expected, 
+
+00:04:07.700 --> 00:04:12.849
+ Or something like that, it puts NULL so it should not be, but no. It is more than this 
+
+00:04:12.849 --> 00:04:17.819
+ Chrome browser takes the full link, unraveling it for one time - which is still somewhat valid 
+
+00:04:17.819 --> 00:04:23.139
+ Because that NULL escaped - making it secure, excellent, safe to use 
+
+00:04:23.139 --> 00:04:28.430
+ Then sends it to the next part of programming. Which is then confirmed and decrypted again 
+
+00:04:28.430 --> 00:04:32.830
+ He notices that it is NULL, and says: "Hey, this is not a valid character, we can not allow it." So he knows 
+
+00:04:32.830 --> 00:04:34.030
+ Link as invalid ... 
+
+00:04:34.030 --> 00:04:38.660
+ ... but the previous programming do not care, they know in advance that it is good, so pass it onward, 
+
+00:04:38.660 --> 00:04:44.759
+ A sure and secure link is the truth otherwise. At some point Chrome says: "Something went wrong 
+
+00:04:44.759 --> 00:04:46.630
+ Here "and collapses 
+
+00:04:48.840 --> 00:04:50.840
+ Translation: Abdulrhman Saeed 
+

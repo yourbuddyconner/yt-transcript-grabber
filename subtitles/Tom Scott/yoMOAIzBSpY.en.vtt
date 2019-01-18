@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.068 --> 00:00:02.170
+ YouTube does not know your password. 
+
+00:00:02.323 --> 00:00:05.757
+ Not Facebook, Twitter or any decent website. 
+
+00:00:05.894 --> 00:00:09.499
+ Your password is not really stored in their database. 
+
+00:00:09.610 --> 00:00:11.147
+ It's so safer. 
+
+00:00:11.216 --> 00:00:14.991
+ A hacker or a rogue employee does not know your password. 
+
+00:00:15.205 --> 00:00:20.399
+ But how can they know you have entered the correct password? 
+
+00:00:20.809 --> 00:00:25.063
+ There are mathematical operations that are very easy in one direction, 
+
+00:00:25.208 --> 00:00:27.634
+ but in the opposite direction very difficult. 
+
+00:00:27.736 --> 00:00:31.085
+ Multiplication of two prime numbers is easy. 
+
+00:00:31.230 --> 00:00:34.972
+ 17 times 11 is 187. 
+
+00:00:35.134 --> 00:00:39.849
+ You can simply 17 multiply by 10 and add that number again. 
+
+00:00:40.293 --> 00:00:42.651
+ Because they are prime numbers, 
+
+00:00:42.719 --> 00:00:47.298
+ they are the only two numbers you multiply to 187. 
+
+00:00:47.751 --> 00:00:49.775
+ Let's try to ask the opposite. 
+
+00:00:49.860 --> 00:00:52.338
+ Multiplying the two prime numbers 
+
+00:00:52.423 --> 00:00:56.054
+ does a double prime number arise, say 299? 
+
+00:00:56.609 --> 00:01:01.546
+ It can not be two times because it does not end with an even number. 
+
+00:01:01.700 --> 00:01:06.073
+ It can not be three times something because the sum of digits is not divisible by three. 
+
+00:01:06.175 --> 00:01:09.332
+ It can not be five times something because it does not end with five or zero. 
+
+00:01:09.414 --> 00:01:10.679
+ Can it be seven? 
+
+00:01:10.815 --> 00:01:12.824
+ I do not know, I have to go for it in the long run. 
+
+00:01:12.934 --> 00:01:14.622
+ It can be a lot of numbers. 
+
+00:01:14.704 --> 00:01:18.086
+ There are a few tricks that computers or good mathematicians can use, 
+
+00:01:18.155 --> 00:01:19.617
+ to speed it up, 
+
+00:01:19.672 --> 00:01:21.954
+ but generally for large numbers 
+
+00:01:22.098 --> 00:01:25.433
+ there is no effective way of reversing the calculation. 
+
+00:01:25.515 --> 00:01:29.547
+ It is a math that makes it easy in one direction, but not the opposite. 
+
+00:01:30.258 --> 00:01:34.276
+ For you, the password is a string of letters, symbols, or numbers. 
+
+00:01:34.365 --> 00:01:36.880
+ But for the computer it's the same as everything else. 
+
+00:01:36.941 --> 00:01:39.469
+ Binary string. One and a Zero. 
+
+00:01:39.613 --> 00:01:43.631
+ With these numbers and zeros, the computer can work. 
+
+00:01:43.768 --> 00:01:47.116
+ Not always prime numbers, though sometimes they do. 
+
+00:01:47.438 --> 00:01:49.310
+ This process is called hash. 
+
+00:01:49.515 --> 00:01:52.310
+ Functions called &lt;i&gt; salt &lt;/ i&gt; are also used, but this is more complex. 
+
+00:01:52.365 --> 00:01:53.977
+ However, 
+
+00:01:54.080 --> 00:01:57.046
+ when registering, write your password, such as abc, 
+
+00:01:57.176 --> 00:02:01.782
+ it goes through processing and you get a random string of characters. 
+
+00:02:01.898 --> 00:02:03.866
+ They keep it in the database. 
+
+00:02:04.173 --> 00:02:06.825
+ When you re-enter your password when logging in, 
+
+00:02:06.900 --> 00:02:10.946
+ it goes through the same one-way mathematical operation again. 
+
+00:02:11.082 --> 00:02:15.264
+ If the resulting hash matches that in the database, 
+
+00:02:16.064 --> 00:02:17.909
+ they know that you have entered the correct password, 
+
+00:02:17.991 --> 00:02:21.271
+ although they do not know exactly what you have entered. 
+
+00:02:21.490 --> 00:02:23.390
+ If they are properly treated, 
+
+00:02:23.458 --> 00:02:26.438
+ you can not convert hash back to password, 
+
+00:02:26.526 --> 00:02:30.483
+ if you do not have centuries of computing time or billions of dollars available. 
+
+00:02:31.105 --> 00:02:33.934
+ This is why Google, Facebook, Yahoo and other sites 
+
+00:02:34.071 --> 00:02:36.845
+ missed forgotten password by email. 
+
+00:02:36.934 --> 00:02:38.431
+ They ask you for a new one. 
+
+00:02:38.492 --> 00:02:41.034
+ They can not send you because they do not know him. 
+
+00:02:41.171 --> 00:02:46.946
+ When you find a page that sends you a forgotten password by email, 
+
+00:02:47.055 --> 00:02:48.408
+ run away, 
+
+00:02:48.517 --> 00:02:51.387
+ because of the cough for safety. 
+
+00:02:53.082 --> 00:02:54.695
+ If you are interested, 
+
+00:02:54.763 --> 00:02:58.618
+ on Computerphile, I shot some longer shouting and security videos. 
+
+00:02:58.905 --> 00:03:00.558
+ And if not ... 
+
+00:03:00.681 --> 00:03:04.426
+ The stunning piece will be shown here by trained drivers. 
+
+00:03:04.514 --> 00:03:06.291
+ Do not try it at home! 
+
+00:03:06.468 --> 00:03:10.063
+ Translation: Mithril www.videacesky.cz 
+

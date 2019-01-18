@@ -1,0 +1,319 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.070 --> 00:00:02.270
+ I did not intend to do another video about iPhone problems, 
+
+00:00:02.270 --> 00:00:05.360
+ But the malfunction of the 1970's is now very interesting 
+
+00:00:05.360 --> 00:00:08.839
+ Maybe because this is a kind of exploitation so I did not talk about it, in short 
+
+00:00:08.839 --> 00:00:12.879
+ Almost because of the so-called "beyond the minimum correct numbers" caused by the Unix era 
+
+00:00:12.879 --> 00:00:16.429
+ If you're familiar with these terms, you may not need this video. 
+
+00:00:16.429 --> 00:00:19.340
+ As for the rest, prepare for us to begin. 
+
+00:00:19.340 --> 00:00:23.789
+ January 1, 1970 is a special day for computers. Previously in the 1970s, 
+
+00:00:23.789 --> 00:00:27.460
+ When Unix and similar systems were created, 
+
+00:00:27.460 --> 00:00:31.789
+ Programmers needed an easy way to view history and time, 
+
+00:00:31.789 --> 00:00:36.899
+ Without the need to deal with such exotic human terms as day, hours and minutes. 
+
+00:00:36.899 --> 00:00:40.570
+ They needed an hour to knock on and it was easy to make mathematical equations on them. 
+
+00:00:40.570 --> 00:00:45.219
+ The easiest way to do this is the numbers ... correct numbers, 
+
+00:00:45.219 --> 00:00:50.020
+ Which shows the number of seconds since January 1, 1970, 
+
+00:00:50.020 --> 00:00:52.649
+ And we still use it. Everywhere, 
+
+00:00:52.649 --> 00:00:54.800
+ And almost all computers, everywhere. 
+
+00:00:54.800 --> 00:00:57.489
+ It is generally the best way to store history and time, 
+
+00:00:57.489 --> 00:01:02.090
+ Because they ignore the time zones and the terms of alien humans. 
+
+00:01:02.090 --> 00:01:05.540
+ Now, I have already made clips on this subject, so I will not dig into it, 
+
+00:01:05.540 --> 00:01:07.500
+ But all you need to know is that it's midnight 
+
+00:01:07.500 --> 00:01:09.990
+ And at the beginning of January 1, 1970 
+
+00:01:09.990 --> 00:01:13.350
+ History wondering about him 
+
+00:01:13.350 --> 00:01:16.390
+ This is the first guide to what happens, the second guide: 
+
+00:01:16.390 --> 00:01:19.560
+ This flaw occurs in modern 64-bit iPhones. 
+
+00:01:19.560 --> 00:01:22.790
+ 64-bit indicates the number of digits stored in the processor. 
+
+00:01:22.790 --> 00:01:26.200
+ You have 64 boxes where a binary value can be stored (1 or 0) 
+
+00:01:26.200 --> 00:01:28.470
+ Instead of the old 32-bit system, which means .. 
+
+00:01:28.470 --> 00:01:30.670
+ Well, that means you can handle larger numbers, 
+
+00:01:30.670 --> 00:01:33.259
+ At the processor level 
+
+00:01:33.259 --> 00:01:36.049
+ And without any complex software. 
+
+00:01:36.049 --> 00:01:38.170
+ Change the phone and its operating system, 
+
+00:01:38.170 --> 00:01:42.170
+ From the old 32-bit system to the 64-bit system requires some effort, 
+
+00:01:42.170 --> 00:01:45.200
+ So there will be little differences in the codes between the two systems. 
+
+00:01:45.200 --> 00:01:47.950
+ And here, this flaw has escaped. 
+
+00:01:47.950 --> 00:01:51.259
+ Now, showing a 64-bit system on the screen is a bit tricky, 
+
+00:01:51.259 --> 00:01:55.329
+ So we will use 4 bits to explain how to work 
+
+00:01:55.329 --> 00:01:56.770
+ 0000 equals 0 
+
+00:01:56.770 --> 00:01:58.979
+ Then you count the binary system, 
+
+00:01:58.979 --> 00:02:01.630
+ 1,2,3,4 up to 15 
+
+00:02:01.630 --> 00:02:03.340
+ It is the largest number you can store in 4 bits 
+
+00:02:03.340 --> 00:02:06.259
+ And you can not go any further. 
+
+00:02:06.259 --> 00:02:07.649
+ But what happens if you do that? 
+
+00:02:07.649 --> 00:02:09.770
+ Then will happen in the so-called "influx of integers" 
+
+00:02:09.770 --> 00:02:12.380
+ After number 15 followed by 
+
+00:02:12.380 --> 00:02:14.910
+ Turns again and starts again, 
+
+00:02:14.910 --> 00:02:16.960
+ Just like the counter in an old car, well, 
+
+00:02:16.960 --> 00:02:18.890
+ If you only have 4 bits, of course, 
+
+00:02:18.890 --> 00:02:21.970
+ This will be a problem, and if you have 64 bits, in fact, 
+
+00:02:21.970 --> 00:02:22.790
+ Will also be in trouble 
+
+00:02:22.790 --> 00:02:29.320
+ If you count up to 15 quintillion, order this number, most likely you will not have a problem. 
+
+00:02:29.320 --> 00:02:33.480
+ Unless, if the largest number you can store plus one 
+
+00:02:33.480 --> 00:02:35.430
+ It will turn you into zero ... 
+
+00:02:35.430 --> 00:02:38.190
+ What would you get if you threw one out of zero? 
+
+00:02:38.190 --> 00:02:40.120
+ In fact, this is called "exceeding the minimum correct meter". 
+
+00:02:40.120 --> 00:02:42.590
+ You can not store a negative number in these fields. 
+
+00:02:42.590 --> 00:02:46.410
+ If you reduce the number 0 less, you will not end up with a 1- 
+
+00:02:46.410 --> 00:02:49.620
+ But will turn upside down to reach the highest value 
+
+00:02:49.620 --> 00:02:53.050
+ So in the original version of the game "civilization" 
+
+00:02:53.050 --> 00:02:55.500
+ Gandhi was a moron. 
+
+00:02:55.500 --> 00:02:58.520
+ Start and the degree of aggression is equal to 1 
+
+00:02:58.520 --> 00:03:00.670
+ And later in the game, reduced this value, 
+
+00:03:00.670 --> 00:03:03.010
+ No one wrote a verification code to make sure the value was not less than zero. 
+
+00:03:03.010 --> 00:03:06.120
+ So, the value turned upside down to the highest possible value, 
+
+00:03:06.120 --> 00:03:09.200
+ Suddenly, Gandhi declared war on everyone. 
+
+00:03:09.200 --> 00:03:11.280
+ It's good that this only happened with the game. 
+
+00:03:11.280 --> 00:03:15.770
+ Well, there is a version that allows storing negative numbers, 
+
+00:03:15.770 --> 00:03:17.960
+ But if Apple used it, in fact, 
+
+00:03:17.960 --> 00:03:20.050
+ You will probably not encounter this problem. 
+
+00:03:20.050 --> 00:03:23.370
+ In the end, why would someone want to store a time-negative value? 
+
+00:03:23.370 --> 00:03:25.650
+ It is not as if someone will order like 
+
+00:03:25.650 --> 00:03:28.950
+ IPhone timekeeping for the 1970's! 
+
+00:03:28.950 --> 00:03:32.720
+ And you will notice that you can not. 
+
+00:03:32.720 --> 00:03:34.160
+ If you move the calendar back, 
+
+00:03:34.160 --> 00:03:38.130
+ The calendar will stop at the first date of January 1970, when the second is zero 
+
+00:03:38.130 --> 00:03:39.170
+ Because one of Apple's employees, 
+
+00:03:39.170 --> 00:03:41.200
+ No, moment. This is a bad idea. 
+
+00:03:41.200 --> 00:03:42.810
+ This may cause a problem. 
+
+00:03:42.810 --> 00:03:45.910
+ So they set the Unix era, or as it is called zero hour, 
+
+00:03:45.910 --> 00:03:47.110
+ As a minimum. 
+
+00:03:47.110 --> 00:03:49.720
+ However, if you set the time for your phone to close to zero, 
+
+00:03:49.720 --> 00:03:52.080
+ Elsewhere in the code, there is a verification code - 
+
+00:03:52.080 --> 00:03:54.440
+ Maybe a battery time check code, 
+
+00:03:54.440 --> 00:03:57.340
+ And maybe just a mathematical equation activated at the last call, or ... 
+
+00:03:57.340 --> 00:03:59.520
+ Well, it's something that no one has yet discovered. 
+
+00:03:59.520 --> 00:04:01.900
+ But what he does is check, 
+
+00:04:01.900 --> 00:04:05.860
+ It ends up in time before the first of January 1970, 
+
+00:04:05.860 --> 00:04:08.050
+ Which should be a negative number ... 
+
+00:04:08.050 --> 00:04:08.740
+ But it is not. 
+
+00:04:08.740 --> 00:04:10.160
+ But revolves in reverse, 
+
+00:04:10.160 --> 00:04:12.810
+ Giving you a 20-day history 
+
+00:04:12.810 --> 00:04:15.020
+ Of the expected date of the universe's age. 
+
+00:04:15.020 --> 00:04:19.150
+ And I think that the problem is not to offer this amount of history. 
+
+00:04:19.150 --> 00:04:23.770
+ But whatever the problem, it causes what is officially known as "unregistered behavior" 
+
+00:04:23.770 --> 00:04:25.390
+ And are generally known as Crash. 
+
+00:04:25.390 --> 00:04:27.750
+ Now, I should say that, always and whenever I try 
+
+00:04:27.750 --> 00:04:31.300
+ To solve a problem with an Apple product is just a guess. 
+
+00:04:31.300 --> 00:04:34.310
+ I do not think they will ever present in detail what happened, 
+
+00:04:34.310 --> 00:04:36.140
+ And perhaps it is more complicated than that. 
+
+00:04:36.140 --> 00:04:38.450
+ There is another type of binary number. 
+
+00:04:38.450 --> 00:04:40.070
+ They are called "registered integers" 
+
+00:04:40.070 --> 00:04:41.850
+ Which enables you to deal with negative numbers ... 
+
+00:04:41.850 --> 00:04:44.630
+ But this is another story for another time 
+
+00:04:44.630 --> 00:04:47.620
+ Even if this is not the exact cause of the problem? 
+
+00:04:47.620 --> 00:04:49.880
+ Well, I hope this helps you not to make the same mistake 
+
+00:04:49.880 --> 00:04:50.380
+ In future codecs 
+
+00:04:51.380 --> 00:04:53.380
+ Translated by Mohammed al-Wahashi 
+
